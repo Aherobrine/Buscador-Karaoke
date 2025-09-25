@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Buscador de canciones</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🎵 Buscador de canciones</h1>
+    <input type="text" id="buscador" placeholder="Busca por artista o título...">
+  </header>
+
+  <main>
+    <ul id="lista"></ul>
+  </main>
+
+  <footer>
+    <p>Hecho con ❤️ para explorar música</p>
+  </footer>
+
+  <script>
+    const lista = document.getElementById("lista");
+    const buscador = document.getElementById("buscador");
+    let canciones = [];
+
+    async function cargarCanciones() {
+      const res = await fetch("canciones.json");
+      canciones = await res.json();
+      mostrar();
+    }
+
+    function mostrar(filtro = "") {
+      lista.innerHTML = "";
+      canciones
+        .filter(c => 
+          (c.artista + " " + c.titulo)
+          .toLowerCase()
+          .includes(filtro.toLowerCase())
+        )
+        .forEach(c => {
+          const li = document.createElement("li");
+          li.innerHTML = `
+            <span class="artista">${c.artista}</span>
+            <span class="separador"> - </span>
+            <span class="titulo">${c.titulo}</span>
+          `;
+          lista.appendChild(li);
+        });
+    }
+
+    buscador.addEventListener("input", e => mostrar(e.target.value));
+    cargarCanciones();
+  </script>
+</body>
+</html>
