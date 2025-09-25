@@ -24,6 +24,13 @@
     const buscador = document.getElementById("buscador");
     let canciones = [];
 
+    function normalizar(texto) {
+      return texto
+        .normalize("NFD")              // separa acentos
+        .replace(/[\u0300-\u036f]/g, "") // elimina diacríticos
+        .toLowerCase();
+    }
+
     async function cargarCanciones() {
       const res = await fetch("canciones.json");
       canciones = await res.json();
@@ -33,10 +40,9 @@
     function mostrar(filtro = "") {
       lista.innerHTML = "";
       canciones
-        .filter(c => 
-          (c.artista + " " + c.titulo)
-          .toLowerCase()
-          .includes(filtro.toLowerCase())
+        .filter(c =>
+          normalizar(c.artista + " " + c.titulo)
+            .includes(normalizar(filtro))
         )
         .forEach(c => {
           const li = document.createElement("li");
