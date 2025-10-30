@@ -1,5 +1,17 @@
 [
   {
+    "artista": "2 fabiola feat. Medusa",
+    "titulo": "New Year's Day"
+  },
+  {
+    "artista": "2raumwohnung",
+    "titulo": "Besser geht's nicht"
+  },
+  {
+    "artista": "2raumwohnung",
+    "titulo": "Wir Trafen Uns In Einem Garten"
+  },
+  {
     "artista": "3 Doors Down",
     "titulo": "Here without you"
   },
@@ -96,12 +108,48 @@
     "titulo": "Ayo Technology"
   },
   {
+    "artista": "101 Dálmatas",
+    "titulo": "Cruela Cruel"
+  },
+  {
+    "artista": "101 dálmatas",
+    "titulo": "Cruella de Vil"
+  },
+  {
     "artista": "101 Dalmatians",
     "titulo": "Cruella De Vil"
   },
   {
+    "artista": "101 Dalmatiner",
+    "titulo": "Cruella De Vil"
+  },
+  {
+    "artista": "883",
+    "titulo": "Una canzone d'amore"
+  },
+  {
     "artista": "1789 Les Amants De La Bastille",
     "titulo": "Pour La Peine"
+  },
+  {
+    "artista": "A Bela Adormecida",
+    "titulo": "És tu o príncipe azul"
+  },
+  {
+    "artista": "A Bela Adormecida",
+    "titulo": "Pergunto-me"
+  },
+  {
+    "artista": "A Dama e O Vagabundo",
+    "titulo": "Ele é um vagabundo"
+  },
+  {
+    "artista": "A Pequena Sereia",
+    "titulo": "Aqui no mar"
+  },
+  {
+    "artista": "A Pequena Sereia",
+    "titulo": "Vai beijar"
   },
   {
     "artista": "A Perfect Circle",
@@ -197,6 +245,10 @@
   },
   {
     "artista": "ABBA",
+    "titulo": "That's Me"
+  },
+  {
+    "artista": "ABBA",
     "titulo": "The Name Of The Game"
   },
   {
@@ -221,7 +273,19 @@
   },
   {
     "artista": "Abel Pintos",
+    "titulo": "Cómo te extraño"
+  },
+  {
+    "artista": "Abel Pintos",
     "titulo": "La llave"
+  },
+  {
+    "artista": "Abel Pintos",
+    "titulo": "La llave (2012)"
+  },
+  {
+    "artista": "Abel Pintos",
+    "titulo": "Motivos"
   },
   {
     "artista": "Abel Pintos",
@@ -266,6 +330,10 @@
   {
     "artista": "ACDC",
     "titulo": "Heatseeker (Live)"
+  },
+  {
+    "artista": "ACDC",
+    "titulo": "Hell ain't a bad place to be (Live)"
   },
   {
     "artista": "ACDC",
@@ -329,6 +397,10 @@
   },
   {
     "artista": "Ace of Base",
+    "titulo": "Life Is a Flower"
+  },
+  {
+    "artista": "Ace of Base",
     "titulo": "The Sign"
   },
   {
@@ -345,11 +417,35 @@
   },
   {
     "artista": "Adele",
+    "titulo": "Easy on me"
+  },
+  {
+    "artista": "Adele",
     "titulo": "Hello"
   },
   {
     "artista": "Adele",
+    "titulo": "Hometown Glory"
+  },
+  {
+    "artista": "Adele",
+    "titulo": "Make You Feel My Love"
+  },
+  {
+    "artista": "Adele",
+    "titulo": "Million Years Ago"
+  },
+  {
+    "artista": "Adele",
+    "titulo": "Oh my God"
+  },
+  {
+    "artista": "Adele",
     "titulo": "Rolling In The Deep"
+  },
+  {
+    "artista": "Adele",
+    "titulo": "Send My Love (To Your New Lover)"
   },
   {
     "artista": "Adele",
@@ -366,6 +462,10 @@
   {
     "artista": "Adele",
     "titulo": "Someone Like You (Studio)"
+  },
+  {
+    "artista": "Adele",
+    "titulo": "Turning Tables"
   },
   {
     "artista": "Adele",
@@ -464,6 +564,10 @@
     "titulo": "The Sun Always Shines on TV"
   },
   {
+    "artista": "Ai Otsuka",
+    "titulo": "Sakuranbo"
+  },
+  {
     "artista": "Ailyn",
     "titulo": "No sería mejor"
   },
@@ -492,8 +596,24 @@
     "titulo": "Vas a quedarte"
   },
   {
+    "artista": "Akeboshi",
+    "titulo": "Wind"
+  },
+  {
+    "artista": "Akeboshi",
+    "titulo": "Wind (TV)"
+  },
+  {
+    "artista": "Aki Sirkesalo",
+    "titulo": "Naispaholainen"
+  },
+  {
     "artista": "Akon",
     "titulo": "Lonely"
+  },
+  {
+    "artista": "Aksar",
+    "titulo": "Jhalak Dikhla Ja"
   },
   {
     "artista": "Al Bano y Romina Power",
@@ -552,6 +672,10 @@
     "titulo": "You oughta know"
   },
   {
+    "artista": "Alannah Myles",
+    "titulo": "Black Velvet"
+  },
+  {
     "artista": "Alarma",
     "titulo": "Frío"
   },
@@ -588,8 +712,16 @@
     "titulo": "Échame a mí la culpa"
   },
   {
+    "artista": "Albert Hammond",
+    "titulo": "It Never Rains In Southern California"
+  },
+  {
     "artista": "Alberto Plaza",
     "titulo": "Sentencia"
+  },
+  {
+    "artista": "Alcazar",
+    "titulo": "Not A Sinner Nor A Saint"
   },
   {
     "artista": "Alejandra Guzmán",
@@ -772,6 +904,14 @@
     "titulo": "¡¡Chas!! y aparezco a tu lado"
   },
   {
+    "artista": "Alex Britti",
+    "titulo": "Oggi sono io"
+  },
+  {
+    "artista": "Alex Britti",
+    "titulo": "Prendere O Lasciare"
+  },
+  {
     "artista": "Alex Syntek & Danna Paola",
     "titulo": "Yo soy tu amigo fiel"
   },
@@ -820,6 +960,14 @@
     "titulo": "Usted se me llevó la vida"
   },
   {
+    "artista": "Alexia",
+    "titulo": "Da grande"
+  },
+  {
+    "artista": "Alexia",
+    "titulo": "Dimmi come"
+  },
+  {
     "artista": "Alexis & Fido",
     "titulo": "Donde estés llegaré"
   },
@@ -834,6 +982,10 @@
   {
     "artista": "Alice Cooper",
     "titulo": "Poison"
+  },
+  {
+    "artista": "Alice In Chains",
+    "titulo": "Man In The Box"
   },
   {
     "artista": "Alice In Chains",
@@ -856,12 +1008,28 @@
     "titulo": "Smooth Criminal"
   },
   {
+    "artista": "Alizee",
+    "titulo": "Mademoiselle Juliette"
+  },
+  {
     "artista": "Alizée",
     "titulo": "Moi... Lolita"
   },
   {
     "artista": "All Saints",
     "titulo": "Never Ever"
+  },
+  {
+    "artista": "Almklausi",
+    "titulo": "Ich vermiss' Dich (wie die Hölle)"
+  },
+  {
+    "artista": "Almklausi",
+    "titulo": "Lo Lo Los Gehts"
+  },
+  {
+    "artista": "Alphabeat",
+    "titulo": "Boyfriend"
   },
   {
     "artista": "Alphaville",
@@ -874,6 +1042,10 @@
   {
     "artista": "Álvaro Soler",
     "titulo": "Sofía"
+  },
+  {
+    "artista": "Álvaro Soler feat. Flo Rida & TINI",
+    "titulo": "La cintura (Remix)"
   },
   {
     "artista": "Álvaro Soler y Jennifer Lopez",
@@ -892,12 +1064,32 @@
     "titulo": "Poco a poco"
   },
   {
+    "artista": "Amaia",
+    "titulo": "Nuevo verano"
+  },
+  {
+    "artista": "Amaia",
+    "titulo": "Quedará en nuestra mente"
+  },
+  {
+    "artista": "Amaia",
+    "titulo": "Quiero que vengas"
+  },
+  {
+    "artista": "Amaia",
+    "titulo": "Yo invito"
+  },
+  {
     "artista": "Amaia Montero",
     "titulo": "Cuatro segundos"
   },
   {
     "artista": "Amaia Montero",
     "titulo": "Quiero ser"
+  },
+  {
+    "artista": "Amaia, Rojuu",
+    "titulo": "Quiero pero no"
   },
   {
     "artista": "Amanda Miguel",
@@ -976,6 +1168,10 @@
     "titulo": "Si tu no vuelves"
   },
   {
+    "artista": "Amel Bent",
+    "titulo": "Tu n'es plus là"
+  },
+  {
     "artista": "Américo",
     "titulo": "El embrujo"
   },
@@ -992,12 +1188,20 @@
     "titulo": "Traicionera"
   },
   {
+    "artista": "Amerie",
+    "titulo": "One Thing"
+  },
+  {
     "artista": "Amigos por el Mundo",
     "titulo": "Send It On"
   },
   {
     "artista": "Amistades Peligrosas",
     "titulo": "Estoy por ti"
+  },
+  {
+    "artista": "Amor Electro",
+    "titulo": "Rosa Sangue"
   },
   {
     "artista": "Amy MacDonald",
@@ -1048,6 +1252,10 @@
     "titulo": "La Puerta de Alcalá"
   },
   {
+    "artista": "Ana Cirré",
+    "titulo": "Casi perfecto"
+  },
+  {
     "artista": "Ana Gabriel",
     "titulo": "Destino"
   },
@@ -1084,12 +1292,20 @@
     "titulo": "Los Amantes"
   },
   {
+    "artista": "Anaïs",
+    "titulo": "Mon Cœur, Mon Amour"
+  },
+  {
     "artista": "Anastacia",
     "titulo": "I'm Outta Love"
   },
   {
     "artista": "Anastacia",
     "titulo": "Left Outside Alone"
+  },
+  {
+    "artista": "AnaVitória e Vitor Kley",
+    "titulo": "Pupila"
   },
   {
     "artista": "Andrea Bocelli",
@@ -1106,6 +1322,10 @@
   {
     "artista": "Andrea Guasch",
     "titulo": "Nada es lo que parece ser"
+  },
+  {
+    "artista": "Andreas Johnson",
+    "titulo": "Glorious"
   },
   {
     "artista": "Andrés Calamaro",
@@ -1152,12 +1372,72 @@
     "titulo": "Tanto la quería"
   },
   {
+    "artista": "Anggun",
+    "titulo": "Être une femme"
+  },
+  {
     "artista": "Angy",
     "titulo": "Sola en el silencio"
   },
   {
     "artista": "Animaníacs",
     "titulo": "Es hora de Animaníacs"
+  },
+  {
+    "artista": "Anna",
+    "titulo": "Hana no You ni (TV)"
+  },
+  {
+    "artista": "Anna",
+    "titulo": "reversal (TV)"
+  },
+  {
+    "artista": "ANNA 'inspi NANA ~BLACK STONES~",
+    "titulo": "Kuroi namida"
+  },
+  {
+    "artista": "ANNA 'inspi NANA ~BLACK STONES~",
+    "titulo": "Kuroi namida (TV)"
+  },
+  {
+    "artista": "ANNA 'inspi NANA ~BLACK STONES~",
+    "titulo": "Lucy"
+  },
+  {
+    "artista": "ANNA 'inspi NANA ~BLACK STONES~",
+    "titulo": "Lucy (TV)"
+  },
+  {
+    "artista": "Anna-Maria Zimmermann",
+    "titulo": "Wer ist dieser DJ"
+  },
+  {
+    "artista": "Annett Louisan",
+    "titulo": "Das Gefühl"
+  },
+  {
+    "artista": "Annett Louisan",
+    "titulo": "Das Spiel"
+  },
+  {
+    "artista": "Annie",
+    "titulo": "I Know Ur Girlfriend Hates Me"
+  },
+  {
+    "artista": "Anouk",
+    "titulo": "Girl"
+  },
+  {
+    "artista": "Anouk",
+    "titulo": "Nobody's Wife"
+  },
+  {
+    "artista": "Anselmo Ralph",
+    "titulo": "Ela É"
+  },
+  {
+    "artista": "Anssi Kela",
+    "titulo": "Milla"
   },
   {
     "artista": "Antonella",
@@ -1212,6 +1492,26 @@
     "titulo": "El sitio de mi recreo"
   },
   {
+    "artista": "Anuel Aa, Daddy Yankee, Karol G, Ozuna & J Balvin",
+    "titulo": "China"
+  },
+  {
+    "artista": "Anza",
+    "titulo": "Tobira Wo Akete (TV)"
+  },
+  {
+    "artista": "Apocalyptica ft. Cristina Scabbia",
+    "titulo": "S.O.S. (Anything But Love)"
+  },
+  {
+    "artista": "Apulanta",
+    "titulo": "Pahempi toistaan"
+  },
+  {
+    "artista": "Apulanta",
+    "titulo": "Viisaus ei asu meissä"
+  },
+  {
     "artista": "Aqua",
     "titulo": "Barbie Girl"
   },
@@ -1234,6 +1534,18 @@
   {
     "artista": "Aqua Timez",
     "titulo": "ALONES (TV)"
+  },
+  {
+    "artista": "Aqua Timez",
+    "titulo": "Velonica (TV)"
+  },
+  {
+    "artista": "Arashi",
+    "titulo": "Truth"
+  },
+  {
+    "artista": "Arcángel",
+    "titulo": "Hace mucho tiempo"
   },
   {
     "artista": "Arcángel, Lobo, RKM & Ken-Y y Zion & Lennox",
@@ -1260,6 +1572,18 @@
     "titulo": "Respect"
   },
   {
+    "artista": "Ari Koivunen",
+    "titulo": "Hear My Call"
+  },
+  {
+    "artista": "Ariana Grande",
+    "titulo": "7 Rings"
+  },
+  {
+    "artista": "Ariana Grande",
+    "titulo": "Imagine"
+  },
+  {
     "artista": "Ariana Grande",
     "titulo": "One Last Time"
   },
@@ -1280,6 +1604,34 @@
     "titulo": "Side To Side"
   },
   {
+    "artista": "Arielle",
+    "titulo": "Nur Ein Kuss"
+  },
+  {
+    "artista": "Arielle",
+    "titulo": "Unten Im Meer"
+  },
+  {
+    "artista": "Arja Saijonmaa",
+    "titulo": "Högt Över Havet"
+  },
+  {
+    "artista": "Arsenium",
+    "titulo": "Rumadai"
+  },
+  {
+    "artista": "Articolo 31",
+    "titulo": "Tranqi Funky"
+  },
+  {
+    "artista": "Artur Gadowski",
+    "titulo": "Szczesliwego Nowego Jorku"
+  },
+  {
+    "artista": "ASCA",
+    "titulo": "Shion no Hanataba o (TV)"
+  },
+  {
     "artista": "Ashlee Simpson",
     "titulo": "Pieces Of Me"
   },
@@ -1298,6 +1650,10 @@
   {
     "artista": "Asian Kung-fu Generation",
     "titulo": "Rewrite (TV)"
+  },
+  {
+    "artista": "Assorti",
+    "titulo": "Krasivaya lyubov"
   },
   {
     "artista": "A-Teens",
@@ -1346,6 +1702,14 @@
   {
     "artista": "Avalanch",
     "titulo": "El angel caido"
+  },
+  {
+    "artista": "Avalanch",
+    "titulo": "Las ruinas del edén (acto I)"
+  },
+  {
+    "artista": "Avalanch",
+    "titulo": "Tierra de nadie"
   },
   {
     "artista": "Avenged Sevenfold",
@@ -1436,6 +1800,10 @@
     "titulo": "Wish You Were Here"
   },
   {
+    "artista": "Awkmiu",
+    "titulo": "Arrow (TV)"
+  },
+  {
     "artista": "Axé Bahia",
     "titulo": "Beso en la boca"
   },
@@ -1448,12 +1816,40 @@
     "titulo": "Celebra la vida"
   },
   {
+    "artista": "Axel Fischer",
+    "titulo": "Amsterdam"
+  },
+  {
     "artista": "Aya Hirano",
     "titulo": "God Knows"
   },
   {
+    "artista": "Aya Hirano",
+    "titulo": "God knows (TV)"
+  },
+  {
+    "artista": "Aya Hirano",
+    "titulo": "Lost my music"
+  },
+  {
+    "artista": "Aya Hirano, Minori Chihara & Yuko Goto",
+    "titulo": "Hare hare yukai (TV)"
+  },
+  {
+    "artista": "Ayahi Takagaki",
+    "titulo": "Lullabye"
+  },
+  {
+    "artista": "Ayman",
+    "titulo": "Mein Stern"
+  },
+  {
     "artista": "Ayumi Miyazaki",
     "titulo": "Brave Heart"
+  },
+  {
+    "artista": "Azra",
+    "titulo": "A šta da radim (Live)"
   },
   {
     "artista": "Azúcar Moreno",
@@ -1596,8 +1992,24 @@
     "titulo": "Callaíta"
   },
   {
+    "artista": "Bai Sha JAWS",
+    "titulo": "The Eye (TV)"
+  },
+  {
+    "artista": "Banaroo",
+    "titulo": "Dubi Dam Dam"
+  },
+  {
     "artista": "Banda Blanca",
     "titulo": "Sopa de caracol"
+  },
+  {
+    "artista": "Bandidos do Cante",
+    "titulo": "Tanto Tempo"
+  },
+  {
+    "artista": "Bárbara Tinoco",
+    "titulo": "Devia Ter-te Traído"
   },
   {
     "artista": "Baron Rojo",
@@ -1612,8 +2024,16 @@
     "titulo": "No hay tregua"
   },
   {
+    "artista": "Barrio Sésamo",
+    "titulo": "Mahna mahna"
+  },
+  {
     "artista": "Barry White",
     "titulo": "You're The First, The Last, My Everything"
+  },
+  {
+    "artista": "Basshunter",
+    "titulo": "Boten Anna"
   },
   {
     "artista": "Beach Boys",
@@ -1636,12 +2056,32 @@
     "titulo": "Como Tú No Hay 2"
   },
   {
+    "artista": "Beatsteaks",
+    "titulo": "Cut Off the Top"
+  },
+  {
+    "artista": "Beauty And The Beast",
+    "titulo": "Beauty And The Beast"
+  },
+  {
     "artista": "Bebe",
     "titulo": "Ella"
   },
   {
     "artista": "Bebe",
     "titulo": "Malo"
+  },
+  {
+    "artista": "Bébé Lilly",
+    "titulo": "Les Cowboys"
+  },
+  {
+    "artista": "Bebe Rexha y David Guetta",
+    "titulo": "I'm good (Blue)"
+  },
+  {
+    "artista": "Becky G & Karol G",
+    "titulo": "MAMIII"
   },
   {
     "artista": "Becky G ft. Bad Bunny",
@@ -1724,12 +2164,24 @@
     "titulo": "Heaven Is A Place On Earth"
   },
   {
+    "artista": "Bellamy Brothers",
+    "titulo": "Let Your Love Flow"
+  },
+  {
     "artista": "Ben E. King",
     "titulo": "Stand by me"
   },
   {
+    "artista": "Benito Lertxundi",
+    "titulo": "Loretxoa"
+  },
+  {
     "artista": "Benny Ibarra y Miguel Bosé",
     "titulo": "Si puedo volverte a ver"
+  },
+  {
+    "artista": "Benny Neyman",
+    "titulo": "Vrijgezel"
   },
   {
     "artista": "Beret",
@@ -1738,6 +2190,10 @@
   {
     "artista": "Berlin",
     "titulo": "Take my breath away"
+  },
+  {
+    "artista": "Bernd Clüver",
+    "titulo": "Der Junge mit der Mundharmonika"
   },
   {
     "artista": "Bersuit Vergarabat",
@@ -1772,6 +2228,14 @@
     "titulo": "Dime"
   },
   {
+    "artista": "Betty Missiego",
+    "titulo": "Su canción"
+  },
+  {
+    "artista": "Beverly Knight",
+    "titulo": "Come As You Are"
+  },
+  {
     "artista": "Beyoncé",
     "titulo": "Best Thing I Never Had"
   },
@@ -1788,6 +2252,10 @@
     "titulo": "If I were a boy"
   },
   {
+    "artista": "Beyonce",
+    "titulo": "Irreplaceable"
+  },
+  {
     "artista": "Beyoncé",
     "titulo": "Si yo fuera un chico"
   },
@@ -1798,6 +2266,18 @@
   {
     "artista": "Beyoncé ft. Lady Gaga",
     "titulo": "Video Phone"
+  },
+  {
+    "artista": "Biagio Antonacci",
+    "titulo": "Convivendo"
+  },
+  {
+    "artista": "Biagio Antonacci",
+    "titulo": "Pazzo Di Lei"
+  },
+  {
+    "artista": "Biagio Antonacci",
+    "titulo": "Sappi Amore Mio"
   },
   {
     "artista": "Bill Medley & Jennifer Warnes",
@@ -1826,6 +2306,18 @@
   {
     "artista": "Billy Ocean",
     "titulo": "European Queen (12 inch Maxi Single)"
+  },
+  {
+    "artista": "Billy Ray Cyrus",
+    "titulo": "Achy Breaky Heart"
+  },
+  {
+    "artista": "Bino",
+    "titulo": "Mama Leone"
+  },
+  {
+    "artista": "Biz Markie",
+    "titulo": "Just A Friend"
   },
   {
     "artista": "Bizarrap & Shakira",
@@ -1868,6 +2360,14 @@
     "titulo": "Silbando al trabajar"
   },
   {
+    "artista": "Blind",
+    "titulo": "Break Away"
+  },
+  {
+    "artista": "Blind Guardian",
+    "titulo": "A Past And Future Secret"
+  },
+  {
     "artista": "Blink 182",
     "titulo": "Adam's Song"
   },
@@ -1896,6 +2396,10 @@
     "titulo": "What's My Age Again"
   },
   {
+    "artista": "Blog 27",
+    "titulo": "Wid Out Ya"
+  },
+  {
     "artista": "Blondie",
     "titulo": "Atomic"
   },
@@ -1916,8 +2420,20 @@
     "titulo": "One way or another"
   },
   {
+    "artista": "Blondie",
+    "titulo": "The Tide Is High"
+  },
+  {
+    "artista": "Blu Cantrell",
+    "titulo": "Hit 'Em Up Style"
+  },
+  {
     "artista": "Blue & Elton John",
     "titulo": "Sorry seems to be the hardest word"
+  },
+  {
+    "artista": "Blue October",
+    "titulo": "Hate Me"
   },
   {
     "artista": "Blue Swede",
@@ -1933,7 +2449,15 @@
   },
   {
     "artista": "Blur",
+    "titulo": "Parklife"
+  },
+  {
+    "artista": "Blur",
     "titulo": "Song 2"
+  },
+  {
+    "artista": "Bluvertigo",
+    "titulo": "Altre Forme di Vita"
   },
   {
     "artista": "Bob Dylan",
@@ -2036,6 +2560,10 @@
     "titulo": "Rasputin"
   },
   {
+    "artista": "Bonfire",
+    "titulo": "You Make Me Feel"
+  },
+  {
     "artista": "Bongo Botrako",
     "titulo": "Todos los días sale el sol"
   },
@@ -2048,12 +2576,40 @@
     "titulo": "Total Eclipse of the Heart"
   },
   {
+    "artista": "Booty Luv",
+    "titulo": "Shine"
+  },
+  {
     "artista": "Boston",
     "titulo": "More Than A Feeling"
   },
   {
     "artista": "Botones",
     "titulo": "Quijote, Sancho"
+  },
+  {
+    "artista": "Boy Meets Girl",
+    "titulo": "Waiting For A Star To Fall"
+  },
+  {
+    "artista": "Boys Like Girls",
+    "titulo": "The Great Escape"
+  },
+  {
+    "artista": "BOYSTYLE",
+    "titulo": "Kokoro no chizu"
+  },
+  {
+    "artista": "Bratisla Boys",
+    "titulo": "Stach stach"
+  },
+  {
+    "artista": "Breaking Benjamin",
+    "titulo": "Blow Me Away"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "(I Got That) Boom Boom"
   },
   {
     "artista": "Britney Spears",
@@ -2065,11 +2621,35 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Alien"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Baby One More Time"
   },
   {
     "artista": "Britney Spears",
     "titulo": "Born To Make You Happy"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Break The Ice"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Breathe On Me"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Can't Make You Love Me"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Chris Cox Megamix"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Cinderella"
   },
   {
     "artista": "Britney Spears",
@@ -2081,11 +2661,27 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Do Somethin'"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Don't Go Knockin' On My Door"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Don't Let Me Be The Last To Know"
   },
   {
     "artista": "Britney Spears",
     "titulo": "Everytime"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "From The Bottom Of My Broken Heart"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Get Naked (I Got A Plan)"
   },
   {
     "artista": "Britney Spears",
@@ -2097,11 +2693,19 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Hot As Ice"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "I Love Rock n' Roll"
   },
   {
     "artista": "Britney Spears",
     "titulo": "I Wanna Go"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "I Will Be There"
   },
   {
     "artista": "Britney Spears",
@@ -2117,7 +2721,15 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Lonely"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Lucky"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Mona Lisa"
   },
   {
     "artista": "Britney Spears",
@@ -2125,11 +2737,27 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Ooh La La (From The Smurfs 2)"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Oops! I did it again"
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Outrageous"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Overprotected"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Overprotected [The Darkchild Remix]"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Perfume"
   },
   {
     "artista": "Britney Spears",
@@ -2141,6 +2769,18 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "Shadow"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Showdown"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Someday (I Will Understand)"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Sometimes"
   },
   {
@@ -2149,7 +2789,15 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "That's Where You Take Me"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Till The World Ends"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Touch Of My Hand"
   },
   {
     "artista": "Britney Spears",
@@ -2157,11 +2805,43 @@
   },
   {
     "artista": "Britney Spears",
+    "titulo": "What you see (is what you get)"
+  },
+  {
+    "artista": "Britney Spears",
     "titulo": "Womanizer"
+  },
+  {
+    "artista": "Britney Spears",
+    "titulo": "Work Bitch"
+  },
+  {
+    "artista": "Britney Spears & Iggy Azalea",
+    "titulo": "Pretty Girls"
+  },
+  {
+    "artista": "Britney Spears feat. Backstreet Boys",
+    "titulo": "Matches"
+  },
+  {
+    "artista": "Britney Spears feat. G-Eazy",
+    "titulo": "Make Me"
   },
   {
     "artista": "Britney Spears feat. Madonna",
     "titulo": "Me Against The Music"
+  },
+  {
+    "artista": "Britney Spears feat. Pharrell Williams",
+    "titulo": "Boys (Co-Ed Remix)"
+  },
+  {
+    "artista": "Britney Spears feat. Sabi",
+    "titulo": "(Drop Dead) Beautiful"
+  },
+  {
+    "artista": "Britney Spears ft. Will.I.Am",
+    "titulo": "Big Fat Bass"
   },
   {
     "artista": "Bronco",
@@ -2170,6 +2850,10 @@
   {
     "artista": "Bruce Springsteen",
     "titulo": "Born in the U.S.A"
+  },
+  {
+    "artista": "Bruce Springsteen",
+    "titulo": "Dancing in the dark"
   },
   {
     "artista": "Bruno Mars",
@@ -2232,6 +2916,14 @@
     "titulo": "Todo lo que hago, lo hago por ti"
   },
   {
+    "artista": "BUCK-TICK",
+    "titulo": "Gekka Reijin (TV)"
+  },
+  {
+    "artista": "Buddy",
+    "titulo": "Ab In Den Süden 2004"
+  },
+  {
     "artista": "Buggles",
     "titulo": "Video Killed The Radio Star"
   },
@@ -2246,6 +2938,10 @@
   {
     "artista": "Burning",
     "titulo": "¿Qué hace una chica como tú en un sitio como este"
+  },
+  {
+    "artista": "C2 Kikan 1MYB",
+    "titulo": "Ima (TV)"
   },
   {
     "artista": "Cacho Castaña",
@@ -2320,6 +3016,14 @@
     "titulo": "Caillou"
   },
   {
+    "artista": "Calema e Sara Correia",
+    "titulo": "Respirar"
+  },
+  {
+    "artista": "Cali",
+    "titulo": "C'est quand le bonheur"
+  },
+  {
     "artista": "Cali y El Dandee",
     "titulo": "No digas nada (Déjà vu)"
   },
@@ -2338,6 +3042,14 @@
   {
     "artista": "Callejeros",
     "titulo": "Una nueva noche fría"
+  },
+  {
+    "artista": "Calvin Harris",
+    "titulo": "Acceptable In The 80s"
+  },
+  {
+    "artista": "Calvin Harris & Dua Lipa",
+    "titulo": "One kiss"
   },
   {
     "artista": "Calvin Harris feat. Ellie Goulding",
@@ -2457,7 +3169,15 @@
   },
   {
     "artista": "Camp Rock",
+    "titulo": "Here I Am"
+  },
+  {
+    "artista": "Camp Rock",
     "titulo": "This Is Me"
+  },
+  {
+    "artista": "Camp Rock",
+    "titulo": "We Rock"
   },
   {
     "artista": "Camp Rock 2",
@@ -2576,16 +3296,48 @@
     "titulo": "Tarde de otoño"
   },
   {
+    "artista": "Carmen Consoli",
+    "titulo": "Confusa e felice"
+  },
+  {
+    "artista": "Carmen Consoli",
+    "titulo": "Parole di burro"
+  },
+  {
     "artista": "Carmen López y Gisela",
     "titulo": "Por primera vez en años"
+  },
+  {
+    "artista": "Carmen López y Toni Mateo",
+    "titulo": "Por fin ya veo la luz"
   },
   {
     "artista": "Carmen López y Tony Menguiano",
     "titulo": "La puerta hacia el amor"
   },
   {
+    "artista": "Carmen López, Toni Mateo y otros",
+    "titulo": "Mi sueño es"
+  },
+  {
+    "artista": "Carmen Sarahí",
+    "titulo": "Libre soy (De Frozen)"
+  },
+  {
+    "artista": "Carola Häggkvist",
+    "titulo": "Främling"
+  },
+  {
+    "artista": "Cartel",
+    "titulo": "Lose It"
+  },
+  {
     "artista": "Cascada",
     "titulo": "Everytime We Touch"
+  },
+  {
+    "artista": "Cat Stevens",
+    "titulo": "Moonshadow"
   },
   {
     "artista": "Cat Stevens",
@@ -2606,6 +3358,10 @@
   {
     "artista": "Cecilia",
     "titulo": "Un ramito de violetas"
+  },
+  {
+    "artista": "Cecilia Krull ft. Pablo Alborán",
+    "titulo": "Grândola Vila Morena"
   },
   {
     "artista": "Cecilia La Incomparable",
@@ -2660,6 +3416,26 @@
     "titulo": "Tranquilo majete"
   },
   {
+    "artista": "Cendrillon",
+    "titulo": "Bibidi bobidi bou"
+  },
+  {
+    "artista": "Cendrillon",
+    "titulo": "C'est pas une vie"
+  },
+  {
+    "artista": "Cenerentola",
+    "titulo": "Bibbidi bobbidi bu"
+  },
+  {
+    "artista": "Chaba",
+    "titulo": "Parade"
+  },
+  {
+    "artista": "Chaba",
+    "titulo": "Parade (TV)"
+  },
+  {
     "artista": "Chambao",
     "titulo": "Pokito a poko"
   },
@@ -2693,11 +3469,19 @@
   },
   {
     "artista": "Chayanne",
+    "titulo": "Bailando bachata"
+  },
+  {
+    "artista": "Chayanne",
     "titulo": "Caprichosa"
   },
   {
     "artista": "Chayanne",
     "titulo": "Completamente enamorados"
+  },
+  {
+    "artista": "Chayanne",
+    "titulo": "Cuidarte el alma"
   },
   {
     "artista": "Chayanne",
@@ -2725,11 +3509,19 @@
   },
   {
     "artista": "Chayanne",
+    "titulo": "No te preocupes por mí"
+  },
+  {
+    "artista": "Chayanne",
     "titulo": "Provócame"
   },
   {
     "artista": "Chayanne",
     "titulo": "Salomé"
+  },
+  {
+    "artista": "Chayanne",
+    "titulo": "Sentada aquí en mi alma"
   },
   {
     "artista": "Chayanne",
@@ -2749,6 +3541,10 @@
   },
   {
     "artista": "Chayanne",
+    "titulo": "Volver a Nacer"
+  },
+  {
+    "artista": "Chayanne",
     "titulo": "Y tú te vas"
   },
   {
@@ -2762,6 +3558,10 @@
   {
     "artista": "Chenoa",
     "titulo": "Cuando tú vas"
+  },
+  {
+    "artista": "Chenoa",
+    "titulo": "El bolsillo del revés"
   },
   {
     "artista": "Chenoa",
@@ -2840,12 +3640,28 @@
     "titulo": "Mayonesa"
   },
   {
+    "artista": "Chris Brown",
+    "titulo": "Yo (Excuse Me Miss)"
+  },
+  {
     "artista": "Chris Brown & Justin Bieber",
     "titulo": "Next To You"
   },
   {
     "artista": "Chris Isaak",
     "titulo": "Wicked game"
+  },
+  {
+    "artista": "Chris Marlow",
+    "titulo": "Santa Maria"
+  },
+  {
+    "artista": "Chris Roberts",
+    "titulo": "Du kannst nicht immer 17 sein"
+  },
+  {
+    "artista": "Christian Walz",
+    "titulo": "Wonderchild"
   },
   {
     "artista": "Christina Aguilera",
@@ -2888,16 +3704,60 @@
     "titulo": "Lady Marmalade"
   },
   {
+    "artista": "Christina Milian",
+    "titulo": "AM to PM"
+  },
+  {
     "artista": "Christina Perri",
     "titulo": "A Thousand Years"
+  },
+  {
+    "artista": "Christina Stürmer",
+    "titulo": "Immer An Euch Geglaubt"
   },
   {
     "artista": "Christina y los Subterráneos",
     "titulo": "Voy en un coche"
   },
   {
+    "artista": "Christophe Mae",
+    "titulo": "Belle demoiselle"
+  },
+  {
+    "artista": "Christophe Willem",
+    "titulo": "Jacques a dit"
+  },
+  {
     "artista": "Chuck Berry",
     "titulo": "Johnny B. Goode"
+  },
+  {
+    "artista": "Chumbawamba",
+    "titulo": "Tubthumping"
+  },
+  {
+    "artista": "Cinderela",
+    "titulo": "Bíbidi bóbidi bu"
+  },
+  {
+    "artista": "Cinderela",
+    "titulo": "Cançao do trabalho"
+  },
+  {
+    "artista": "Cinderella",
+    "titulo": "Bibbidi Babbidi Bu"
+  },
+  {
+    "artista": "Cinderella",
+    "titulo": "Cinderella Arbeitslied"
+  },
+  {
+    "artista": "Cindy & Bert",
+    "titulo": "Immer wieder sonntags"
+  },
+  {
+    "artista": "Circus Custers",
+    "titulo": "Verliefd"
   },
   {
     "artista": "Ciro y Los Persas",
@@ -2908,8 +3768,32 @@
     "titulo": "Mírenla"
   },
   {
+    "artista": "Clã",
+    "titulo": "Dançar na corda bamba"
+  },
+  {
+    "artista": "Clouseau",
+    "titulo": "Anne"
+  },
+  {
+    "artista": "Clouseau",
+    "titulo": "Daar Gaat Ze"
+  },
+  {
+    "artista": "Clueso",
+    "titulo": "Kein Bock Zu Geh'n"
+  },
+  {
+    "artista": "CMX",
+    "titulo": "Ruoste"
+  },
+  {
     "artista": "CNCO",
     "titulo": "Reggaetón lento (Bailemos)"
+  },
+  {
+    "artista": "CNCO con Yandel",
+    "titulo": "Hey DJ"
   },
   {
     "artista": "Cola-Cao",
@@ -2918,6 +3802,10 @@
   {
     "artista": "Colbie Caillat",
     "titulo": "Bubbly"
+  },
+  {
+    "artista": "Colbie Caillat",
+    "titulo": "Realize"
   },
   {
     "artista": "Coldplay",
@@ -3044,8 +3932,16 @@
     "titulo": "Puede ser"
   },
   {
+    "artista": "Corinne Bailey Rae",
+    "titulo": "I'd Like To"
+  },
+  {
     "artista": "Corona",
     "titulo": "The rhythm of the night"
+  },
+  {
+    "artista": "Costa Cordalis",
+    "titulo": "Anita"
   },
   {
     "artista": "Coti",
@@ -3120,6 +4016,10 @@
     "titulo": "Who'll Stop The Rain"
   },
   {
+    "artista": "Creme 21",
+    "titulo": "Wann wird's mal wieder richtig Sommer"
+  },
+  {
     "artista": "Cristian Castro",
     "titulo": "Angel"
   },
@@ -3180,12 +4080,40 @@
     "titulo": "Legendaria luz de luna"
   },
   {
+    "artista": "Cristina D'Avena",
+    "titulo": "Moominland, Un Mondo Di Serenità"
+  },
+  {
+    "artista": "Cristina D'Avena",
+    "titulo": "Pesca la tua carta Sakura (TV)"
+  },
+  {
+    "artista": "Cristina D'Avena",
+    "titulo": "Petali di stelle per Sailor Moon"
+  },
+  {
+    "artista": "Cristina D'Avena",
+    "titulo": "Princesse Sarah"
+  },
+  {
+    "artista": "Cristina Hernández",
+    "titulo": "Las tres mellizas"
+  },
+  {
     "artista": "Croni-k",
     "titulo": "Arriba la vida"
   },
   {
+    "artista": "Crystal Kay",
+    "titulo": "Konna ni Chikaku de... (TV)"
+  },
+  {
     "artista": "Cuando toca la Campana",
     "titulo": "Es el momento"
+  },
+  {
+    "artista": "Culcha Candela",
+    "titulo": "Hamma!"
   },
   {
     "artista": "Culture Club",
@@ -3196,8 +4124,16 @@
     "titulo": "Karma Chameleon"
   },
   {
+    "artista": "Cutting Crew",
+    "titulo": "Died In Your Arms"
+  },
+  {
     "artista": "Cyndi Lauper",
     "titulo": "Girls Just Wanna Have Fun"
+  },
+  {
+    "artista": "Cyndi Lauper",
+    "titulo": "She Bop"
   },
   {
     "artista": "Cyndi Lauper",
@@ -3206,6 +4142,10 @@
   {
     "artista": "Cyndi Lauper",
     "titulo": "True Colors"
+  },
+  {
+    "artista": "D.A.M.A, Vitorino, Buba Espinho e Bandidos do Cante",
+    "titulo": "Menina Estás à Janela"
   },
   {
     "artista": "Daddy Yankee",
@@ -3268,6 +4208,14 @@
     "titulo": "El amante"
   },
   {
+    "artista": "Daddy Yankee y Ozuna",
+    "titulo": "La rompe corazones"
+  },
+  {
+    "artista": "Daft Punk",
+    "titulo": "Around The World"
+  },
+  {
     "artista": "Daft Punk",
     "titulo": "Digital Love"
   },
@@ -3280,12 +4228,28 @@
     "titulo": "One More Time"
   },
   {
+    "artista": "Daft Punk",
+    "titulo": "Technologic"
+  },
+  {
+    "artista": "Daft Punk ft. Julian Casablancas",
+    "titulo": "Instant Crush"
+  },
+  {
+    "artista": "Daft Punk ft. Pharrell",
+    "titulo": "Lose Yourself to Dance"
+  },
+  {
     "artista": "Dani Martín",
     "titulo": "El cielo de los perros"
   },
   {
     "artista": "Dani Mata",
     "titulo": "Lamento boliviano"
+  },
+  {
+    "artista": "Daniel Bedingfield",
+    "titulo": "If You're Not the One"
   },
   {
     "artista": "Daniel Diges",
@@ -3300,6 +4264,10 @@
     "titulo": "Yo no te pido la luna"
   },
   {
+    "artista": "Daniele Stefani",
+    "titulo": "Un giorno d'amore"
+  },
+  {
     "artista": "Danna Paola",
     "titulo": "Cuando empezaré a vivir"
   },
@@ -3310,6 +4278,10 @@
   {
     "artista": "Danza Invisible",
     "titulo": "Sabor de amor"
+  },
+  {
+    "artista": "Das Dschungelbuch",
+    "titulo": "Probiers Mal Mit Gemuetlichkeit"
   },
   {
     "artista": "Dasoul",
@@ -3436,6 +4408,10 @@
     "titulo": "Dos hombres y un destino"
   },
   {
+    "artista": "David Carreira e Sara Carreira",
+    "titulo": "Gosto de Ti"
+  },
+  {
     "artista": "David Civera",
     "titulo": "Bye Bye"
   },
@@ -3464,12 +4440,24 @@
     "titulo": "Swift el zorro"
   },
   {
+    "artista": "David Guetta",
+    "titulo": "Love don't let me go"
+  },
+  {
     "artista": "David Guetta & Chris Willis ft. Fergie & LMFAO",
     "titulo": "Gettin' over You"
   },
   {
     "artista": "David Guetta & Mey",
     "titulo": "Titanium"
+  },
+  {
+    "artista": "David Guetta & Showtek feat. Vassy",
+    "titulo": "Bad"
+  },
+  {
+    "artista": "David Guetta & Sia",
+    "titulo": "Flames"
   },
   {
     "artista": "David Guetta & Sia",
@@ -3480,8 +4468,16 @@
     "titulo": "Titanium"
   },
   {
+    "artista": "David Guetta feat Chris Willis",
+    "titulo": "Stay"
+  },
+  {
     "artista": "David Guetta feat. Akon",
     "titulo": "Sexy Bitch"
+  },
+  {
+    "artista": "David Guetta feat. Chris Brown & Lil Wayne",
+    "titulo": "I Can Only Imagine"
   },
   {
     "artista": "David Guetta feat. Chris Willis",
@@ -3492,12 +4488,24 @@
     "titulo": "Baby when the light"
   },
   {
+    "artista": "David Guetta feat. Estelle",
+    "titulo": "One Love"
+  },
+  {
     "artista": "David Guetta feat. Flo Rida & Nicki Minaj",
     "titulo": "Where Them Girls At"
   },
   {
+    "artista": "David Guetta feat. Justin Bieber",
+    "titulo": "2U"
+  },
+  {
     "artista": "David Guetta feat. Kid Cudi",
     "titulo": "Memories"
+  },
+  {
+    "artista": "David Guetta feat. Ne-Yo & Akon",
+    "titulo": "Play Hard"
   },
   {
     "artista": "David Guetta feat. Nicki Minaj",
@@ -3512,20 +4520,68 @@
     "titulo": "Who's That Chick"
   },
   {
+    "artista": "David Guetta feat. Sam Martin",
+    "titulo": "Lovers On The Sun"
+  },
+  {
+    "artista": "David Guetta feat. Sia & Fetty Wap",
+    "titulo": "Bang My Head"
+  },
+  {
+    "artista": "David Guetta feat. Skylar Grey",
+    "titulo": "Shot Me Down"
+  },
+  {
+    "artista": "David Guetta feat. Taped Rai",
+    "titulo": "Just One Last Time"
+  },
+  {
+    "artista": "David Guetta Feat. Tara McDonald",
+    "titulo": "Delirious"
+  },
+  {
     "artista": "David Guetta feat. Usher",
     "titulo": "Without You"
+  },
+  {
+    "artista": "David Guetta feat. Zara Larsson",
+    "titulo": "This One's For You"
   },
   {
     "artista": "David Guetta ft. Kelly Rowland",
     "titulo": "When love takes over"
   },
   {
+    "artista": "David Guetta ft. Sam Martin",
+    "titulo": "Dangerous"
+  },
+  {
     "artista": "David Guetta ft. Taio Cruz & Ludacris",
     "titulo": "Little Bad Girl"
   },
   {
+    "artista": "DAZBEE",
+    "titulo": "Scarlet"
+  },
+  {
+    "artista": "DAZBEE",
+    "titulo": "Scarlet (TV)"
+  },
+  {
+    "artista": "De Kast",
+    "titulo": "Morgen Wordt Het Beter"
+  },
+  {
+    "artista": "De Randfichten",
+    "titulo": "Lebt Denn Dr Alte Holzmichl Noch"
+  },
+  {
     "artista": "Decai",
     "titulo": "Ella y yo"
+  },
+  {
+    "artista": "Deen",
+    "titulo": "Hitori Ja Nai (TV)"
   },
   {
     "artista": "Deep Purple",
@@ -3593,15 +4649,31 @@
   },
   {
     "artista": "Depeche Mode",
+    "titulo": "Never Let Me Down Again"
+  },
+  {
+    "artista": "Depeche Mode",
     "titulo": "Personal Jesus"
+  },
+  {
+    "artista": "Depeche Mode",
+    "titulo": "Precious"
   },
   {
     "artista": "Depeche Mode",
     "titulo": "Strangelove"
   },
   {
+    "artista": "Descendentes",
+    "titulo": "Carta de Despedida"
+  },
+  {
     "artista": "Desireless",
     "titulo": "Voyage, voyage"
+  },
+  {
+    "artista": "Despistaos",
+    "titulo": "Embrujada"
   },
   {
     "artista": "Despistaos",
@@ -3613,11 +4685,23 @@
   },
   {
     "artista": "Destiny's Child",
+    "titulo": "Bootylicious"
+  },
+  {
+    "artista": "Destiny's Child",
     "titulo": "Survivor"
   },
   {
     "artista": "Destripando la Historia",
     "titulo": "Hermes"
+  },
+  {
+    "artista": "Dexy's Midnight Runners",
+    "titulo": "Come On Eileen"
+  },
+  {
+    "artista": "Diana Ross And The Supremes",
+    "titulo": "Baby Love"
   },
   {
     "artista": "Dibujos Animados",
@@ -3634,6 +4718,34 @@
   {
     "artista": "Dido",
     "titulo": "White Flag"
+  },
+  {
+    "artista": "Die Familie",
+    "titulo": "Und Tschüss"
+  },
+  {
+    "artista": "Die Fantastischen Vier",
+    "titulo": "Geboren"
+  },
+  {
+    "artista": "Die Schoene Und Das Biest",
+    "titulo": "Die Schoene Und Das Biest"
+  },
+  {
+    "artista": "Die Toten Hosen",
+    "titulo": "1000 gute Gründe"
+  },
+  {
+    "artista": "Die Toten Hosen",
+    "titulo": "Alles Aus Liebe"
+  },
+  {
+    "artista": "Die Toten Hosen",
+    "titulo": "Hier Kommt Alex (Unplugged)"
+  },
+  {
+    "artista": "Die Toten Hosen",
+    "titulo": "Warum werde ich nicht satt"
   },
   {
     "artista": "Diego Martín con Raquel del Rosario",
@@ -3664,6 +4776,14 @@
     "titulo": "Abriendo caminos"
   },
   {
+    "artista": "Diego Verdaguer y Amanda Miguel",
+    "titulo": "Volveré"
+  },
+  {
+    "artista": "Dieter De",
+    "titulo": "Erna Kommt"
+  },
+  {
     "artista": "Digimon",
     "titulo": "Digimon"
   },
@@ -3676,8 +4796,20 @@
     "titulo": "Mariposa"
   },
   {
+    "artista": "Dima Bilan",
+    "titulo": "Believe"
+  },
+  {
     "artista": "Dinamita pa' los Pollos",
     "titulo": "Purita dinamita"
+  },
+  {
+    "artista": "Diogo Piçarra",
+    "titulo": "Chuva"
+  },
+  {
+    "artista": "Dir en grey",
+    "titulo": "Cage"
   },
   {
     "artista": "Dire Straits",
@@ -3704,8 +4836,48 @@
     "titulo": "Pobre corazón"
   },
   {
+    "artista": "Divinyls",
+    "titulo": "Boys in Town"
+  },
+  {
+    "artista": "Dixie Chicks",
+    "titulo": "Not Ready To Make Nice"
+  },
+  {
+    "artista": "DJ Abschleppdienst",
+    "titulo": "Party, Palmen, Weiber und'n Bier"
+  },
+  {
+    "artista": "DJ Bobo",
+    "titulo": "Chihuahua 2002"
+  },
+  {
+    "artista": "DJ Jazzy Jeff & The Fresh Prince",
+    "titulo": "Summertime"
+  },
+  {
     "artista": "DJ Méndez ft. Crossfire",
     "titulo": "Lady"
+  },
+  {
+    "artista": "DJ Ötzi",
+    "titulo": "Hey Baby"
+  },
+  {
+    "artista": "DJ Ötzi",
+    "titulo": "Noch in 100.000 Jahren"
+  },
+  {
+    "artista": "DJ Ötzi & Nik P.",
+    "titulo": "Ein Stern (Der Deinen Namen Trägt)"
+  },
+  {
+    "artista": "DJ Snake, Ozuna, Megan Thee Stallion, LISA of BLACKPINK",
+    "titulo": "SG"
+  },
+  {
+    "artista": "DJ Snake, Selena Gomez, Ozuna, Cardi B",
+    "titulo": "Taki Taki"
   },
   {
     "artista": "DLG",
@@ -3716,8 +4888,16 @@
     "titulo": "Cake by the ocean"
   },
   {
+    "artista": "Dolly Dots",
+    "titulo": "Do wah diddy diddy"
+  },
+  {
     "artista": "Domenico Modugno",
     "titulo": "Nel blu dipinto di blu (Volare)"
+  },
+  {
+    "artista": "Don Huonot",
+    "titulo": "Hyvää yötä ja huomenta"
   },
   {
     "artista": "Don Miguelo",
@@ -3752,6 +4932,10 @@
     "titulo": "Danza Kuduro"
   },
   {
+    "artista": "Donatella Rettore",
+    "titulo": "Kobra"
+  },
+  {
     "artista": "Donato y Estefano",
     "titulo": "Estoy enamorado"
   },
@@ -3760,12 +4944,32 @@
     "titulo": "Hot Stuff"
   },
   {
+    "artista": "Donna Summer",
+    "titulo": "She Works Hard for the Money"
+  },
+  {
+    "artista": "Doraemon",
+    "titulo": "Los niños de la Tierra"
+  },
+  {
     "artista": "Doraemon",
     "titulo": "Ojala mis sueños"
   },
   {
     "artista": "Doraemon",
+    "titulo": "Opening (TV)"
+  },
+  {
+    "artista": "Doraemon",
     "titulo": "Sueño hecho realidad"
+  },
+  {
+    "artista": "Dornroschen",
+    "titulo": "Traum-Walzer"
+  },
+  {
+    "artista": "Dornroschen",
+    "titulo": "Warum Nur"
   },
   {
     "artista": "Dover",
@@ -3778,6 +4982,10 @@
   {
     "artista": "Dover",
     "titulo": "Serenade"
+  },
+  {
+    "artista": "Dragon",
+    "titulo": "April Sun In Cuba"
   },
   {
     "artista": "Dragon Ball",
@@ -3816,12 +5024,100 @@
     "titulo": "Tú sin mí"
   },
   {
+    "artista": "Drömhus",
+    "titulo": "Vill Ha Dig"
+  },
+  {
+    "artista": "Drukwerk",
+    "titulo": "Carolien"
+  },
+  {
+    "artista": "Dschinghis Khan",
+    "titulo": "Dschinghis Khan"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Be The One"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Blow Your Mind (Mwah)"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Break My Heart"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Dance The Night"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Don't Start Now"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Hallucinate"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Hotter Than Hell"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Houdini"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "IDGAF"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Last Dance"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Levitating"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "Love again"
+  },
+  {
     "artista": "Dua Lipa",
     "titulo": "New Rules"
   },
   {
+    "artista": "Dua Lipa",
+    "titulo": "Physical"
+  },
+  {
+    "artista": "Dua Lipa",
+    "titulo": "We're good"
+  },
+  {
+    "artista": "Dua Lipa & BLACKPINK",
+    "titulo": "Kiss and Make Up"
+  },
+  {
+    "artista": "Dua Lipa and Angèle",
+    "titulo": "Fever"
+  },
+  {
+    "artista": "Dua Lipa feat. DaBaby",
+    "titulo": "Levitating"
+  },
+  {
+    "artista": "Dua Lipa feat. Miguel",
+    "titulo": "Lost In Your Light"
+  },
+  {
     "artista": "Duffy",
     "titulo": "Mercy"
+  },
+  {
+    "artista": "Duffy",
+    "titulo": "Warwick Avenue"
   },
   {
     "artista": "Dulce María",
@@ -3876,12 +5172,32 @@
     "titulo": "El primer beso"
   },
   {
+    "artista": "Eagle-Eye Cherry",
+    "titulo": "Save Tonight"
+  },
+  {
+    "artista": "EAV",
+    "titulo": "Ding Dong"
+  },
+  {
+    "artista": "Echt",
+    "titulo": "Sag Mal, Weinst Du"
+  },
+  {
+    "artista": "Ed Sheeran",
+    "titulo": "Azizam"
+  },
+  {
     "artista": "Ed Sheeran",
     "titulo": "Galway Girl"
   },
   {
     "artista": "Ed Sheeran",
     "titulo": "I See Fire"
+  },
+  {
+    "artista": "Ed Sheeran",
+    "titulo": "Perfect"
   },
   {
     "artista": "Ed Sheeran",
@@ -3908,6 +5224,10 @@
     "titulo": "La Vie En Rose"
   },
   {
+    "artista": "Edoardo Bennato",
+    "titulo": "Si tratta dell'amore"
+  },
+  {
     "artista": "Eduardo Gatti",
     "titulo": "Los momentos"
   },
@@ -3918,6 +5238,18 @@
   {
     "artista": "Edurne",
     "titulo": "Amores Dormidos"
+  },
+  {
+    "artista": "Edurne",
+    "titulo": "Lo Haré Por Tí"
+  },
+  {
+    "artista": "Edurne",
+    "titulo": "These Boots Are Made For Walking"
+  },
+  {
+    "artista": "Edwin Starr",
+    "titulo": "War"
   },
   {
     "artista": "Efecto Mariposa",
@@ -3938,6 +5270,10 @@
   {
     "artista": "Efecto Pasillo",
     "titulo": "Pan y mantequilla"
+  },
+  {
+    "artista": "Egotrippi",
+    "titulo": "Matkustaja"
   },
   {
     "artista": "Eiffel 65",
@@ -4060,6 +5396,10 @@
     "titulo": "Que bonita vecindad"
   },
   {
+    "artista": "El Chivi",
+    "titulo": "Radikal"
+  },
+  {
     "artista": "El Cuarteto de Nos",
     "titulo": "El hijo de Hernández"
   },
@@ -4076,6 +5416,10 @@
     "titulo": "Vete a dormir"
   },
   {
+    "artista": "El Informal",
+    "titulo": "El pelo p'atrás"
+  },
+  {
     "artista": "El Koala",
     "titulo": "Opá, yo vi hacé un corrá"
   },
@@ -4086,6 +5430,10 @@
   {
     "artista": "El Libro De La Selva",
     "titulo": "Quiero ser como tú"
+  },
+  {
+    "artista": "El príncipe de Egipto",
+    "titulo": "Si tienes fe"
   },
   {
     "artista": "El Reno Renardo",
@@ -4168,6 +5516,10 @@
     "titulo": "Que yo no lo sabía"
   },
   {
+    "artista": "Elisa",
+    "titulo": "Luce (Tramonti a nord est)"
+  },
+  {
     "artista": "Ella Baila Sola",
     "titulo": "Como repartimos los amigos"
   },
@@ -4182,6 +5534,10 @@
   {
     "artista": "Ella Baila Sola",
     "titulo": "Lo echamos a suertes"
+  },
+  {
+    "artista": "Ella Fitzgerald and Louis Armstrong",
+    "titulo": "Let's Call The Whole Thing Off"
   },
   {
     "artista": "Ellie Goulding",
@@ -4209,6 +5565,10 @@
   },
   {
     "artista": "Elton John",
+    "titulo": "Sacrifice"
+  },
+  {
+    "artista": "Elton John",
     "titulo": "Your song"
   },
   {
@@ -4218,6 +5578,18 @@
   {
     "artista": "Elton John & Kiki Dee",
     "titulo": "Don't Go Breaking My Heart"
+  },
+  {
+    "artista": "Elton John and Dua Lipa",
+    "titulo": "Cold Heart"
+  },
+  {
+    "artista": "Elvis Costello",
+    "titulo": "Pump it Up"
+  },
+  {
+    "artista": "Elvis Costello",
+    "titulo": "She"
   },
   {
     "artista": "Elvis Crespo",
@@ -4256,6 +5628,10 @@
     "titulo": "Love The Way You Lie"
   },
   {
+    "artista": "Emma Daumas",
+    "titulo": "Tu seras"
+  },
+  {
     "artista": "Emmanuel",
     "titulo": "Bella señora"
   },
@@ -4270,6 +5646,10 @@
   {
     "artista": "Emmanuel",
     "titulo": "Quiero dormir cansado"
+  },
+  {
+    "artista": "En Vogue",
+    "titulo": "My Lovin' (You're Never Gonna Get It)"
   },
   {
     "artista": "Enanitos Verdes",
@@ -4302,6 +5682,22 @@
   {
     "artista": "Encarnita Polo",
     "titulo": "Paco, Paco, Paco"
+  },
+  {
+    "artista": "End Of Fashion",
+    "titulo": "O Yeah"
+  },
+  {
+    "artista": "ENHYPEN",
+    "titulo": "Bad Desire (With or Without You)"
+  },
+  {
+    "artista": "ENHYPEN",
+    "titulo": "Sweet Venom"
+  },
+  {
+    "artista": "ENHYPEN",
+    "titulo": "XO (Only If You Say Yes)"
   },
   {
     "artista": "Enrique Iglesias",
@@ -4368,6 +5764,18 @@
     "titulo": "No me digas que no"
   },
   {
+    "artista": "Enya",
+    "titulo": "Anywhere Is"
+  },
+  {
+    "artista": "Eppu Normaali",
+    "titulo": "Tahroja paperilla"
+  },
+  {
+    "artista": "Eppu Normaali",
+    "titulo": "Vuonna '85"
+  },
+  {
     "artista": "Erasure",
     "titulo": "A Little Respect"
   },
@@ -4378,6 +5786,10 @@
   {
     "artista": "Eric Clapton",
     "titulo": "Tears in Heaven"
+  },
+  {
+    "artista": "Erik Mesie",
+    "titulo": "Zonder Jou"
   },
   {
     "artista": "Eros Ramazzotti",
@@ -4472,6 +5884,10 @@
     "titulo": "Camiseta de Rokanrol"
   },
   {
+    "artista": "Eugenia Quevedo y Ángela Leiva",
+    "titulo": "No podrás"
+  },
+  {
     "artista": "Europe",
     "titulo": "Carrie"
   },
@@ -4510,6 +5926,10 @@
   {
     "artista": "Evanescence",
     "titulo": "My Inmortal"
+  },
+  {
+    "artista": "Ewelina Flinta",
+    "titulo": "Zaluje"
   },
   {
     "artista": "Extreme",
@@ -4588,6 +6008,10 @@
     "titulo": "Villancico del Rey de Extremadura"
   },
   {
+    "artista": "F.R. David",
+    "titulo": "Words"
+  },
+  {
     "artista": "Fabiana Cantilo",
     "titulo": "Mi enfermedad"
   },
@@ -4602,6 +6026,10 @@
   {
     "artista": "Faith No More",
     "titulo": "Evidence"
+  },
+  {
+    "artista": "Faker",
+    "titulo": "This Heart Attack"
   },
   {
     "artista": "Fall Out Boy",
@@ -4622,6 +6050,10 @@
   {
     "artista": "Fall Out Boy",
     "titulo": "Thnks Fr Th Mmrs"
+  },
+  {
+    "artista": "Fame",
+    "titulo": "Give Me Your Love"
   },
   {
     "artista": "Fangoria",
@@ -4648,8 +6080,16 @@
     "titulo": "Tú no eres para mi"
   },
   {
+    "artista": "Feel",
+    "titulo": "No pokaz na co Cie stac"
+  },
+  {
     "artista": "Fergie",
     "titulo": "Big Girls Don't Cry"
+  },
+  {
+    "artista": "Fergie",
+    "titulo": "Clumsy"
   },
   {
     "artista": "Fernando Esteso",
@@ -4662,6 +6102,14 @@
   {
     "artista": "Fey",
     "titulo": "Media naranja"
+  },
+  {
+    "artista": "Filter",
+    "titulo": "Hey Man, Nice Shot"
+  },
+  {
+    "artista": "Finger Eleven",
+    "titulo": "Paralyzer"
   },
   {
     "artista": "Fito Páez",
@@ -4737,6 +6185,10 @@
   },
   {
     "artista": "Flo Rida",
+    "titulo": "Right round"
+  },
+  {
+    "artista": "Flo Rida",
     "titulo": "Whistle"
   },
   {
@@ -4757,7 +6209,15 @@
   },
   {
     "artista": "FLOW",
+    "titulo": "GO!!!"
+  },
+  {
+    "artista": "FLOW",
     "titulo": "GO!!! (TV)"
+  },
+  {
+    "artista": "Folder5",
+    "titulo": "Believe"
   },
   {
     "artista": "Foo Fighters",
@@ -4769,7 +6229,15 @@
   },
   {
     "artista": "Foo Fighters",
+    "titulo": "Hey, Johnny Park"
+  },
+  {
+    "artista": "Foo Fighters",
     "titulo": "Learn to Fly"
+  },
+  {
+    "artista": "Foo Fighters",
+    "titulo": "Monkey Wrench"
   },
   {
     "artista": "Foo Fighters",
@@ -4792,12 +6260,24 @@
     "titulo": "I Want To Know What Love Is"
   },
   {
+    "artista": "Formacja Niezywych Schabuff",
+    "titulo": "Lawka"
+  },
+  {
     "artista": "Fórmula V",
     "titulo": "Cuéntame"
   },
   {
     "artista": "Fórmula V",
     "titulo": "Eva María"
+  },
+  {
+    "artista": "Fountains Of Wayne",
+    "titulo": "Stacy's Mom"
+  },
+  {
+    "artista": "Four Tops",
+    "titulo": "I Can't Help Myself"
   },
   {
     "artista": "Fraggle Rock",
@@ -4880,6 +6360,10 @@
     "titulo": "Paisaje"
   },
   {
+    "artista": "Frank Boeijen",
+    "titulo": "Kronenburg Park"
+  },
+  {
     "artista": "Frank Sinatra",
     "titulo": "Fly Me to the Moon"
   },
@@ -4898,6 +6382,18 @@
   {
     "artista": "Franz Ferdinand",
     "titulo": "Take Me Out"
+  },
+  {
+    "artista": "Franziska",
+    "titulo": "Schau Mir Ins Gesicht"
+  },
+  {
+    "artista": "Frédéric Lerner",
+    "titulo": "On partira"
+  },
+  {
+    "artista": "Fritz & The Downhill Gang",
+    "titulo": "Genie Auf Die Ski"
   },
   {
     "artista": "Frozen",
@@ -4932,6 +6428,18 @@
     "titulo": "La Culpa Fue Del Cha-Cha-Chá"
   },
   {
+    "artista": "Gabriella Cilmi",
+    "titulo": "Sweet About Me"
+  },
+  {
+    "artista": "Gackt",
+    "titulo": "Vanilla"
+  },
+  {
+    "artista": "GANGgajang",
+    "titulo": "Sounds Of Then (This Is Australia)"
+  },
+  {
     "artista": "Garbage",
     "titulo": "I Think I'm Paranoid"
   },
@@ -4942,6 +6450,14 @@
   {
     "artista": "Garibaldi",
     "titulo": "La ventanita"
+  },
+  {
+    "artista": "Gebrüder Blattschuss",
+    "titulo": "Kreuzberger Nachte"
+  },
+  {
+    "artista": "Geier Sturzflug",
+    "titulo": "Bruttosozialprodukt"
   },
   {
     "artista": "Gema Carballedo",
@@ -4973,7 +6489,19 @@
   },
   {
     "artista": "Gianluca Grignani",
+    "titulo": "Il Re Del Niente"
+  },
+  {
+    "artista": "Gianluca Grignani",
     "titulo": "Mi historia entre tus dedos"
+  },
+  {
+    "artista": "Gianni Bella",
+    "titulo": "De amor ya no se muere"
+  },
+  {
+    "artista": "Gilbert O'Sullivan",
+    "titulo": "Alone Again (Naturally) (TV)"
   },
   {
     "artista": "Gilda",
@@ -4988,12 +6516,20 @@
     "titulo": "Se me ha perdido un corazón"
   },
   {
+    "artista": "Gin Blossoms",
+    "titulo": "Hey Jealousy"
+  },
+  {
     "artista": "Giolito y su Combo",
     "titulo": "Me voy pa' Macondo"
   },
   {
     "artista": "Giolito y su Combo",
     "titulo": "Que te mate el tren"
+  },
+  {
+    "artista": "Giorgio Moroder feat. Britney Spears",
+    "titulo": "Tom's Diner"
   },
   {
     "artista": "Gipsy Kings",
@@ -5012,12 +6548,28 @@
     "titulo": "¡Suéltalo!"
   },
   {
+    "artista": "Gisela",
+    "titulo": "Aquella estrella de allá"
+  },
+  {
     "artista": "Gisela con Aurora",
     "titulo": "Mucho más allá"
   },
   {
+    "artista": "Gisela e Isabel Valls",
+    "titulo": "Muéstrate"
+  },
+  {
+    "artista": "Gitte",
+    "titulo": "So schön kann doch kein Mann sein"
+  },
+  {
     "artista": "Gladys, La Bomba Tucumana",
     "titulo": "La pollera amarilla"
+  },
+  {
+    "artista": "Glashaus",
+    "titulo": "Haltet Die Welt An"
   },
   {
     "artista": "Glee",
@@ -5081,6 +6633,10 @@
   },
   {
     "artista": "Glee",
+    "titulo": "Imagine"
+  },
+  {
+    "artista": "Glee",
     "titulo": "It's My Life, Confessions, Pt. II"
   },
   {
@@ -5121,6 +6677,10 @@
   },
   {
     "artista": "Glee",
+    "titulo": "Rumour Has It, Someone Like You"
+  },
+  {
+    "artista": "Glee",
     "titulo": "Run The World (Girls)"
   },
   {
@@ -5142,6 +6702,10 @@
   {
     "artista": "Glee",
     "titulo": "The Scientist"
+  },
+  {
+    "artista": "Glee",
+    "titulo": "Tik Tok"
   },
   {
     "artista": "Glee",
@@ -5221,6 +6785,10 @@
   },
   {
     "artista": "Good Charlotte",
+    "titulo": "Dance Floor Anthem (I Don't Want to Be in Love)"
+  },
+  {
+    "artista": "Good Charlotte",
     "titulo": "Girls And Boys"
   },
   {
@@ -5240,8 +6808,24 @@
     "titulo": "Feel Good Inc"
   },
   {
+    "artista": "Gosia Andrzejewicz",
+    "titulo": "Pozwól Zyc"
+  },
+  {
+    "artista": "Gotthard",
+    "titulo": "Lift U Up"
+  },
+  {
     "artista": "Gotye & Kimbra",
     "titulo": "Somebody That I Used To Know"
+  },
+  {
+    "artista": "Goya",
+    "titulo": "Smak slów"
+  },
+  {
+    "artista": "Grateful Dead",
+    "titulo": "Touch of Grey"
   },
   {
     "artista": "Grease",
@@ -5262,6 +6846,10 @@
   {
     "artista": "Green Day",
     "titulo": "21 guns"
+  },
+  {
+    "artista": "Green Day",
+    "titulo": "21st Century Breakdown"
   },
   {
     "artista": "Green Day",
@@ -5293,6 +6881,10 @@
   },
   {
     "artista": "Green Day",
+    "titulo": "Minority"
+  },
+  {
+    "artista": "Green Day",
     "titulo": "Wake Me Up When September Ends"
   },
   {
@@ -5300,8 +6892,20 @@
     "titulo": "When I come around"
   },
   {
+    "artista": "Grinspoon",
+    "titulo": "Chemical Heart"
+  },
+  {
+    "artista": "Grinspoon",
+    "titulo": "Hard Act To Follow"
+  },
+  {
     "artista": "Grupo Encanto (Cantajuego)",
     "titulo": "Soy una taza"
+  },
+  {
+    "artista": "Grupo Nins",
+    "titulo": "Sherlock Holmes"
   },
   {
     "artista": "Grupo Play",
@@ -5310,6 +6914,10 @@
   {
     "artista": "Guarana",
     "titulo": "Noche en Vela"
+  },
+  {
+    "artista": "Guildo Horn & Die Orthopädischen Strümpfe",
+    "titulo": "Guildo Hat Euch Lieb!"
   },
   {
     "artista": "GUMI",
@@ -5352,6 +6960,10 @@
     "titulo": "You could be mine"
   },
   {
+    "artista": "Gus Backus",
+    "titulo": "Da sprach der alte Häuptling"
+  },
+  {
     "artista": "Gustavo Cerati",
     "titulo": "Crimen"
   },
@@ -5370,6 +6982,10 @@
   {
     "artista": "Gusttavo Lima",
     "titulo": "Balada Boa"
+  },
+  {
+    "artista": "Gwen Stefani",
+    "titulo": "Cool"
   },
   {
     "artista": "Gwen Stefani",
@@ -5404,12 +7020,36 @@
     "titulo": "Te dejo en libertad"
   },
   {
+    "artista": "Ha-Ash",
+    "titulo": "Todo no fue suficiente"
+  },
+  {
     "artista": "Haddaway",
     "titulo": "What is love"
   },
   {
+    "artista": "Haddaway & Jim Carrey & The Roxbury Guys",
+    "titulo": "What is love"
+  },
+  {
+    "artista": "Halogenpoeten",
+    "titulo": "Die Ersten"
+  },
+  {
     "artista": "Hamlet",
     "titulo": "Antes Y Después"
+  },
+  {
+    "artista": "Hanna Pakarinen",
+    "titulo": "Leave Me Alone"
+  },
+  {
+    "artista": "Hannah Montana",
+    "titulo": "Let's Do This"
+  },
+  {
+    "artista": "Hannah Montana",
+    "titulo": "Let's Get Crazy"
   },
   {
     "artista": "Hannah Montana",
@@ -5424,6 +7064,10 @@
     "titulo": "The Best of Both Worlds"
   },
   {
+    "artista": "Hans De Booy",
+    "titulo": "Alle Vrouwen"
+  },
+  {
     "artista": "Hanson",
     "titulo": "MMMBop"
   },
@@ -5436,6 +7080,14 @@
     "titulo": "World is mine"
   },
   {
+    "artista": "Hazbin Hotel",
+    "titulo": "Hell is Forever"
+  },
+  {
+    "artista": "Heart",
+    "titulo": "Alone"
+  },
+  {
     "artista": "Hector Lavoe y Marc Anthony",
     "titulo": "Todo tiene su final"
   },
@@ -5444,8 +7096,24 @@
     "titulo": "Abuelito, dime tú"
   },
   {
+    "artista": "Helena Paparizou",
+    "titulo": "My Number One"
+  },
+  {
+    "artista": "Hélène Ségara",
+    "titulo": "Il y a trop de gens qui t'aiment"
+  },
+  {
+    "artista": "Henry Valentino & Uschi",
+    "titulo": "Im Wagen vor mir"
+  },
+  {
     "artista": "Hércules",
     "titulo": "De cero a héroe"
+  },
+  {
+    "artista": "Hércules",
+    "titulo": "Ha nacido una estrella"
   },
   {
     "artista": "Hércules",
@@ -5454,6 +7122,10 @@
   {
     "artista": "Hércules",
     "titulo": "Tan cierto como tú"
+  },
+  {
+    "artista": "Hermes House Band",
+    "titulo": "Country Roads"
   },
   {
     "artista": "Héroes del Silencio",
@@ -5496,6 +7168,34 @@
     "titulo": "Tesoro"
   },
   {
+    "artista": "Herreys",
+    "titulo": "Diggi-Loo Diggi-Ley"
+  },
+  {
+    "artista": "Het Goede Doel",
+    "titulo": "België"
+  },
+  {
+    "artista": "Hey",
+    "titulo": "A ty"
+  },
+  {
+    "artista": "Hey",
+    "titulo": "Mimo wszystko"
+  },
+  {
+    "artista": "Hidenori Tokuyama",
+    "titulo": "For real"
+  },
+  {
+    "artista": "HIGH and MIGHTY COLOR",
+    "titulo": "Ichirin no hana"
+  },
+  {
+    "artista": "HIGH and MIGHTY COLOR",
+    "titulo": "Ichirin no hana (TV)"
+  },
+  {
     "artista": "High School Musical",
     "titulo": "Bop to the Top"
   },
@@ -5533,11 +7233,39 @@
   },
   {
     "artista": "High School Musical 2",
+    "titulo": "What Time Is It"
+  },
+  {
+    "artista": "High School Musical 2",
     "titulo": "You Are the Music in Me"
   },
   {
     "artista": "High School Musical 3",
     "titulo": "Can I Have This Dance"
+  },
+  {
+    "artista": "High School Musical 3",
+    "titulo": "I Want It All"
+  },
+  {
+    "artista": "Hikaru Utada",
+    "titulo": "Flavor Of Life"
+  },
+  {
+    "artista": "Hikaru Utada",
+    "titulo": "Passion"
+  },
+  {
+    "artista": "Hilary Duff",
+    "titulo": "Beat of my heart"
+  },
+  {
+    "artista": "HIM",
+    "titulo": "Right Here in My Arms"
+  },
+  {
+    "artista": "Hinder",
+    "titulo": "Lips of an Angel"
   },
   {
     "artista": "Hironobu Kageyama",
@@ -5550,6 +7278,14 @@
   {
     "artista": "Hiroyuki Sawano ft. Mika Kobayashi & mpi",
     "titulo": "Perfect Time -sai-arr-"
+  },
+  {
+    "artista": "Höhner",
+    "titulo": "Viva Colonia (Da Simmer Dabei, Dat Is Prima!)"
+  },
+  {
+    "artista": "Höhner",
+    "titulo": "Wenn Nicht Jetzt, Wann Dann (Weltmeister Version)"
   },
   {
     "artista": "Hombres G",
@@ -5608,20 +7344,56 @@
     "titulo": "The Reason"
   },
   {
+    "artista": "Howard Carpendale",
+    "titulo": "Hello again"
+  },
+  {
+    "artista": "Howard Carpendale",
+    "titulo": "Tür an Tür mit Alice"
+  },
+  {
     "artista": "Hozier",
     "titulo": "Take me to church"
+  },
+  {
+    "artista": "Hubert Kah",
+    "titulo": "Sternenhimmel"
   },
   {
     "artista": "Huecco",
     "titulo": "Mirando al cielo"
   },
   {
+    "artista": "Hugo Y Manuel Carrasco",
+    "titulo": "Entre En Mi Vida"
+  },
+  {
+    "artista": "Hund Am Strand",
+    "titulo": "Jungen Mädchen"
+  },
+  {
+    "artista": "HUNTRX",
+    "titulo": "Golden"
+  },
+  {
     "artista": "I Solisti Dell'Oltrepò Pavese",
     "titulo": "Bella Ciao"
   },
   {
+    "artista": "Ich + Ich",
+    "titulo": "Du erinnerst mich an Liebe"
+  },
+  {
+    "artista": "Ich + Ich",
+    "titulo": "Vom selben Stern"
+  },
+  {
     "artista": "Icona Pop & Charli XCX",
     "titulo": "I Love It"
+  },
+  {
+    "artista": "Idaira Y Victor",
+    "titulo": "El Universo Sobre Mi"
   },
   {
     "artista": "Idina Menzel",
@@ -5665,7 +7437,19 @@
   },
   {
     "artista": "Imagine Dragons",
+    "titulo": "Bad Liar"
+  },
+  {
+    "artista": "Imagine Dragons",
     "titulo": "Believer"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Birds"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Bleeding Out"
   },
   {
     "artista": "Imagine Dragons",
@@ -5673,11 +7457,39 @@
   },
   {
     "artista": "Imagine Dragons",
+    "titulo": "Children of the Sky"
+  },
+  {
+    "artista": "Imagine Dragons",
     "titulo": "Demons"
+  },
+  {
+    "artista": "Imagine dragons",
+    "titulo": "Enemy (Arcane opening 2)"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Eyes Closed"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Follow you"
   },
   {
     "artista": "Imagine Dragons",
     "titulo": "I Bet My Life"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "It's Time"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Natural"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Next to Me"
   },
   {
     "artista": "Imagine Dragons",
@@ -5689,7 +7501,31 @@
   },
   {
     "artista": "Imagine Dragons",
+    "titulo": "Sharks"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Thunder"
+  },
+  {
+    "artista": "Imagine Dragons",
     "titulo": "Warriors"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Whatever It Takes"
+  },
+  {
+    "artista": "Imagine Dragons",
+    "titulo": "Wrecked"
+  },
+  {
+    "artista": "Imagine Dragons x JID",
+    "titulo": "Enemy"
+  },
+  {
+    "artista": "In Extremo",
+    "titulo": "Küss Mich"
   },
   {
     "artista": "Incubus",
@@ -5704,8 +7540,28 @@
     "titulo": "Vencer al amor"
   },
   {
+    "artista": "Indica",
+    "titulo": "Ikuinen virta"
+  },
+  {
+    "artista": "Indica",
+    "titulo": "Linnansa vanki"
+  },
+  {
+    "artista": "Infernal",
+    "titulo": "I Won't Be Crying"
+  },
+  {
+    "artista": "Inna",
+    "titulo": "Hot"
+  },
+  {
     "artista": "Inna ft. Daddy Yankee",
     "titulo": "More than friends"
+  },
+  {
+    "artista": "Inner City",
+    "titulo": "Good Life"
   },
   {
     "artista": "Inoue Joe",
@@ -5717,11 +7573,27 @@
   },
   {
     "artista": "INXS",
+    "titulo": "Need you tonight"
+  },
+  {
+    "artista": "INXS",
+    "titulo": "Never Tear Us Apart"
+  },
+  {
+    "artista": "INXS",
     "titulo": "New Sensation"
   },
   {
     "artista": "Irán Castillo",
     "titulo": "Como creer"
+  },
+  {
+    "artista": "Irene Cara",
+    "titulo": "Flashdance (What a feeling)"
+  },
+  {
+    "artista": "Irina",
+    "titulo": "Kymmenen Kirosanaa"
   },
   {
     "artista": "Iron Maiden",
@@ -5740,6 +7612,10 @@
     "titulo": "The Trooper"
   },
   {
+    "artista": "Isabel Aaiún",
+    "titulo": "Potra salvaje"
+  },
+  {
     "artista": "Isabel Pantoja",
     "titulo": "Así fue"
   },
@@ -5752,12 +7628,40 @@
     "titulo": "Isidoro"
   },
   {
+    "artista": "Iskander",
+    "titulo": "A labio dulce"
+  },
+  {
+    "artista": "Itoiz",
+    "titulo": "Lau teilatu"
+  },
+  {
+    "artista": "Ivonne & Ivette",
+    "titulo": "Movimiento del corazón"
+  },
+  {
+    "artista": "Izumi Kobayashi",
+    "titulo": "I, I, You and Ai (TV)"
+  },
+  {
     "artista": "J Alvarez",
     "titulo": "La pregunta"
   },
   {
     "artista": "J. Balvin",
     "titulo": "Ginza"
+  },
+  {
+    "artista": "J. Karjalainen ja Mustat lasit",
+    "titulo": "Doris"
+  },
+  {
+    "artista": "Jack Radics",
+    "titulo": "No Matter"
+  },
+  {
+    "artista": "Jackie Wilson",
+    "titulo": "Reet Petite"
   },
   {
     "artista": "Jaime Urrutia con Andrés Calamaro, Loquillo y Bunbury",
@@ -5770,6 +7674,10 @@
   {
     "artista": "Jamelia",
     "titulo": "Superstar"
+  },
+  {
+    "artista": "Jamelia",
+    "titulo": "Thank You"
   },
   {
     "artista": "James Arthur",
@@ -5818,6 +7726,14 @@
   {
     "artista": "Jamiroquai",
     "titulo": "Virtual Insanity"
+  },
+  {
+    "artista": "Jan Delay",
+    "titulo": "Für Immer Und Dich"
+  },
+  {
+    "artista": "Jan Johansen",
+    "titulo": "Se På Mig"
   },
   {
     "artista": "Janis Joplin",
@@ -5897,11 +7813,27 @@
   },
   {
     "artista": "Jeanette",
+    "titulo": "Corazón de poeta"
+  },
+  {
+    "artista": "Jeanette",
+    "titulo": "Frente a frente"
+  },
+  {
+    "artista": "Jeanette",
     "titulo": "Porque te vas"
   },
   {
     "artista": "Jeanette",
     "titulo": "Soy rebelde"
+  },
+  {
+    "artista": "Jeden Osiem L",
+    "titulo": "Jak zapomniec"
+  },
+  {
+    "artista": "Jem",
+    "titulo": "It's Amazing"
   },
   {
     "artista": "Jennifer Lopez",
@@ -5984,12 +7916,36 @@
     "titulo": "Me voy"
   },
   {
+    "artista": "Jesse & Joy",
+    "titulo": "Mi sol"
+  },
+  {
     "artista": "Jesse & Joy feat. Mario Domm",
     "titulo": "Llorar"
   },
   {
+    "artista": "Jesse & Joy y Gente de Zona",
+    "titulo": "3 A.M"
+  },
+  {
+    "artista": "Jesse McCartney",
+    "titulo": "Beautiful Soul"
+  },
+  {
+    "artista": "Jesse McCartney",
+    "titulo": "How Do You Sleep"
+  },
+  {
     "artista": "Jesse y Joy",
     "titulo": "Adios"
+  },
+  {
+    "artista": "Jessica Marquez",
+    "titulo": "Maria Magdalena"
+  },
+  {
+    "artista": "Jessica Simpson",
+    "titulo": "I Wanna Love You Forever"
   },
   {
     "artista": "Jessie J",
@@ -6000,6 +7956,10 @@
     "titulo": "Price Tag"
   },
   {
+    "artista": "Jessie J feat. David Guetta",
+    "titulo": "LaserLight"
+  },
+  {
     "artista": "Jessie J, Ariana Grande & Nicki Minaj",
     "titulo": "Bang Bang"
   },
@@ -6008,8 +7968,20 @@
     "titulo": "El brillo de mis ojos"
   },
   {
+    "artista": "Jesus De Manuel Y Victor",
+    "titulo": "Sabor De Amor"
+  },
+  {
     "artista": "Jet",
     "titulo": "Are You Gonna Be My Girl"
+  },
+  {
+    "artista": "Jill Johnson",
+    "titulo": "Crazy In Love"
+  },
+  {
+    "artista": "Joachim Witt",
+    "titulo": "Goldener Reiter"
   },
   {
     "artista": "Joan Jett & The Blackhearts",
@@ -6066,6 +8038,10 @@
   {
     "artista": "Joan Manuel Serrat",
     "titulo": "Vagabundear"
+  },
+  {
+    "artista": "Joan Tena Y Beth",
+    "titulo": "Sin Miedo A Nada"
   },
   {
     "artista": "João Bosco e Vinícius",
@@ -6153,6 +8129,10 @@
   },
   {
     "artista": "Joe Cocker",
+    "titulo": "Summer in the City"
+  },
+  {
+    "artista": "Joe Cocker",
     "titulo": "You Can Leave Your Hat On"
   },
   {
@@ -6166,6 +8146,10 @@
   {
     "artista": "Joe Vasconcellos",
     "titulo": "Las seis"
+  },
+  {
+    "artista": "Johan Verminnen",
+    "titulo": "Mooie Dagen"
   },
   {
     "artista": "John Denver",
@@ -6189,11 +8173,23 @@
   },
   {
     "artista": "Johnny Cash",
+    "titulo": "I Walk The Line"
+  },
+  {
+    "artista": "Johnny Cash",
     "titulo": "Ring Of Fire"
+  },
+  {
+    "artista": "Johnny Deluxe",
+    "titulo": "Drenge som mig"
   },
   {
     "artista": "Jon Secada",
     "titulo": "Ángel"
+  },
+  {
+    "artista": "Jon Secada",
+    "titulo": "Just Another Day"
   },
   {
     "artista": "Jon Secada",
@@ -6202,6 +8198,14 @@
   {
     "artista": "Jonas Brothers",
     "titulo": "Burnin' Up"
+  },
+  {
+    "artista": "Jonas Brothers",
+    "titulo": "Hold On"
+  },
+  {
+    "artista": "Jonas Brothers",
+    "titulo": "Lovebug"
   },
   {
     "artista": "Jonas Brothers",
@@ -6224,6 +8228,14 @@
     "titulo": "Ay, Jalisco no te rajes"
   },
   {
+    "artista": "Jorge Negrete",
+    "titulo": "México lindo y querido"
+  },
+  {
+    "artista": "Jorge y Cristina",
+    "titulo": "Déjame Verte"
+  },
+  {
     "artista": "Jorge Yañez",
     "titulo": "El gorro de lana"
   },
@@ -6242,6 +8254,10 @@
   {
     "artista": "José José",
     "titulo": "Gavilán o paloma"
+  },
+  {
+    "artista": "José José",
+    "titulo": "Lo pasado, pasado"
   },
   {
     "artista": "José Luis Perales",
@@ -6268,6 +8284,10 @@
     "titulo": "La canción del verano"
   },
   {
+    "artista": "Joss Stone",
+    "titulo": "Super Duper Love (Are You Diggin' On Me) Pt. 1"
+  },
+  {
     "artista": "Jot Dog",
     "titulo": "Las pequeñas cosas"
   },
@@ -6282,6 +8302,22 @@
   {
     "artista": "Journey",
     "titulo": "Open Arms"
+  },
+  {
+    "artista": "Jovanotti",
+    "titulo": "Bella"
+  },
+  {
+    "artista": "Jovanotti",
+    "titulo": "Ragazzo fortunato"
+  },
+  {
+    "artista": "Joy Division",
+    "titulo": "Love Will Tear Us Apart"
+  },
+  {
+    "artista": "Juan Antonio Labra",
+    "titulo": "Mueve mueve"
   },
   {
     "artista": "Juan Antonio Labra",
@@ -6314,6 +8350,10 @@
   {
     "artista": "Juan Gabriel",
     "titulo": "Querida"
+  },
+  {
+    "artista": "Juan Gabriel",
+    "titulo": "Se me olvido otra vez"
   },
   {
     "artista": "Juan Gabriel",
@@ -6448,8 +8488,28 @@
     "titulo": "Fotografía"
   },
   {
+    "artista": "Juanshows",
+    "titulo": "No soy un bastritboy"
+  },
+  {
+    "artista": "Judas Priest",
+    "titulo": "Breaking the Law"
+  },
+  {
     "artista": "Juice Newton",
     "titulo": "Angel of the Morning"
+  },
+  {
+    "artista": "Juli",
+    "titulo": "Geile Zeit"
+  },
+  {
+    "artista": "Juli",
+    "titulo": "Regen Und Meer"
+  },
+  {
+    "artista": "Juliane Werding",
+    "titulo": "Am Tag, als Conny Kramer starb"
   },
   {
     "artista": "Julieta Venegas",
@@ -6473,6 +8533,10 @@
   },
   {
     "artista": "Julio Iglesias",
+    "titulo": "Gwendolyne"
+  },
+  {
+    "artista": "Julio Iglesias",
     "titulo": "La vida sigue igual"
   },
   {
@@ -6481,7 +8545,23 @@
   },
   {
     "artista": "Julio Iglesias",
+    "titulo": "Me olvidé de vivir"
+  },
+  {
+    "artista": "Julio Iglesias",
     "titulo": "Soy un truhán, soy un señor"
+  },
+  {
+    "artista": "Julio Iglesias",
+    "titulo": "Vuela alto"
+  },
+  {
+    "artista": "Julio Iglesias & Diana Ross",
+    "titulo": "All of you"
+  },
+  {
+    "artista": "Julio Iglesias y Pedro Vargas",
+    "titulo": "Felicidades"
   },
   {
     "artista": "Julio Jaramillo",
@@ -6490,6 +8570,22 @@
   {
     "artista": "Junior",
     "titulo": "Down"
+  },
+  {
+    "artista": "Junior Senior",
+    "titulo": "Take My Time"
+  },
+  {
+    "artista": "Jürgen",
+    "titulo": "Immer wenn ich traurig bin"
+  },
+  {
+    "artista": "Jürgen Drews",
+    "titulo": "König von Mallorca"
+  },
+  {
+    "artista": "Jürgen Marcus",
+    "titulo": "Eine neue Liebe ist wie ein neues Leben"
   },
   {
     "artista": "Justin Bieber",
@@ -6506,6 +8602,10 @@
   {
     "artista": "Justin Bieber",
     "titulo": "Sorry"
+  },
+  {
+    "artista": "Justin Bieber",
+    "titulo": "U Smile"
   },
   {
     "artista": "Justin Bieber",
@@ -6552,6 +8652,22 @@
     "titulo": "Estoy llorando por ti"
   },
   {
+    "artista": "Kadanz",
+    "titulo": "Intimiteit"
+  },
+  {
+    "artista": "Kairi Yagi",
+    "titulo": "recall (TV)"
+  },
+  {
+    "artista": "Kamelo punto semos",
+    "titulo": "Jonathan"
+  },
+  {
+    "artista": "Kamenashi Kazuya",
+    "titulo": "Kizuna"
+  },
+  {
     "artista": "Kano",
     "titulo": "Queen of Witches"
   },
@@ -6560,8 +8676,20 @@
     "titulo": "Dust in the Wind"
   },
   {
+    "artista": "Kanye West, Rihanna & Kid Cudi",
+    "titulo": "All Of The Lights"
+  },
+  {
     "artista": "Kaoma",
     "titulo": "Lambada"
+  },
+  {
+    "artista": "Kapanga",
+    "titulo": "El mono relojero"
+  },
+  {
+    "artista": "Karin Glenmark",
+    "titulo": "Jag har en dröm"
   },
   {
     "artista": "Karina",
@@ -6580,6 +8708,14 @@
     "titulo": "Las flechas de amor"
   },
   {
+    "artista": "Karol G",
+    "titulo": "El barco"
+  },
+  {
+    "artista": "Karol G",
+    "titulo": "Provenza"
+  },
+  {
     "artista": "KAROL G",
     "titulo": "Si antes te hubiera conocido"
   },
@@ -6592,8 +8728,36 @@
     "titulo": "Tusa"
   },
   {
+    "artista": "Kasabian",
+    "titulo": "L.S.F. (Lost Souls Forever)"
+  },
+  {
+    "artista": "Kasia Cerekwicka",
+    "titulo": "Na kolana"
+  },
+  {
+    "artista": "Kasia Cerekwicka",
+    "titulo": "Ostatnia szansa"
+  },
+  {
+    "artista": "Kasia Cerekwicka",
+    "titulo": "Potrafie Kochac"
+  },
+  {
+    "artista": "Kasia Klich",
+    "titulo": "Toksyczna Milosc"
+  },
+  {
+    "artista": "Kate Ryan",
+    "titulo": "Ella elle l'a"
+  },
+  {
     "artista": "Katrina And The Waves",
     "titulo": "Walking On Sunshine"
+  },
+  {
+    "artista": "KATSEYE",
+    "titulo": "Gabriela"
   },
   {
     "artista": "Katy Perry",
@@ -6602,6 +8766,10 @@
   {
     "artista": "Katy Perry",
     "titulo": "Firework"
+  },
+  {
+    "artista": "Katy Perry",
+    "titulo": "Hey Hey Hey"
   },
   {
     "artista": "Katy Perry",
@@ -6618,6 +8786,10 @@
   {
     "artista": "Katy Perry",
     "titulo": "Part Of Me"
+  },
+  {
+    "artista": "Katy Perry",
+    "titulo": "Peacock"
   },
   {
     "artista": "Katy Perry",
@@ -6652,6 +8824,14 @@
     "titulo": "California Gurls"
   },
   {
+    "artista": "Kayah",
+    "titulo": "Supermenka"
+  },
+  {
+    "artista": "Kayah",
+    "titulo": "Testosteron"
+  },
+  {
     "artista": "Ke$ha",
     "titulo": "Tik Tok"
   },
@@ -6681,7 +8861,27 @@
   },
   {
     "artista": "Kelly Clarkson",
+    "titulo": "Never Again"
+  },
+  {
+    "artista": "Kelly Clarkson",
     "titulo": "Stronger (What Doesn't Kill You)"
+  },
+  {
+    "artista": "Kelly Rowland feat. David Guetta",
+    "titulo": "Commander"
+  },
+  {
+    "artista": "Ken Zazpi",
+    "titulo": "Ilargia"
+  },
+  {
+    "artista": "Kid Phenomenon",
+    "titulo": "Sonzai Shoumei (TV)"
+  },
+  {
+    "artista": "Kikki Danielsson",
+    "titulo": "Bra Vibrationer"
   },
   {
     "artista": "Kiko & Shara",
@@ -6694,6 +8894,10 @@
   {
     "artista": "Kiko Veneno",
     "titulo": "Volando voy"
+  },
+  {
+    "artista": "Killing Heidi",
+    "titulo": "I Am"
   },
   {
     "artista": "King África",
@@ -6720,8 +8924,52 @@
     "titulo": "Rock and Roll All Nite"
   },
   {
+    "artista": "Klaus & Klaus",
+    "titulo": "An der Nordseeküste"
+  },
+  {
+    "artista": "Klaxons",
+    "titulo": "It's Not Over Yet"
+  },
+  {
+    "artista": "Köenig der Löwen",
+    "titulo": "Der ewige Kreis"
+  },
+  {
+    "artista": "Köenig der Löwen",
+    "titulo": "Ich will jetzt gleich König Sein"
+  },
+  {
+    "artista": "Kombii",
+    "titulo": "Slad"
+  },
+  {
+    "artista": "Konno Yukari",
+    "titulo": "Tokimeki no Doukasen (TV)"
+  },
+  {
+    "artista": "Koos Alberts",
+    "titulo": "Zijn het je ogen"
+  },
+  {
     "artista": "Korn",
     "titulo": "Freak On A Leash"
+  },
+  {
+    "artista": "Kotiteollisuus",
+    "titulo": "Helvetistä itään"
+  },
+  {
+    "artista": "Kotiteollisuus",
+    "titulo": "Tämän taivaan alla"
+  },
+  {
+    "artista": "Kouji Wada",
+    "titulo": "Butter-fly"
+  },
+  {
+    "artista": "Kouji Wada",
+    "titulo": "Butter-fly (TV)"
   },
   {
     "artista": "Kraftwerk",
@@ -6730,6 +8978,26 @@
   {
     "artista": "Kristen Bell, Agatha Lee Monn & Katie Lopez",
     "titulo": "Do you want to build a snowman"
+  },
+  {
+    "artista": "Kroi",
+    "titulo": "Hyper"
+  },
+  {
+    "artista": "Kroi",
+    "titulo": "Hyper (TV)"
+  },
+  {
+    "artista": "Krümel",
+    "titulo": "Mädchen Mädchen"
+  },
+  {
+    "artista": "Krümel",
+    "titulo": "Zieh Dich Aus Wir Müssen Reden"
+  },
+  {
+    "artista": "Krzysztof Kiljanski Feat. Kayah",
+    "titulo": "Prócz ciebie, nic"
   },
   {
     "artista": "Kudai",
@@ -6748,12 +9016,24 @@
     "titulo": "Ya nada queda"
   },
   {
+    "artista": "Kygo & Imagine Dragons",
+    "titulo": "Born To Be Yours"
+  },
+  {
     "artista": "Kylie Minogue",
     "titulo": "Can't Get You Out Of My Head"
   },
   {
     "artista": "Kylie Minogue",
     "titulo": "In Your Eyes"
+  },
+  {
+    "artista": "Kyo",
+    "titulo": "Je saigne encore"
+  },
+  {
+    "artista": "Kyo & Sita",
+    "titulo": "Le chemin"
   },
   {
     "artista": "La abeja Maya",
@@ -6786,6 +9066,22 @@
   {
     "artista": "La Bella y La Bestia",
     "titulo": "La Bella y La Bestia"
+  },
+  {
+    "artista": "La Belle Au Bois Dormant",
+    "titulo": "Je voudrais"
+  },
+  {
+    "artista": "La Belle Au Bois Dormant",
+    "titulo": "J'en ai rêvé"
+  },
+  {
+    "artista": "La Belle et la Bête",
+    "titulo": "La Belle et la Bête"
+  },
+  {
+    "artista": "La Belle Et Le Clochard",
+    "titulo": "Il se traîne"
   },
   {
     "artista": "La cabra mecánica y María Jiménez",
@@ -6838,6 +9134,10 @@
   {
     "artista": "La hija del mariachi",
     "titulo": "Contigo aprendí"
+  },
+  {
+    "artista": "La Hora Chanante",
+    "titulo": "Hijo de puta hay que decirlo más"
   },
   {
     "artista": "La Ley",
@@ -7016,6 +9316,14 @@
     "titulo": "Vestido azul"
   },
   {
+    "artista": "La Petite Sirène",
+    "titulo": "Embrasse-la"
+  },
+  {
+    "artista": "La Petite Sirène",
+    "titulo": "Sous l'océan"
+  },
+  {
     "artista": "La Pozze Latina",
     "titulo": "Chica eléctrica"
   },
@@ -7078,6 +9386,14 @@
   {
     "artista": "La Sirenita",
     "titulo": "Bésala"
+  },
+  {
+    "artista": "La Sirenita",
+    "titulo": "Parte de él"
+  },
+  {
+    "artista": "La Sirenita",
+    "titulo": "Parte de él (Reprise)"
   },
   {
     "artista": "La Sociedad",
@@ -7196,6 +9512,14 @@
     "titulo": "Shallow"
   },
   {
+    "artista": "Laith Al-Deen",
+    "titulo": "Alles an Dir"
+  },
+  {
+    "artista": "Laith Al-Deen",
+    "titulo": "Leb Den Tag"
+  },
+  {
     "artista": "Lalo Rodriguez",
     "titulo": "Devorame otra vez"
   },
@@ -7218,6 +9542,18 @@
   {
     "artista": "Lara Fabian",
     "titulo": "Otro amor vendrá"
+  },
+  {
+    "artista": "L'Arc~en~Ciel",
+    "titulo": "Driver's High (TV)"
+  },
+  {
+    "artista": "L'Arc~en~Ciel",
+    "titulo": "Killing Me"
+  },
+  {
+    "artista": "L'Arc~en~Ciel",
+    "titulo": "Link"
   },
   {
     "artista": "L'Arc~en~Ciel",
@@ -7246,6 +9582,10 @@
   {
     "artista": "Las Supremas de Móstoles",
     "titulo": "Eres Un Enfermo"
+  },
+  {
+    "artista": "Lasse Holm och Monica Törnell",
+    "titulo": "É Dé Det Här Du Kallar Kärlek"
   },
   {
     "artista": "Laura Marano",
@@ -7332,8 +9672,32 @@
     "titulo": "Primavera anticipada"
   },
   {
+    "artista": "Le Livre De La Jungle",
+    "titulo": "Il en faut peu pour être heureux"
+  },
+  {
+    "artista": "Le Roi Lion",
+    "titulo": "Je voudrais déjà être roi"
+  },
+  {
+    "artista": "Le Roi Lion",
+    "titulo": "L'histoire de la vie"
+  },
+  {
+    "artista": "Led Zeppelin",
+    "titulo": "Immigrant Song"
+  },
+  {
     "artista": "Led Zeppelin",
     "titulo": "Stairway To Heaven"
+  },
+  {
+    "artista": "Leevi and the Leavings",
+    "titulo": "Laura Jenna Ellinoora Alexandra Camilla Jurvanen"
+  },
+  {
+    "artista": "Leevi and the Leavings",
+    "titulo": "Pohjois Karjala"
   },
   {
     "artista": "Leiva",
@@ -7356,6 +9720,10 @@
     "titulo": "Maneras de vivir"
   },
   {
+    "artista": "Leo",
+    "titulo": "Besos"
+  },
+  {
     "artista": "Leo Dan",
     "titulo": "Cómo te extraño mi amor"
   },
@@ -7366,6 +9734,10 @@
   {
     "artista": "Leo Dan",
     "titulo": "Tú llegaste cuando menos te esperaba"
+  },
+  {
+    "artista": "Leo Rubio",
+    "titulo": "La construcción"
   },
   {
     "artista": "Leona Lewis",
@@ -7382,6 +9754,30 @@
   {
     "artista": "Leonardo Favio",
     "titulo": "Fuiste mía un verano"
+  },
+  {
+    "artista": "Lerek Feat. Nowator",
+    "titulo": "Moja panienka"
+  },
+  {
+    "artista": "Les 101 Dalmatiens",
+    "titulo": "Cruella d'Enfer"
+  },
+  {
+    "artista": "Lifehouse",
+    "titulo": "First Time"
+  },
+  {
+    "artista": "Lifehouse",
+    "titulo": "Hanging by a Moment"
+  },
+  {
+    "artista": "Lifehouse",
+    "titulo": "You and Me"
+  },
+  {
+    "artista": "Lily Allen",
+    "titulo": "LDN"
   },
   {
     "artista": "Limp Bizkit",
@@ -7464,12 +9860,36 @@
     "titulo": "With You"
   },
   {
+    "artista": "LiSA",
+    "titulo": "Shouted Serenade (TV)"
+  },
+  {
+    "artista": "Litfiba",
+    "titulo": "El Diablo"
+  },
+  {
     "artista": "Little by little",
     "titulo": "Kanashimi wo yasashisa ni (TV)"
   },
   {
+    "artista": "Little Einsteins",
+    "titulo": "Little Einsteins"
+  },
+  {
     "artista": "Little Richard",
     "titulo": "Tutti Frutti"
+  },
+  {
+    "artista": "Live",
+    "titulo": "Selling the drama"
+  },
+  {
+    "artista": "livetune feat. Hatsune Miku",
+    "titulo": "Tell Your World"
+  },
+  {
+    "artista": "Lloyd",
+    "titulo": "Get It Shawty"
   },
   {
     "artista": "LMFAO",
@@ -7492,12 +9912,40 @@
     "titulo": "Pena, penita, pena"
   },
   {
+    "artista": "Lola Indigo",
+    "titulo": "Ya no quiero ná"
+  },
+  {
+    "artista": "Lola Indigo y Mala Rodríguez",
+    "titulo": "Mujer Bruja"
+  },
+  {
+    "artista": "Lola Índigo, TINI & Belinda",
+    "titulo": "La niña de la escuela"
+  },
+  {
     "artista": "Lola Lola",
     "titulo": "Chicho Terremoto"
   },
   {
     "artista": "Lolita",
     "titulo": "Sarandonga"
+  },
+  {
+    "artista": "Lollies",
+    "titulo": "Wenn Du Denkst Du Denkst, Dann Denkst Du Nur Du Denkst!"
+  },
+  {
+    "artista": "London Grammar",
+    "titulo": "Hey Now"
+  },
+  {
+    "artista": "Lone Star",
+    "titulo": "Amazed"
+  },
+  {
+    "artista": "LONG SHOT PARTY",
+    "titulo": "Distance (TV)"
   },
   {
     "artista": "Loquillo",
@@ -7532,8 +9980,16 @@
     "titulo": "Royals"
   },
   {
+    "artista": "Lordi",
+    "titulo": "Hard Rock Hallelujah"
+  },
+  {
     "artista": "Loreen",
     "titulo": "Euphoria"
+  },
+  {
+    "artista": "Lorena",
+    "titulo": "Land Of 1000 Dances"
   },
   {
     "artista": "Los Angeles Negros",
@@ -7848,6 +10304,10 @@
     "titulo": "Mediterráneo"
   },
   {
+    "artista": "Los Rebujitos",
+    "titulo": "Envuelto en llamas"
+  },
+  {
     "artista": "Los Rodríguez",
     "titulo": "Milonga del marinero y el capitán"
   },
@@ -7868,12 +10328,20 @@
     "titulo": "Adiós papá"
   },
   {
+    "artista": "Los Ronaldos",
+    "titulo": "No puedo vivir sin ti"
+  },
+  {
     "artista": "Los Secretos",
     "titulo": "Déjame"
   },
   {
     "artista": "Los Secretos",
     "titulo": "Pero a tu Lado"
+  },
+  {
+    "artista": "Los Sencillos",
+    "titulo": "Bonito es"
   },
   {
     "artista": "Los Tigres del Norte & Paulina Rubio",
@@ -7884,8 +10352,16 @@
     "titulo": "Silencio"
   },
   {
+    "artista": "Los Totora",
+    "titulo": "Márchate ahora"
+  },
+  {
     "artista": "Los Tres",
     "titulo": "Déjate caer"
+  },
+  {
+    "artista": "Los Tres",
+    "titulo": "No me falles"
   },
   {
     "artista": "Los Tres",
@@ -7916,6 +10392,14 @@
     "titulo": "What a wonderful world"
   },
   {
+    "artista": "Lovex",
+    "titulo": "Guardian Angel"
+  },
+  {
+    "artista": "Lucas Lucco",
+    "titulo": "Mozão"
+  },
+  {
     "artista": "Lucho Barrios",
     "titulo": "La joya del pacífico"
   },
@@ -7936,12 +10420,20 @@
     "titulo": "Porque aún te amo"
   },
   {
+    "artista": "Lucio Dalla",
+    "titulo": "Attenti al lupo"
+  },
+  {
     "artista": "Lucky Luke",
     "titulo": "¡Bang, bang! Lucky Luke"
   },
   {
     "artista": "Lucybell",
     "titulo": "Carnaval"
+  },
+  {
+    "artista": "Lucybell",
+    "titulo": "Mil caminos"
   },
   {
     "artista": "Luis Alberto Spinetta",
@@ -8004,6 +10496,10 @@
     "titulo": "Échame la culpa"
   },
   {
+    "artista": "Luis Fonsi y Ozuna",
+    "titulo": "Imposible"
+  },
+  {
     "artista": "Luis Jara",
     "titulo": "Ámame"
   },
@@ -8056,12 +10552,24 @@
     "titulo": "Sueña"
   },
   {
+    "artista": "Luís Trigacheiro e Diogo Piçarra",
+    "titulo": "Porta 43"
+  },
+  {
+    "artista": "Luka Neuser",
+    "titulo": "Zeit Für Helden"
+  },
+  {
     "artista": "Lunay, Daddy Yankee, Bad Bunny",
     "titulo": "Soltera (Remix)"
   },
   {
     "artista": "Luny Tunes Ft. Baby Ranks, Tonny Tun Tun, Wisin & Yandel, Daddy Yankee",
     "titulo": "Mayor que yo"
+  },
+  {
+    "artista": "Luther Vandross",
+    "titulo": "Never Too Much"
   },
   {
     "artista": "Luz Casal",
@@ -8109,7 +10617,15 @@
   },
   {
     "artista": "Madonna",
+    "titulo": "Don't Tell Me"
+  },
+  {
+    "artista": "Madonna",
     "titulo": "Frozen"
+  },
+  {
+    "artista": "Madonna",
+    "titulo": "Give It 2 Me"
   },
   {
     "artista": "Madonna",
@@ -8150,6 +10666,10 @@
   {
     "artista": "Madonna feat. Justin Timberlake",
     "titulo": "4 Minutes"
+  },
+  {
+    "artista": "Mafalda Veiga",
+    "titulo": "Tatuagens"
   },
   {
     "artista": "Magic!",
@@ -8224,12 +10744,24 @@
     "titulo": "La rosa de los vientos (versión metal)"
   },
   {
+    "artista": "Maharajan",
+    "titulo": "Kurae! Telepathy (TV)"
+  },
+  {
     "artista": "Mahmood",
     "titulo": "Soldi"
   },
   {
     "artista": "Mahmood e Blanco",
     "titulo": "Brividi"
+  },
+  {
+    "artista": "Maids",
+    "titulo": "Maids Sanjou! (TV)"
+  },
+  {
+    "artista": "Maija Vilkkumaa",
+    "titulo": "Ingalsin Laura"
   },
   {
     "artista": "Major Lazer & DJ Snake feat. MØ",
@@ -8246,6 +10778,10 @@
   {
     "artista": "MAKE-UP",
     "titulo": "Pegasus Fantasy"
+  },
+  {
+    "artista": "Maki Otsuki",
+    "titulo": "Memories (TV)"
   },
   {
     "artista": "Maldita Nerea",
@@ -8400,6 +10936,14 @@
     "titulo": "El verdadero amor perdona"
   },
   {
+    "artista": "Mandaryna",
+    "titulo": "Ev'ry Night"
+  },
+  {
+    "artista": "Mando Diao",
+    "titulo": "Long Before Rock 'n' Roll"
+  },
+  {
     "artista": "Måneskin",
     "titulo": "Beggin’"
   },
@@ -8429,6 +10973,10 @@
   },
   {
     "artista": "Manolo Escobar",
+    "titulo": "Madrecita María del Carmen"
+  },
+  {
+    "artista": "Manolo Escobar",
     "titulo": "Mi carro"
   },
   {
@@ -8446,6 +10994,22 @@
   {
     "artista": "Manolo García",
     "titulo": "Pájaros de barro"
+  },
+  {
+    "artista": "Manolo García",
+    "titulo": "Prefiero el trapecio"
+  },
+  {
+    "artista": "Manolo García",
+    "titulo": "Un alma de papel"
+  },
+  {
+    "artista": "Manolo García",
+    "titulo": "Un giro teatral"
+  },
+  {
+    "artista": "Manolo García",
+    "titulo": "Viernes"
   },
   {
     "artista": "Måns Zelmerlöw",
@@ -8466,6 +11030,10 @@
   {
     "artista": "Manuel Carrasco y Malú",
     "titulo": "Que nadie"
+  },
+  {
+    "artista": "Manzanita",
+    "titulo": "Por tu ausencia"
   },
   {
     "artista": "Maramá",
@@ -8524,6 +11092,14 @@
     "titulo": "Y cómo es él"
   },
   {
+    "artista": "Marc Cohn",
+    "titulo": "Walking In Memphis"
+  },
+  {
+    "artista": "Marc Lavoine et Cristina Marocco",
+    "titulo": "J'ai tout oublié"
+  },
+  {
     "artista": "Marcela Morelo",
     "titulo": "Corazón salvaje"
   },
@@ -8568,6 +11144,10 @@
     "titulo": "No me hagas sentir una salvaje"
   },
   {
+    "artista": "Maria Mena",
+    "titulo": "You're the Only One"
+  },
+  {
     "artista": "Mariah Carey",
     "titulo": "All I Want For Christmas Is You"
   },
@@ -8588,6 +11168,14 @@
     "titulo": "Háblame"
   },
   {
+    "artista": "Marianne Rosenberg",
+    "titulo": "Er gehört zu mir"
+  },
+  {
+    "artista": "Marietta",
+    "titulo": "Fire and Ice"
+  },
+  {
     "artista": "Marilyn Manson",
     "titulo": "Personal Jesus"
   },
@@ -8600,8 +11188,28 @@
     "titulo": "The Beautiful People"
   },
   {
+    "artista": "Marine",
+    "titulo": "Coeur maladroit"
+  },
+  {
+    "artista": "Marine",
+    "titulo": "Fille ordinaire"
+  },
+  {
+    "artista": "Marine",
+    "titulo": "Ma faute"
+  },
+  {
+    "artista": "Marine",
+    "titulo": "Restes d'averses"
+  },
+  {
     "artista": "Marisa De Lille",
     "titulo": "Romance te puedo dar (TV)"
+  },
+  {
+    "artista": "Marisa De Lille",
+    "titulo": "Yo deseo (TV)"
   },
   {
     "artista": "Marisela",
@@ -8624,8 +11232,16 @@
     "titulo": "Corazón contento"
   },
   {
+    "artista": "Mark Ronson",
+    "titulo": "Stop Me"
+  },
+  {
     "artista": "Mark Ronson feat. Bruno Mars",
     "titulo": "Uptown Funk"
+  },
+  {
+    "artista": "Markoolio Och Linda Bengtzing",
+    "titulo": "Värsta Schlagern"
   },
   {
     "artista": "Maroon 5",
@@ -8680,12 +11296,32 @@
     "titulo": "Desesperada"
   },
   {
+    "artista": "Marta Sanchez",
+    "titulo": "Superstar"
+  },
+  {
     "artista": "Marta Sánchez, David Bustamante, Niña Pastori, Montserrat Caballé y Raphael",
     "titulo": "Pon tus sueños a jugar"
   },
   {
+    "artista": "Martha Reeves And The Vandellas",
+    "titulo": "Dancing In The Street"
+  },
+  {
+    "artista": "Martin Kesici",
+    "titulo": "Angel Of Berlin"
+  },
+  {
+    "artista": "Martin Stenmarck",
+    "titulo": "Las Vegas"
+  },
+  {
     "artista": "Martina Stoessel",
     "titulo": "Libre soy"
+  },
+  {
+    "artista": "Marvin Gaye",
+    "titulo": "I Heard It Through The Grapevine"
   },
   {
     "artista": "Marvin Gaye And Tammii Tarrelle",
@@ -8700,6 +11336,14 @@
     "titulo": "Supercalifragilisticoespialidoso"
   },
   {
+    "artista": "Masaki Suda x Tokyo Ska Paradise Orchestra",
+    "titulo": "Ruro no Katashiro (TV)"
+  },
+  {
+    "artista": "Masami Okui",
+    "titulo": "Jama wa sasenai"
+  },
+  {
     "artista": "Massiel",
     "titulo": "La, la, la"
   },
@@ -8708,8 +11352,16 @@
     "titulo": "La, la, la (directo)"
   },
   {
+    "artista": "Matchbox Twenty",
+    "titulo": "How Far We've Come"
+  },
+  {
     "artista": "Matías",
     "titulo": "Nadie más"
+  },
+  {
+    "artista": "Maya Saban & Cosmo Klein",
+    "titulo": "Das Alles Ändert Nichts Daran"
   },
   {
     "artista": "Mazapán",
@@ -8722,6 +11374,10 @@
   {
     "artista": "MC Hammer",
     "titulo": "U Can't Touch This"
+  },
+  {
+    "artista": "McFly",
+    "titulo": "The heart never lies"
   },
   {
     "artista": "M-Clan",
@@ -8738,6 +11394,10 @@
   {
     "artista": "M-Clan",
     "titulo": "Sopa fría"
+  },
+  {
+    "artista": "Meatloaf",
+    "titulo": "I'd Do Anything for Love (But I Won't Do That)"
   },
   {
     "artista": "Mecano",
@@ -8765,6 +11425,10 @@
   },
   {
     "artista": "Mecano",
+    "titulo": "Dis-moi lune d'argent"
+  },
+  {
+    "artista": "Mecano",
     "titulo": "El 7 de septiembre"
   },
   {
@@ -8781,6 +11445,10 @@
   },
   {
     "artista": "Mecano",
+    "titulo": "El peón del rey de negras"
+  },
+  {
+    "artista": "Mecano",
     "titulo": "Hawaii Bombay"
   },
   {
@@ -8794,6 +11462,10 @@
   {
     "artista": "Mecano",
     "titulo": "J.C. (En directo)"
+  },
+  {
+    "artista": "Mecano",
+    "titulo": "Japón"
   },
   {
     "artista": "Mecano",
@@ -8860,6 +11532,14 @@
     "titulo": "Una rosa es una rosa"
   },
   {
+    "artista": "Mecano",
+    "titulo": "Une femme avec une femme"
+  },
+  {
+    "artista": "Mecano",
+    "titulo": "Ya viene el sol (En directo)"
+  },
+  {
     "artista": "Medina Azahara",
     "titulo": "Necesito respirar"
   },
@@ -8874,6 +11554,14 @@
   {
     "artista": "Meghan Trainor",
     "titulo": "NO"
+  },
+  {
+    "artista": "Megumi Hayashibara",
+    "titulo": "Give a reason"
+  },
+  {
+    "artista": "Megumi Hayashibara",
+    "titulo": "Over soul"
   },
   {
     "artista": "Melendi",
@@ -9000,8 +11688,24 @@
     "titulo": "Robot, eres formidable"
   },
   {
+    "artista": "Memphis La Blusera",
+    "titulo": "La flor más bella"
+  },
+  {
+    "artista": "Men at Work",
+    "titulo": "Down Under"
+  },
+  {
+    "artista": "Meneer Kaktus",
+    "titulo": "Meneer Kaktus Lied"
+  },
+  {
     "artista": "Mercedes Sosa",
     "titulo": "Todo cambia"
+  },
+  {
+    "artista": "Mercedes Y Xavier",
+    "titulo": "No Me Crees"
   },
   {
     "artista": "Merche",
@@ -9081,7 +11785,19 @@
   },
   {
     "artista": "Metallica",
+    "titulo": "Wherever I May Roam"
+  },
+  {
+    "artista": "Metallica",
     "titulo": "Whiskey In The Jar"
+  },
+  {
+    "artista": "Mezo & Tabb & Kasia Wilk",
+    "titulo": "Sacrum"
+  },
+  {
+    "artista": "Mia",
+    "titulo": "Tanz Der Moleküle"
   },
   {
     "artista": "Michael Bublé",
@@ -9092,8 +11808,24 @@
     "titulo": "Haven't Met You Yet"
   },
   {
+    "artista": "Michael Bublé",
+    "titulo": "Home"
+  },
+  {
     "artista": "Michael Bublé feat. Mariah Carey",
     "titulo": "All I want for Christmas is you"
+  },
+  {
+    "artista": "Michael Holm",
+    "titulo": "Mendocino"
+  },
+  {
+    "artista": "Michael Holm",
+    "titulo": "Tränen lügen nicht"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Another part of me"
   },
   {
     "artista": "Michael Jackson",
@@ -9113,7 +11845,15 @@
   },
   {
     "artista": "Michael Jackson",
+    "titulo": "Billie Jean (12 inch maxi single)"
+  },
+  {
+    "artista": "Michael Jackson",
     "titulo": "Black or white"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Carousel"
   },
   {
     "artista": "Michael Jackson",
@@ -9125,7 +11865,35 @@
   },
   {
     "artista": "Michael Jackson",
+    "titulo": "Don't stop 'till you get enough"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Earth Song"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Give in to me"
+  },
+  {
+    "artista": "Michael Jackson",
     "titulo": "Heal the world"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Human nature"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "I just can't stop loving you"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Leave me alone"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Liberian Girl"
   },
   {
     "artista": "Michael Jackson",
@@ -9133,7 +11901,27 @@
   },
   {
     "artista": "Michael Jackson",
+    "titulo": "P.Y.T. (Pretty Young Thing)"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Remember the time"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Rock with you"
+  },
+  {
+    "artista": "Michael Jackson",
     "titulo": "Smooth Criminal"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "Smooth Criminal [Moonwalker]"
+  },
+  {
+    "artista": "Michael Jackson",
+    "titulo": "The Lady In My Life"
   },
   {
     "artista": "Michael Jackson",
@@ -9157,6 +11945,10 @@
   },
   {
     "artista": "Michael Jackson",
+    "titulo": "Wanna be starting something"
+  },
+  {
+    "artista": "Michael Jackson",
     "titulo": "You are not alone"
   },
   {
@@ -9168,8 +11960,40 @@
     "titulo": "Hold My Hand"
   },
   {
+    "artista": "Michael McDonald",
+    "titulo": "I Keep Forgettin'"
+  },
+  {
+    "artista": "Michael Wendler",
+    "titulo": "Nina"
+  },
+  {
+    "artista": "Michael Wendler",
+    "titulo": "Sie liebt den DJ"
+  },
+  {
     "artista": "Michel Teló",
     "titulo": "Ai Se Eu Te Pego"
+  },
+  {
+    "artista": "Michelle Branch",
+    "titulo": "Breathe"
+  },
+  {
+    "artista": "Mickael Carreira, Anselmo Ralph, Tony Carreira e Toy",
+    "titulo": "Beijo"
+  },
+  {
+    "artista": "Mickie Krause",
+    "titulo": "Finger im Po, Mexiko!"
+  },
+  {
+    "artista": "Mickie Krause",
+    "titulo": "Laudato Si"
+  },
+  {
+    "artista": "Mickie Krause",
+    "titulo": "Orange trägt nur die Müllabfuhr"
   },
   {
     "artista": "Miguel Aceves Mejía",
@@ -9221,6 +12045,10 @@
   },
   {
     "artista": "Miguel Ríos",
+    "titulo": "Himno a la alegría"
+  },
+  {
+    "artista": "Miguel Ríos",
     "titulo": "Santa Lucía"
   },
   {
@@ -9229,11 +12057,19 @@
   },
   {
     "artista": "Mika",
+    "titulo": "Happy Ending"
+  },
+  {
+    "artista": "Mika",
     "titulo": "Love Today"
   },
   {
     "artista": "Mika",
     "titulo": "Relax, Take It Easy"
+  },
+  {
+    "artista": "Mikel Laboa",
+    "titulo": "Txoria txori"
   },
   {
     "artista": "Miley Cyrus",
@@ -9284,6 +12120,14 @@
     "titulo": "When I Look At You"
   },
   {
+    "artista": "Miley Cyrus and Dua Lipa",
+    "titulo": "Prisoner"
+  },
+  {
+    "artista": "Miliki",
+    "titulo": "Había una vez un circo"
+  },
+  {
     "artista": "Miliki",
     "titulo": "Hola don Pepito"
   },
@@ -9294,6 +12138,10 @@
   {
     "artista": "Miliki",
     "titulo": "Susanita"
+  },
+  {
+    "artista": "MindaRyn",
+    "titulo": "SURVIVE (TV)"
   },
   {
     "artista": "Miranda & Julieta Venegas",
@@ -9324,6 +12172,14 @@
     "titulo": "Ya lo sabía"
   },
   {
+    "artista": "Missy Higgins",
+    "titulo": "Scar"
+  },
+  {
+    "artista": "Miyu Tomita",
+    "titulo": "Paradoxes (TV)"
+  },
+  {
     "artista": "Mocedades",
     "titulo": "Amor de hombre"
   },
@@ -9352,12 +12208,20 @@
     "titulo": "Todo tiene su fin"
   },
   {
+    "artista": "Mofli, el último koala",
+    "titulo": "Mofli, el último koala"
+  },
+  {
     "artista": "Molotov",
     "titulo": "Frijolero"
   },
   {
     "artista": "Molotov",
     "titulo": "Puto"
+  },
+  {
+    "artista": "Mon Laferte",
+    "titulo": "Amor completo"
   },
   {
     "artista": "Mon Laferte",
@@ -9416,8 +12280,36 @@
     "titulo": "Mississippi Queen"
   },
   {
+    "artista": "Mr Big",
+    "titulo": "To Be With You"
+  },
+  {
+    "artista": "Mr Mister",
+    "titulo": "Broken Wings"
+  },
+  {
+    "artista": "Mr Mister",
+    "titulo": "Kyrie"
+  },
+  {
+    "artista": "Mugiwara kaizoku-dan",
+    "titulo": "We are!"
+  },
+  {
+    "artista": "Mugiwara kaizoku-dan",
+    "titulo": "We are! (TV)"
+  },
+  {
     "artista": "Mulán",
     "titulo": "Todo un hombre haré de ti"
+  },
+  {
+    "artista": "Münchener Freiheit",
+    "titulo": "Ohne dich"
+  },
+  {
+    "artista": "Mürfila",
+    "titulo": "Loko"
   },
   {
     "artista": "Muse",
@@ -9496,6 +12388,10 @@
     "titulo": "Se me fue"
   },
   {
+    "artista": "Nacash",
+    "titulo": "Elle imagine"
+  },
+  {
     "artista": "Nacha Pop",
     "titulo": "Chica De Ayer"
   },
@@ -9508,8 +12404,16 @@
     "titulo": "Vístete"
   },
   {
+    "artista": "Nadiya",
+    "titulo": "Et c'est parti"
+  },
+  {
     "artista": "Naima Barroso, Emma Amselem y Carmen López",
     "titulo": "Hazme un muñeco de nieve"
+  },
+  {
+    "artista": "Naked Eyes",
+    "titulo": "Always Something There to Remind Me"
   },
   {
     "artista": "Namie Amuro",
@@ -9526,6 +12430,26 @@
   {
     "artista": "Namie Amuro",
     "titulo": "WoWa"
+  },
+  {
+    "artista": "NANA starring MIKA NAKASHIMA",
+    "titulo": "Hitoiro"
+  },
+  {
+    "artista": "Nancy Sinatra",
+    "titulo": "These Boot Are Made For Walking"
+  },
+  {
+    "artista": "Napa",
+    "titulo": "Deslocado"
+  },
+  {
+    "artista": "Natalia",
+    "titulo": "Vas a volverme loca"
+  },
+  {
+    "artista": "Natalia Kukulska",
+    "titulo": "Im wiecej Ciebie tym mniej"
   },
   {
     "artista": "Natalia Lafourcade",
@@ -9552,6 +12476,10 @@
     "titulo": "Tómala sí un día"
   },
   {
+    "artista": "Natti Natasha X Ozuna",
+    "titulo": "Criminal"
+  },
+  {
     "artista": "Naughty Boy Feat. Sam Smith",
     "titulo": "La La La"
   },
@@ -9568,6 +12496,18 @@
     "titulo": "Noches de bohemia"
   },
   {
+    "artista": "Neffa",
+    "titulo": "Le ore piccole"
+  },
+  {
+    "artista": "Negramaro",
+    "titulo": "Estate"
+  },
+  {
+    "artista": "Negramaro",
+    "titulo": "Solo3min"
+  },
+  {
     "artista": "Nek",
     "titulo": "Al menos ahora"
   },
@@ -9580,8 +12520,20 @@
     "titulo": "Para ti sería"
   },
   {
+    "artista": "Nelja Baritonia",
+    "titulo": "Pop-musiikkia"
+  },
+  {
+    "artista": "Neljä Ruusua",
+    "titulo": "Valuva Taivas"
+  },
+  {
     "artista": "Nelly Furtado",
     "titulo": "All Good Things"
+  },
+  {
+    "artista": "Nelly Furtado",
+    "titulo": "Força"
   },
   {
     "artista": "Nelly Furtado",
@@ -9605,7 +12557,15 @@
   },
   {
     "artista": "Nena",
+    "titulo": "99 Luftballons"
+  },
+  {
+    "artista": "Nena",
     "titulo": "99 Red Balloons"
+  },
+  {
+    "artista": "Nena",
+    "titulo": "Irgendwie, Irgendwo, Irgendwann"
   },
   {
     "artista": "Nena Daconte",
@@ -9636,8 +12596,16 @@
     "titulo": "Everybody talks"
   },
   {
+    "artista": "New Edition",
+    "titulo": "Candy Girl"
+  },
+  {
     "artista": "New Kids On The Block",
     "titulo": "Step by Step"
+  },
+  {
+    "artista": "Nic",
+    "titulo": "Ich will Dich für immer"
   },
   {
     "artista": "Nickelback",
@@ -9672,8 +12640,32 @@
     "titulo": "El perdón"
   },
   {
+    "artista": "Nicky Jam y Ozuna",
+    "titulo": "Te robaré"
+  },
+  {
+    "artista": "NICO Touches the Walls",
+    "titulo": "Hologram"
+  },
+  {
+    "artista": "NICO Touches the Walls",
+    "titulo": "Hologram (TV)"
+  },
+  {
+    "artista": "Nicolás Silva",
+    "titulo": "Say hey, ¡hey! (TV)"
+  },
+  {
+    "artista": "Nicole",
+    "titulo": "Ein bißchen Frieden"
+  },
+  {
     "artista": "Nigga",
     "titulo": "Te quiero"
+  },
+  {
+    "artista": "Nightmare",
+    "titulo": "The world"
   },
   {
     "artista": "Nightmare",
@@ -9686,6 +12678,10 @@
   {
     "artista": "Nightwish",
     "titulo": "Nemo"
+  },
+  {
+    "artista": "Nilsson",
+    "titulo": "Without You"
   },
   {
     "artista": "Nina Simone",
@@ -9714,6 +12710,10 @@
   {
     "artista": "Nino Bravo",
     "titulo": "Un beso y una flor"
+  },
+  {
+    "artista": "Nino De Angelo",
+    "titulo": "Jenseits von Eden"
   },
   {
     "artista": "Niña Pastori",
@@ -9776,8 +12776,16 @@
     "titulo": "The Man Who Sold The World"
   },
   {
+    "artista": "Nneka",
+    "titulo": "Heartbeat"
+  },
+  {
     "artista": "No Doubt",
     "titulo": "Don't speak"
+  },
+  {
+    "artista": "No Doubt",
+    "titulo": "Hey Baby"
   },
   {
     "artista": "No Doubt",
@@ -9836,6 +12844,22 @@
     "titulo": "Yo te voy a amar"
   },
   {
+    "artista": "Nuno Ribeiro e Bluay",
+    "titulo": "Amor Limbo"
+  },
+  {
+    "artista": "O Livro Da Selva",
+    "titulo": "Somente o necessário"
+  },
+  {
+    "artista": "O Rei Leao",
+    "titulo": "Ciclo sem fim"
+  },
+  {
+    "artista": "O Rei Leao",
+    "titulo": "Eu mal posso esperar p'ra ser rei"
+  },
+  {
     "artista": "Oasis",
     "titulo": "Don't look back in anger"
   },
@@ -9850,6 +12874,10 @@
   {
     "artista": "Oasis",
     "titulo": "Stop Crying Your Heart Out"
+  },
+  {
+    "artista": "Oasis",
+    "titulo": "The masterplan"
   },
   {
     "artista": "Oasis",
@@ -9868,12 +12896,52 @@
     "titulo": "Despierta"
   },
   {
+    "artista": "Ohrbooten",
+    "titulo": "An Alle Ladies"
+  },
+  {
+    "artista": "Ohrbooten",
+    "titulo": "Man lebt nur einmal"
+  },
+  {
+    "artista": "OK Go",
+    "titulo": "Here It Goes Again"
+  },
+  {
     "artista": "Olé Olé",
     "titulo": "La chica ye-ye"
   },
   {
     "artista": "Olé Olé",
     "titulo": "No controles"
+  },
+  {
+    "artista": "Olesoul",
+    "titulo": "Was Kostet Die Welt"
+  },
+  {
+    "artista": "OLIVIA 'inspi REIRA ~TRAPNEST~",
+    "titulo": "A little pain"
+  },
+  {
+    "artista": "OLIVIA 'inspi REIRA ~TRAPNEST~",
+    "titulo": "A little pain (TV)"
+  },
+  {
+    "artista": "OLIVIA 'inspi REIRA ~TRAPNEST~",
+    "titulo": "Wish"
+  },
+  {
+    "artista": "OLIVIA 'inspi REIRA ~TRAPNEST~",
+    "titulo": "Wish (TV)"
+  },
+  {
+    "artista": "Olivia Rodrigo",
+    "titulo": "Drivers license"
+  },
+  {
+    "artista": "Olivia Rodrigo",
+    "titulo": "good 4 u"
   },
   {
     "artista": "One Direction",
@@ -9904,6 +12972,10 @@
     "titulo": "What Makes You Beautiful"
   },
   {
+    "artista": "One Night Only",
+    "titulo": "Just For Tonight"
+  },
+  {
     "artista": "One Piece",
     "titulo": "Algún día lo encontraré"
   },
@@ -9921,19 +12993,67 @@
   },
   {
     "artista": "OneRepublic",
+    "titulo": "Beautiful Colors (TV)"
+  },
+  {
+    "artista": "OneRepublic",
     "titulo": "Counting Stars"
+  },
+  {
+    "artista": "Opus",
+    "titulo": "Live Is Life"
   },
   {
     "artista": "Orishas",
     "titulo": "¿Qué pasa"
   },
   {
+    "artista": "OT2008",
+    "titulo": "Corazón contento"
+  },
+  {
+    "artista": "Ottawan",
+    "titulo": "T'es OK"
+  },
+  {
     "artista": "OutKast",
     "titulo": "Hey Ya!"
   },
   {
+    "artista": "Outkast",
+    "titulo": "Idlewild Blues (Don't Chu Worry 'Bout Me)"
+  },
+  {
     "artista": "Owl City",
     "titulo": "Fireflies"
+  },
+  {
+    "artista": "OxT",
+    "titulo": "WHEELER-DEALER"
+  },
+  {
+    "artista": "Ozuna",
+    "titulo": "BAILA BAILA BAILA"
+  },
+  {
+    "artista": "Ozuna",
+    "titulo": "Dile que tú me quieres"
+  },
+  {
+    "artista": "Ozuna",
+    "titulo": "Se preparó"
+  },
+  {
+    "artista": "Ozuna",
+    "titulo": "Si no te quiere"
+  },
+  {
+    "artista": "Ozuna",
+    "titulo": "Síguelo bailando"
+  },
+  {
+    "artista": "Ozuna y Manuel Turizo",
+    "titulo": "Vaina loca"
   },
   {
     "artista": "Ozuna y Romeo Santos",
@@ -9981,11 +13101,19 @@
   },
   {
     "artista": "Pablo Alborán",
+    "titulo": "Corazón descalzo"
+  },
+  {
+    "artista": "Pablo Alborán",
     "titulo": "Dónde está el amor"
   },
   {
     "artista": "Pablo Alborán",
     "titulo": "El beso"
+  },
+  {
+    "artista": "Pablo Alborán",
+    "titulo": "La escalera (New Mix)"
   },
   {
     "artista": "Pablo Alborán",
@@ -10010,6 +13138,10 @@
   {
     "artista": "Pablo Alborán",
     "titulo": "Recuérdame"
+  },
+  {
+    "artista": "Pablo Alborán",
+    "titulo": "Si hubieras querido"
   },
   {
     "artista": "Pablo Alborán",
@@ -10065,6 +13197,10 @@
   },
   {
     "artista": "Panda",
+    "titulo": "Procedimientos para llegar a un comun acuerdo"
+  },
+  {
+    "artista": "Panda",
     "titulo": "Sólo a terceros"
   },
   {
@@ -10077,11 +13213,27 @@
   },
   {
     "artista": "Panic at the Disco",
+    "titulo": "But It's Better If You Do"
+  },
+  {
+    "artista": "Panic at the Disco",
     "titulo": "I Write Sins Not Tragedies"
+  },
+  {
+    "artista": "Panic at the Disco",
+    "titulo": "Nine in the Afternoon"
+  },
+  {
+    "artista": "Panic at the Disco",
+    "titulo": "Time To Dance"
   },
   {
     "artista": "Panic! At The Disco",
     "titulo": "Into The Unknown"
+  },
+  {
+    "artista": "Papa Dance",
+    "titulo": "Bezimienni"
   },
   {
     "artista": "Papa Roach",
@@ -10094,6 +13246,10 @@
   {
     "artista": "Paradisio",
     "titulo": "Bailando"
+  },
+  {
+    "artista": "Paramore",
+    "titulo": "Brick By Boring Brick"
   },
   {
     "artista": "Paramore",
@@ -10196,6 +13352,10 @@
     "titulo": "She´s like the wind"
   },
   {
+    "artista": "Patrycja Markowska",
+    "titulo": "Jeszcze raz"
+  },
+  {
     "artista": "Paty Cantú",
     "titulo": "Goma de mascar"
   },
@@ -10208,8 +13368,16 @@
     "titulo": "Say Say Say"
   },
   {
+    "artista": "Paul McCartney & Michael Jackson",
+    "titulo": "The man"
+  },
+  {
     "artista": "Paula Dalli",
     "titulo": "Cámbialo"
+  },
+  {
+    "artista": "Paula Koivuniemi",
+    "titulo": "Kuuntelen Tomppaa"
   },
   {
     "artista": "Paulina Rubio",
@@ -10246,6 +13414,14 @@
   {
     "artista": "Paulina Rubio & Pitbull",
     "titulo": "Ni rosas, ni juguetes"
+  },
+  {
+    "artista": "Paulo Gonzo",
+    "titulo": "Sei-te de cor"
+  },
+  {
+    "artista": "Paulo Praça",
+    "titulo": "(Diz) A verdade"
   },
   {
     "artista": "Pearl Jam",
@@ -10288,6 +13464,10 @@
     "titulo": "Si vas para Chile"
   },
   {
+    "artista": "Pelle Miljoona Oy",
+    "titulo": "Moottoritie on kuuma"
+  },
+  {
     "artista": "Pepe Aguilar",
     "titulo": "Me vas a extrañar"
   },
@@ -10324,12 +13504,44 @@
     "titulo": "Esto es Halloween"
   },
   {
+    "artista": "Pesadilla antes de Navidad",
+    "titulo": "Final"
+  },
+  {
     "artista": "Pet Shop Boys",
     "titulo": "Always On My Mind"
   },
   {
+    "artista": "Peter Alexander",
+    "titulo": "Kleine Kneipe"
+  },
+  {
+    "artista": "Peter Bjorn And John Featuring Victoria Bergsman",
+    "titulo": "Young Folks"
+  },
+  {
     "artista": "Peter La Anguila",
     "titulo": "El estilo de la Anguila"
+  },
+  {
+    "artista": "Peter Maffay",
+    "titulo": "Und es war Sommer"
+  },
+  {
+    "artista": "Peter Pan",
+    "titulo": "À la file indienne"
+  },
+  {
+    "artista": "Peter Pan",
+    "titulo": "À Voar, à voar, à voar"
+  },
+  {
+    "artista": "Peter Pan",
+    "titulo": "Flieg Ins Glück"
+  },
+  {
+    "artista": "Peter Pan",
+    "titulo": "Geh'n Wir Auf Den Kriegspfad"
   },
   {
     "artista": "Peter Pan",
@@ -10337,11 +13549,39 @@
   },
   {
     "artista": "Peter Pan",
+    "titulo": "Seguindo o chefe"
+  },
+  {
+    "artista": "Peter Pan",
+    "titulo": "Tu t'envoles"
+  },
+  {
+    "artista": "Peter Pan",
     "titulo": "Volarás, volarás, volarás"
+  },
+  {
+    "artista": "Peter Wackel",
+    "titulo": "Joana"
+  },
+  {
+    "artista": "Peter Wackel",
+    "titulo": "Ladioo"
+  },
+  {
+    "artista": "Peter Wackel",
+    "titulo": "Manchmal möchte ich schon mit dir"
+  },
+  {
+    "artista": "Peter Wackel",
+    "titulo": "Ü 30"
   },
   {
     "artista": "Pharrell Williams",
     "titulo": "Happy"
+  },
+  {
+    "artista": "Phil Collins",
+    "titulo": "Against All Odds"
   },
   {
     "artista": "Phil Collins",
@@ -10350,6 +13590,10 @@
   {
     "artista": "Phil Collins",
     "titulo": "You'll be in my heart"
+  },
+  {
+    "artista": "Philosophy no Dance",
+    "titulo": "Double Standard (TV)"
   },
   {
     "artista": "Phineas y Ferb",
@@ -10396,6 +13640,10 @@
     "titulo": "Son Pinky y Cerebro"
   },
   {
+    "artista": "Pirritx eta Porrotx",
+    "titulo": "Maite zaitut"
+  },
+  {
     "artista": "Pitbull",
     "titulo": "I Know You Want Me (Calle Ocho)"
   },
@@ -10440,6 +13688,14 @@
     "titulo": "Killing me softly"
   },
   {
+    "artista": "Pixie Lott",
+    "titulo": "Mama do (Uh oh, uh oh)"
+  },
+  {
+    "artista": "Pixies",
+    "titulo": "Hey"
+  },
+  {
     "artista": "Placebo",
     "titulo": "Every You Every me"
   },
@@ -10457,6 +13713,10 @@
   },
   {
     "artista": "Platero y Tú",
+    "titulo": "Alucinante"
+  },
+  {
+    "artista": "Platero y Tú",
     "titulo": "El roce de tu cuerpo"
   },
   {
@@ -10466,6 +13726,14 @@
   {
     "artista": "Platero y Tú con Robe Iniesta y Evaristo",
     "titulo": "Juliette"
+  },
+  {
+    "artista": "PMMP",
+    "titulo": "Rusketusraidat"
+  },
+  {
+    "artista": "PMMP",
+    "titulo": "Tässä elämä on"
   },
   {
     "artista": "Pocahontas",
@@ -10488,8 +13756,28 @@
     "titulo": "Ataque preventivo de la URSS"
   },
   {
+    "artista": "Polo Montañez",
+    "titulo": "Un montón de estrellas"
+  },
+  {
+    "artista": "Pony Pony Run Run",
+    "titulo": "Hey You"
+  },
+  {
+    "artista": "Pooh",
+    "titulo": "Uomini soli"
+  },
+  {
     "artista": "Pop Star Queen",
     "titulo": "Soy un tsunami"
+  },
+  {
+    "artista": "Popeda",
+    "titulo": "Kuuma kesä"
+  },
+  {
+    "artista": "Popeda",
+    "titulo": "Tahdotko Mut Tosiaan"
   },
   {
     "artista": "Popitos",
@@ -10501,7 +13789,23 @@
   },
   {
     "artista": "Porretas",
+    "titulo": "Marihuana"
+  },
+  {
+    "artista": "Porretas",
     "titulo": "Pongamos que hablo de Madrid"
+  },
+  {
+    "artista": "Powder Finger",
+    "titulo": "Lost and Running"
+  },
+  {
+    "artista": "Powderfinger",
+    "titulo": "(Baby I've Got You) On My Mind"
+  },
+  {
+    "artista": "Powderfinger",
+    "titulo": "These Days"
   },
   {
     "artista": "Presuntos Implicados",
@@ -10524,6 +13828,10 @@
     "titulo": "Deja vu"
   },
   {
+    "artista": "Prljavo kazalište",
+    "titulo": "Heroj ulice"
+  },
+  {
     "artista": "Psy",
     "titulo": "Gangnam Style"
   },
@@ -10536,12 +13844,20 @@
     "titulo": "El Pollito Pío"
   },
   {
+    "artista": "Pur",
+    "titulo": "Abenteuerland"
+  },
+  {
     "artista": "Pussycat Dolls",
     "titulo": "Buttons"
   },
   {
     "artista": "Pussycat Dolls",
     "titulo": "Don't Cha (Radio Edit)"
+  },
+  {
+    "artista": "Pussycat Dolls",
+    "titulo": "Stickwitu"
   },
   {
     "artista": "Queco",
@@ -10708,8 +14024,16 @@
     "titulo": "Under Pressure"
   },
   {
+    "artista": "Queens Of The Stone Age",
+    "titulo": "Go with the Flow"
+  },
+  {
     "artista": "Quevedo con Bizarrap",
     "titulo": "Music Sessions #52"
+  },
+  {
+    "artista": "Quim Azeiteiro",
+    "titulo": "Cagar e Andar (AI)"
   },
   {
     "artista": "R.E.M.",
@@ -10722,6 +14046,10 @@
   {
     "artista": "R.E.M.",
     "titulo": "Shiny Happy People"
+  },
+  {
+    "artista": "Rabaue",
+    "titulo": "Was Kann Ich Denn Dafür ... (Dass Ich Schön Bin)"
   },
   {
     "artista": "Radio Futura",
@@ -10754,6 +14082,10 @@
   {
     "artista": "Radiohead",
     "titulo": "Paranoid Android"
+  },
+  {
+    "artista": "Raf",
+    "titulo": "Sei la più bella del mondo"
   },
   {
     "artista": "Rafaga",
@@ -10794,6 +14126,10 @@
   {
     "artista": "Rage Against The Machine",
     "titulo": "Killing In The Name"
+  },
+  {
+    "artista": "Rainhard Fendrich",
+    "titulo": "Macho, Macho"
   },
   {
     "artista": "Rammstein",
@@ -10852,6 +14188,10 @@
     "titulo": "Mujer amante"
   },
   {
+    "artista": "Ratata & Frida",
+    "titulo": "Så länge vi har varann"
+  },
+  {
     "artista": "Ray Charles",
     "titulo": "Hit the Road Jack"
   },
@@ -10860,8 +14200,16 @@
     "titulo": "Ghostbusters"
   },
   {
+    "artista": "Razorlight",
+    "titulo": "Somewhere Else"
+  },
+  {
     "artista": "RBD",
     "titulo": "Bésame sin miedo"
+  },
+  {
+    "artista": "RBD",
+    "titulo": "Celestial"
   },
   {
     "artista": "Rbd",
@@ -10882,6 +14230,10 @@
   {
     "artista": "RBD",
     "titulo": "Ser o parecer"
+  },
+  {
+    "artista": "Reamonn",
+    "titulo": "Supergirl"
   },
   {
     "artista": "Red Hot Chili Peppers",
@@ -11004,6 +14356,14 @@
     "titulo": "Under the bridge"
   },
   {
+    "artista": "Rednex",
+    "titulo": "Cotton Eye Joe"
+  },
+  {
+    "artista": "Regurgitator",
+    "titulo": "Black Bugs"
+  },
+  {
     "artista": "Reik",
     "titulo": "Creo en ti"
   },
@@ -11036,12 +14396,48 @@
     "titulo": "Amigos con derechos"
   },
   {
+    "artista": "Reik, Ozuna y Wisin",
+    "titulo": "Me Niego"
+  },
+  {
     "artista": "Rene de la Vega",
     "titulo": "Chica rica"
   },
   {
+    "artista": "ReoNa",
+    "titulo": "Alive (TV)"
+  },
+  {
+    "artista": "ReoNa",
+    "titulo": "End of Days (TV)"
+  },
+  {
+    "artista": "ReoNa",
+    "titulo": "Gajumaru ~Heaven in the Rain~ (TV)"
+  },
+  {
+    "artista": "ReoNa",
+    "titulo": "R.I.P. (TV)"
+  },
+  {
+    "artista": "ReoNa",
+    "titulo": "Sweet Hurt (TV)"
+  },
+  {
     "artista": "Revolver",
     "titulo": "Si Es Tan Solo Amor"
+  },
+  {
+    "artista": "Revolverheld",
+    "titulo": "Freunde Bleiben"
+  },
+  {
+    "artista": "Revolverheld",
+    "titulo": "Mit Dir Chill'n"
+  },
+  {
+    "artista": "Rex Gildo",
+    "titulo": "Fiesta Mexicana"
   },
   {
     "artista": "Ricardo Arjona",
@@ -11160,6 +14556,10 @@
     "titulo": "Never gonna give you up"
   },
   {
+    "artista": "Ricki-Lee",
+    "titulo": "Can't Sing A Different Song"
+  },
+  {
     "artista": "Ricky Martin",
     "titulo": "Dime que me quieres"
   },
@@ -11216,6 +14616,14 @@
     "titulo": "Vente pa'ca"
   },
   {
+    "artista": "Right Said Fred",
+    "titulo": "Stand Up (For The Champions)"
+  },
+  {
+    "artista": "Right Said Fred",
+    "titulo": "You're My Mate"
+  },
+  {
     "artista": "Rihanna",
     "titulo": "California King Bed"
   },
@@ -11242,6 +14650,10 @@
   {
     "artista": "Rihanna",
     "titulo": "Only Girl (In The World) (Remix)"
+  },
+  {
+    "artista": "Rihanna",
+    "titulo": "Pon De Replay"
   },
   {
     "artista": "Rihanna",
@@ -11281,6 +14693,10 @@
   },
   {
     "artista": "Rihanna",
+    "titulo": "We Ride"
+  },
+  {
+    "artista": "Rihanna",
     "titulo": "Where Have You Been"
   },
   {
@@ -11304,6 +14720,10 @@
     "titulo": "We Found Love"
   },
   {
+    "artista": "Rihanna feat. David Guetta",
+    "titulo": "Right Now"
+  },
+  {
     "artista": "Rihanna feat. Drake",
     "titulo": "Work"
   },
@@ -11316,12 +14736,20 @@
     "titulo": "Stay"
   },
   {
+    "artista": "Riko Azuna",
+    "titulo": "Kimi ni Furete (TV)"
+  },
+  {
     "artista": "Ringo Sheena",
     "titulo": "Kabuki-cho no Joou"
   },
   {
     "artista": "Río Roma",
     "titulo": "Mi persona favorita"
+  },
+  {
+    "artista": "Rob De Nijs",
+    "titulo": "Zondag"
   },
   {
     "artista": "Robbie Williams",
@@ -11334,6 +14762,10 @@
   {
     "artista": "Robbie Williams",
     "titulo": "Feel"
+  },
+  {
+    "artista": "Robbie Williams",
+    "titulo": "Have You Met Miss Jones"
   },
   {
     "artista": "Robbie Williams",
@@ -11354,6 +14786,14 @@
   {
     "artista": "Robbie Williams and Kylie Minogue",
     "titulo": "Kids"
+  },
+  {
+    "artista": "Robert Palmer",
+    "titulo": "Addicted to Love"
+  },
+  {
+    "artista": "Roberto Blanco",
+    "titulo": "Ein bisschen Spaß muss sein!"
   },
   {
     "artista": "Roberto Carlos",
@@ -11436,6 +14876,18 @@
     "titulo": "Lo mejor del amor"
   },
   {
+    "artista": "Rodrigo",
+    "titulo": "Ocho cuarenta"
+  },
+  {
+    "artista": "Roger Cicero",
+    "titulo": "Die Liste"
+  },
+  {
+    "artista": "Roland Kaiser",
+    "titulo": "Dich zu lieben"
+  },
+  {
     "artista": "Rombái ft. Maramá",
     "titulo": "Noche loca"
   },
@@ -11460,8 +14912,16 @@
     "titulo": "Yo también"
   },
   {
+    "artista": "Rooney",
+    "titulo": "When Did Your Heart Go Missing"
+  },
+  {
     "artista": "Rosa",
     "titulo": "Europe's Living A Celebration"
+  },
+  {
+    "artista": "Rosa",
+    "titulo": "Something"
   },
   {
     "artista": "Rosa Y Chenoa",
@@ -11472,16 +14932,48 @@
     "titulo": "Vivir Lo Nuestro"
   },
   {
+    "artista": "ROSALÍA",
+    "titulo": "Aute Cuture"
+  },
+  {
+    "artista": "ROSALÍA",
+    "titulo": "BAGDAD (Cap.7 Liturgia)"
+  },
+  {
+    "artista": "Rosalía",
+    "titulo": "Bizcochito"
+  },
+  {
     "artista": "Rosalía",
     "titulo": "Despechá"
+  },
+  {
+    "artista": "ROSALÍA",
+    "titulo": "DI MI NOMBRE (Cap.8 Éxtasis)"
   },
   {
     "artista": "ROSALÍA",
     "titulo": "MALAMENTE (Cap.1 Augurio)"
   },
   {
+    "artista": "Rosalía",
+    "titulo": "Motomami"
+  },
+  {
+    "artista": "ROSALÍA",
+    "titulo": "PIENSO EN TU MIRÁ (Cap.3 Celos)"
+  },
+  {
+    "artista": "Rosalía",
+    "titulo": "Saoko"
+  },
+  {
     "artista": "ROSALÍA feat. J Balvin & El Guincho",
     "titulo": "Con altura"
+  },
+  {
+    "artista": "Rosalía y The Weeknd",
+    "titulo": "La fama"
   },
   {
     "artista": "Rosana",
@@ -11528,6 +15020,22 @@
     "titulo": "Vaya ejemplar de primavera"
   },
   {
+    "artista": "Rosenstolz",
+    "titulo": "Ich Bin Ich (Wir Sind Wir)"
+  },
+  {
+    "artista": "Rosenstolz",
+    "titulo": "Ich Geh In Flammen Auf"
+  },
+  {
+    "artista": "Rosenstolz",
+    "titulo": "Willkommen"
+  },
+  {
+    "artista": "Roser",
+    "titulo": "Quiero Besarte"
+  },
+  {
     "artista": "Roxette",
     "titulo": "It Must Have Been Love"
   },
@@ -11544,6 +15052,14 @@
     "titulo": "The Look"
   },
   {
+    "artista": "Roxette",
+    "titulo": "Wish I Could Fly"
+  },
+  {
+    "artista": "Roy Black & Anita",
+    "titulo": "Schön ist es auf der Welt zu sein"
+  },
+  {
     "artista": "Roy Orbison",
     "titulo": "Oh, pretty woman"
   },
@@ -11552,8 +15068,24 @@
     "titulo": "Pedro navaja"
   },
   {
+    "artista": "Ryan Cabrera",
+    "titulo": "On The Way Down"
+  },
+  {
+    "artista": "S Club 7",
+    "titulo": "Don't Stop Movin'"
+  },
+  {
+    "artista": "Safri Duo feat. Michael McDonald",
+    "titulo": "Sweet Freedom"
+  },
+  {
     "artista": "Saiko",
     "titulo": "Cuando miro en tus ojos"
+  },
+  {
+    "artista": "Sailor Moon",
+    "titulo": "Guerrero Luna"
   },
   {
     "artista": "Sakura Card Captor",
@@ -11568,6 +15100,14 @@
     "titulo": "Stay with me"
   },
   {
+    "artista": "Sam Sparro",
+    "titulo": "Black And Gold"
+  },
+  {
+    "artista": "Sandra Y Edurne",
+    "titulo": "Nunca Volvera"
+  },
+  {
     "artista": "Sandro",
     "titulo": "Porque yo te amo"
   },
@@ -11580,8 +15120,40 @@
     "titulo": "El jardín prohibido"
   },
   {
+    "artista": "Sangatsu no Phantasia",
+    "titulo": "101 (TV)"
+  },
+  {
+    "artista": "Sangatsu no Phantasia",
+    "titulo": "Bokura no Koufukuron"
+  },
+  {
+    "artista": "Sangatsu no Phantasia",
+    "titulo": "Golden Ray (TV)"
+  },
+  {
+    "artista": "Sangatsu no Phantasia",
+    "titulo": "Snow Noir (TV)"
+  },
+  {
     "artista": "Sangiovanni y Aitana",
     "titulo": "Mariposas"
+  },
+  {
+    "artista": "Sanne Salomonsen",
+    "titulo": "Everybody's Eyes On You"
+  },
+  {
+    "artista": "Sanne Salomonsen",
+    "titulo": "You've Never Been Loved Before"
+  },
+  {
+    "artista": "Santamaria",
+    "titulo": "Eu sei, tu és"
+  },
+  {
+    "artista": "Santana feat. Chad Kroger",
+    "titulo": "Into The Night"
   },
   {
     "artista": "Santana feat. Rob Thomas",
@@ -11590,6 +15162,42 @@
   {
     "artista": "Santana y Maná",
     "titulo": "Corazón espinado"
+  },
+  {
+    "artista": "Sanzo & Goku",
+    "titulo": "Treasure"
+  },
+  {
+    "artista": "Sarah Dawn Finer",
+    "titulo": "I Remember Love"
+  },
+  {
+    "artista": "Saratoga",
+    "titulo": "A sangre y fuego"
+  },
+  {
+    "artista": "Satou Akemi",
+    "titulo": "Itooshii Hito no Tame Ni (TV)"
+  },
+  {
+    "artista": "Savage Garden",
+    "titulo": "To the Moon and Back"
+  },
+  {
+    "artista": "Savage Garden",
+    "titulo": "Truly Madly Deeply"
+  },
+  {
+    "artista": "SCANDAL",
+    "titulo": "Shoujo S"
+  },
+  {
+    "artista": "SCANDAL",
+    "titulo": "Shoujo S (TV)"
+  },
+  {
+    "artista": "Schäfer Heinrich",
+    "titulo": "Das Schäferlied"
   },
   {
     "artista": "Scissor Sisters",
@@ -11618,6 +15226,14 @@
   {
     "artista": "Sean Kingston",
     "titulo": "Beautiful Girls"
+  },
+  {
+    "artista": "Sean Paul & Dua Lipa",
+    "titulo": "No Lie"
+  },
+  {
+    "artista": "Sebastian Hämer",
+    "titulo": "Sommer Unseres Lebens"
   },
   {
     "artista": "Sebastián Yatra, Reik",
@@ -11924,6 +15540,10 @@
     "titulo": "Man! I Feel Like a Woman!"
   },
   {
+    "artista": "Shannon Noll",
+    "titulo": "What About Me"
+  },
+  {
     "artista": "Shawn Mendes",
     "titulo": "Stitches"
   },
@@ -11956,8 +15576,28 @@
     "titulo": "The Greatest"
   },
   {
+    "artista": "Sid",
+    "titulo": "Uso"
+  },
+  {
+    "artista": "Sid",
+    "titulo": "Uso (TV)"
+  },
+  {
+    "artista": "Sidecars",
+    "titulo": "Muy bien"
+  },
+  {
     "artista": "Sie7e",
     "titulo": "Teng tu love"
+  },
+  {
+    "artista": "Siloé",
+    "titulo": "Si me necesitas, llámame"
+  },
+  {
+    "artista": "Silverchair",
+    "titulo": "The Greatest View"
   },
   {
     "artista": "Silvio Rodríguez",
@@ -11982,6 +15622,10 @@
   {
     "artista": "Simple Plan",
     "titulo": "Shut up"
+  },
+  {
+    "artista": "Simple Plan",
+    "titulo": "Untitled"
   },
   {
     "artista": "Simple Plan",
@@ -12016,6 +15660,22 @@
     "titulo": "Te vi venir"
   },
   {
+    "artista": "Sin Rumbo",
+    "titulo": "Seré feliz"
+  },
+  {
+    "artista": "Sinclair",
+    "titulo": "Ensemble"
+  },
+  {
+    "artista": "Sinclair",
+    "titulo": "Si c'est bon comme ça"
+  },
+  {
+    "artista": "Sinclair",
+    "titulo": "Votre image"
+  },
+  {
     "artista": "Sinead O'Connor",
     "titulo": "Nothing Compares 2 U"
   },
@@ -12038,6 +15698,18 @@
   {
     "artista": "Siniestro Total",
     "titulo": "Tipi, dulce Tipi"
+  },
+  {
+    "artista": "Sister Sledge",
+    "titulo": "He's The Greatest Dancer"
+  },
+  {
+    "artista": "Siw Malmkvist",
+    "titulo": "Liebeskummer lohnt sich nicht"
+  },
+  {
+    "artista": "Skank",
+    "titulo": "É uma partida de futebol"
   },
   {
     "artista": "Ska-P",
@@ -12076,6 +15748,10 @@
     "titulo": "Villancico"
   },
   {
+    "artista": "Skunk Anansie",
+    "titulo": "Weak"
+  },
+  {
     "artista": "Slipknot",
     "titulo": "Before I Forget"
   },
@@ -12094,6 +15770,14 @@
   {
     "artista": "Smile DK",
     "titulo": "Butterfly"
+  },
+  {
+    "artista": "Sneaky Sound System",
+    "titulo": "Pictures"
+  },
+  {
+    "artista": "Snoop Dogg vs. David Guetta",
+    "titulo": "Sweat (David Guetta Remix)"
   },
   {
     "artista": "Snow Patrol",
@@ -12148,6 +15832,18 @@
     "titulo": "Tainted Love"
   },
   {
+    "artista": "Sogdiana",
+    "titulo": "Sinee Nebo"
+  },
+  {
+    "artista": "Söhne Mannheims",
+    "titulo": "Geh' davon aus"
+  },
+  {
+    "artista": "Söhne Mannheims",
+    "titulo": "Und Wenn Ein Lied"
+  },
+  {
     "artista": "Soledad",
     "titulo": "Entré a mi pago sin golpear"
   },
@@ -12172,8 +15868,16 @@
     "titulo": "I Got You Babe"
   },
   {
+    "artista": "Soprano",
+    "titulo": "Ferme les yeux et imagine toi"
+  },
+  {
     "artista": "Soraya",
     "titulo": "Casi"
+  },
+  {
+    "artista": "Soraya",
+    "titulo": "I Am What I Am"
   },
   {
     "artista": "Soraya",
@@ -12184,12 +15888,92 @@
     "titulo": "Mi mundo sin ti"
   },
   {
+    "artista": "Soraya",
+    "titulo": "Sin miedo"
+  },
+  {
+    "artista": "Soul Asylum",
+    "titulo": "Runaway Train"
+  },
+  {
     "artista": "Soundgarden",
     "titulo": "Black Hole Sun"
   },
   {
     "artista": "South Park",
     "titulo": "Eres un cabrón hijo puta"
+  },
+  {
+    "artista": "South Park",
+    "titulo": "Uncle Fucker"
+  },
+  {
+    "artista": "Soziedad Alkoholika",
+    "titulo": "Piedra contra tijera"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Be free with your love"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Communication"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Gold"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Gold (12'' Special Extended Remix)"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Heaven is a secret"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Highly strung"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "I'll fly for you"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Lifeline"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Only when you leave"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Round and Round"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "She loved like diamond"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "Through The Barricades"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "To cuT a long sTory shorT"
+  },
+  {
+    "artista": "Spandau Ballet",
+    "titulo": "True"
+  },
+  {
+    "artista": "Spazzys",
+    "titulo": "My Boyfriend's Back"
+  },
+  {
+    "artista": "Sphinx",
+    "titulo": "Respóndeme"
   },
   {
     "artista": "Spice Girls",
@@ -12204,6 +15988,10 @@
     "titulo": "Who do you think you are"
   },
   {
+    "artista": "Spiderbait",
+    "titulo": "Black Betty"
+  },
+  {
     "artista": "Spin Doctors",
     "titulo": "Two Princes"
   },
@@ -12212,8 +16000,44 @@
     "titulo": "La noche me resbala"
   },
   {
+    "artista": "Sr. Trepador",
+    "titulo": "Lo que quiero, lo que soy"
+  },
+  {
     "artista": "Sra. Rushmore",
     "titulo": "Mi padre es un elfo"
+  },
+  {
+    "artista": "Stachursky",
+    "titulo": "Jedwab"
+  },
+  {
+    "artista": "Stachursky",
+    "titulo": "Z kazdym Twym oddechem"
+  },
+  {
+    "artista": "Stan Bush",
+    "titulo": "The Touch"
+  },
+  {
+    "artista": "Starship",
+    "titulo": "Nothing's Gonna Stop Us Now"
+  },
+  {
+    "artista": "Stash",
+    "titulo": "Sadness"
+  },
+  {
+    "artista": "Stefan Peters",
+    "titulo": "Schwarze Natascha"
+  },
+  {
+    "artista": "Stella",
+    "titulo": "Aamun kuiskaus"
+  },
+  {
+    "artista": "Stella",
+    "titulo": "Korkokengät"
   },
   {
     "artista": "Steppenwolf",
@@ -12222,6 +16046,14 @@
   {
     "artista": "Stereo 3",
     "titulo": "Atrévete a aceptarlo"
+  },
+  {
+    "artista": "Steriogram",
+    "titulo": "Walkie Talkie Man"
+  },
+  {
+    "artista": "Steve Rushton",
+    "titulo": "Emergency"
   },
   {
     "artista": "Stevie Wonder",
@@ -12236,6 +16068,22 @@
     "titulo": "Plush"
   },
   {
+    "artista": "Strachy Na Lachy",
+    "titulo": "Dzien dobry kocham Cie"
+  },
+  {
+    "artista": "Strandgeier",
+    "titulo": "Hände Hoch"
+  },
+  {
+    "artista": "Stratovarius",
+    "titulo": "Black diamond"
+  },
+  {
+    "artista": "Stratovarius",
+    "titulo": "Eagleheart"
+  },
+  {
     "artista": "Stravaganzza",
     "titulo": "Hijo de la luna"
   },
@@ -12244,12 +16092,48 @@
     "titulo": "Papaoutai"
   },
   {
+    "artista": "Suemitsu & The Suemith",
+    "titulo": "Allegro Cantabile (TV)"
+  },
+  {
+    "artista": "Sugababes",
+    "titulo": "About You Now"
+  },
+  {
+    "artista": "Sugababes",
+    "titulo": "Too Lost In You"
+  },
+  {
+    "artista": "Sugababes",
+    "titulo": "Ugly"
+  },
+  {
+    "artista": "Sugarfree",
+    "titulo": "Cleptomania"
+  },
+  {
     "artista": "Sui Generis",
     "titulo": "Canción para mi muerte"
   },
   {
+    "artista": "Sui Generis",
+    "titulo": "Confesiones de invierno"
+  },
+  {
     "artista": "Sum 41",
     "titulo": "Fat Lip"
+  },
+  {
+    "artista": "Sum 41",
+    "titulo": "Pieces"
+  },
+  {
+    "artista": "Sunrise Ave",
+    "titulo": "Fairytale Gone Bad"
+  },
+  {
+    "artista": "Super Mario Bros",
+    "titulo": "Somos los Mario Brothers"
   },
   {
     "artista": "Supernova",
@@ -12268,8 +16152,28 @@
     "titulo": "Candy Candy"
   },
   {
+    "artista": "Susi Und Strolch",
+    "titulo": "Strolch Ist Toll"
+  },
+  {
+    "artista": "Swan Lee",
+    "titulo": "I Don't Mind"
+  },
+  {
+    "artista": "sweet ARMS",
+    "titulo": "Hitohira (TV)"
+  },
+  {
+    "artista": "Sylwia Grzeszczak & Liber",
+    "titulo": "Co z nami bedzie"
+  },
+  {
     "artista": "System of a Down",
     "titulo": "Aerials"
+  },
+  {
+    "artista": "System of a Down",
+    "titulo": "Atwa"
   },
   {
     "artista": "System of a Down",
@@ -12304,6 +16208,14 @@
     "titulo": "All the things she said"
   },
   {
+    "artista": "T.M.Revolution",
+    "titulo": "Resonance"
+  },
+  {
+    "artista": "T.M.Revolution",
+    "titulo": "Resonance (TV)"
+  },
+  {
     "artista": "Taio Cruz",
     "titulo": "Break Your Heart"
   },
@@ -12316,6 +16228,14 @@
     "titulo": "Hangover"
   },
   {
+    "artista": "Takacha",
+    "titulo": "Movin!!"
+  },
+  {
+    "artista": "Takacha",
+    "titulo": "Movin!! (TV)"
+  },
+  {
     "artista": "Take That",
     "titulo": "Back For Good"
   },
@@ -12326,6 +16246,10 @@
   {
     "artista": "Tam Tam Go",
     "titulo": "Manuel Raquel"
+  },
+  {
+    "artista": "Tamara",
+    "titulo": "Si nos dejan"
   },
   {
     "artista": "Tan Biónica",
@@ -12344,8 +16268,28 @@
     "titulo": "En mi corazón vivirás"
   },
   {
+    "artista": "Tarzan",
+    "titulo": "Enfant de l'Homme"
+  },
+  {
+    "artista": "Tarzan",
+    "titulo": "Filho d'homem"
+  },
+  {
     "artista": "Tarzán",
     "titulo": "Hijo de hombre"
+  },
+  {
+    "artista": "Tarzan",
+    "titulo": "So Ein Mann"
+  },
+  {
+    "artista": "Tatiana & Blue Café",
+    "titulo": "You May Be In Love"
+  },
+  {
+    "artista": "Tatsuya Kitani",
+    "titulo": "Manazashi wa hikari (TV)"
   },
   {
     "artista": "Taxi",
@@ -12369,7 +16313,15 @@
   },
   {
     "artista": "Taylor Swift",
+    "titulo": "Change"
+  },
+  {
+    "artista": "Taylor Swift",
     "titulo": "I Knew You Were Trouble"
+  },
+  {
+    "artista": "Taylor Swift",
+    "titulo": "I'm Only Me When I'm With You"
   },
   {
     "artista": "Taylor Swift",
@@ -12397,6 +16349,10 @@
   },
   {
     "artista": "Taylor Swift",
+    "titulo": "White Horse"
+  },
+  {
+    "artista": "Taylor Swift",
     "titulo": "You Belong With Me"
   },
   {
@@ -12406,6 +16362,10 @@
   {
     "artista": "Technotronic",
     "titulo": "Pump Up the Jam"
+  },
+  {
+    "artista": "Teddy Swims",
+    "titulo": "Lose Control"
   },
   {
     "artista": "Tenacious D",
@@ -12422,6 +16382,10 @@
   {
     "artista": "Tercer Cielo",
     "titulo": "Yo te extrañaré"
+  },
+  {
+    "artista": "Texas Tornados",
+    "titulo": "Hey baby, qué pasó"
   },
   {
     "artista": "Thalía",
@@ -12456,8 +16420,24 @@
     "titulo": "Desde esa noche"
   },
   {
+    "artista": "The 411",
+    "titulo": "Dumb"
+  },
+  {
+    "artista": "The Alan Parsons Project",
+    "titulo": "Eye in the Sky"
+  },
+  {
+    "artista": "The All-American Rejects",
+    "titulo": "Move Along"
+  },
+  {
     "artista": "The Animals",
     "titulo": "The House of the Rising Sun"
+  },
+  {
+    "artista": "The Ark",
+    "titulo": "The Worrying Kind"
   },
   {
     "artista": "The Bangles",
@@ -12525,6 +16505,10 @@
   },
   {
     "artista": "The Beatles",
+    "titulo": "Girl"
+  },
+  {
+    "artista": "The Beatles",
     "titulo": "Hello, Goodbye"
   },
   {
@@ -12537,7 +16521,19 @@
   },
   {
     "artista": "The Beatles",
+    "titulo": "Hey Bulldog"
+  },
+  {
+    "artista": "The Beatles",
     "titulo": "Hey Jude"
+  },
+  {
+    "artista": "The Beatles",
+    "titulo": "I Am The Walrus"
+  },
+  {
+    "artista": "The Beatles",
+    "titulo": "I Feel Fine"
   },
   {
     "artista": "The Beatles",
@@ -12644,8 +16640,20 @@
     "titulo": "Where is the love"
   },
   {
+    "artista": "The Bloodhound Gang",
+    "titulo": "The bad touch"
+  },
+  {
+    "artista": "The Caesars",
+    "titulo": "Jerk It Out"
+  },
+  {
     "artista": "The Calling",
     "titulo": "Wherever You Will Go"
+  },
+  {
+    "artista": "The Cardigans",
+    "titulo": "Erase-Rewind"
   },
   {
     "artista": "The Cardigans",
@@ -12660,8 +16668,24 @@
     "titulo": "Something Just Like This"
   },
   {
+    "artista": "The Choirboys",
+    "titulo": "Run to Paradise"
+  },
+  {
+    "artista": "The Church",
+    "titulo": "The Unguarded Moment"
+  },
+  {
+    "artista": "The Clash",
+    "titulo": "London Calling"
+  },
+  {
     "artista": "The Clash",
     "titulo": "Should I Stay Or Should I GO"
+  },
+  {
+    "artista": "The Corrs",
+    "titulo": "Summer Sunshine"
   },
   {
     "artista": "The Cranberries",
@@ -12684,8 +16708,16 @@
     "titulo": "Zombie"
   },
   {
+    "artista": "The Creeps",
+    "titulo": "Ooh I Like It!"
+  },
+  {
     "artista": "The Cure",
     "titulo": "Boys Don't Cry"
+  },
+  {
+    "artista": "The Cure",
+    "titulo": "Close to Me"
   },
   {
     "artista": "The Cure",
@@ -12693,7 +16725,19 @@
   },
   {
     "artista": "The Cure",
+    "titulo": "In Between Days"
+  },
+  {
+    "artista": "The Cure",
     "titulo": "Just Like Heaven"
+  },
+  {
+    "artista": "The Cure",
+    "titulo": "Primary"
+  },
+  {
+    "artista": "The Darkness",
+    "titulo": "I Believe in a Thing Called Love"
   },
   {
     "artista": "The Doors",
@@ -12720,8 +16764,36 @@
     "titulo": "Hotel California"
   },
   {
+    "artista": "The Exponents",
+    "titulo": "Why Does Love Do This To Me"
+  },
+  {
+    "artista": "The Flames",
+    "titulo": "Everytime"
+  },
+  {
+    "artista": "The Foundations",
+    "titulo": "Build Me Up Buttercup"
+  },
+  {
     "artista": "The Fray",
     "titulo": "How To Save A Life"
+  },
+  {
+    "artista": "The Fray",
+    "titulo": "Over My Head (Cable Car)"
+  },
+  {
+    "artista": "The Fray",
+    "titulo": "You found me"
+  },
+  {
+    "artista": "The Hives",
+    "titulo": "Tick Tick Boom"
+  },
+  {
+    "artista": "The Hives",
+    "titulo": "Walk Idiot Walk"
   },
   {
     "artista": "The Jackson 5",
@@ -12730,6 +16802,14 @@
   {
     "artista": "The Jackson 5",
     "titulo": "I Want You Back"
+  },
+  {
+    "artista": "The Jimi Hendrix Experience",
+    "titulo": "Hey Joe (Live)"
+  },
+  {
+    "artista": "The Killers",
+    "titulo": "All These Things That I've Done"
   },
   {
     "artista": "The Killers",
@@ -12745,6 +16825,10 @@
   },
   {
     "artista": "The Killers",
+    "titulo": "Smile Like You Mean It"
+  },
+  {
+    "artista": "The Killers",
     "titulo": "Somebody Told Me"
   },
   {
@@ -12752,8 +16836,20 @@
     "titulo": "When You Were Young"
   },
   {
+    "artista": "The Lumineers",
+    "titulo": "Ho Hey"
+  },
+  {
     "artista": "The Mamas & the Papas",
     "titulo": "California dreamin'"
+  },
+  {
+    "artista": "The Mass Missile",
+    "titulo": "Ima made nando mo (TV)"
+  },
+  {
+    "artista": "The Mighty Mighty Bosstones",
+    "titulo": "The Impression That I Get"
   },
   {
     "artista": "The Offspring",
@@ -12768,8 +16864,20 @@
     "titulo": "The kids aren't alright"
   },
   {
+    "artista": "The Outfield",
+    "titulo": "Your Love"
+  },
+  {
     "artista": "The Police",
     "titulo": "Can't Stand Losing You"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "De Do Do Do, De Da Da Da"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "Don't Stand So Close To Me"
   },
   {
     "artista": "The Police",
@@ -12777,15 +16885,67 @@
   },
   {
     "artista": "The Police",
+    "titulo": "Every little thing she does is magic"
+  },
+  {
+    "artista": "The Police",
     "titulo": "Message in a bottle"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "Next to you"
   },
   {
     "artista": "The Police",
     "titulo": "Roxanne"
   },
   {
+    "artista": "The Police",
+    "titulo": "So Lonely"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "Synchronicity II"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "Walking on the Moon"
+  },
+  {
+    "artista": "The Police",
+    "titulo": "Wrapped around your finger"
+  },
+  {
+    "artista": "The Poodles",
+    "titulo": "Night Of Passion"
+  },
+  {
+    "artista": "The Potbelleez",
+    "titulo": "Don't Hold Back"
+  },
+  {
+    "artista": "The Proclaimers",
+    "titulo": "I'm gonna be (500 miles)"
+  },
+  {
+    "artista": "The Raconteurs",
+    "titulo": "Steady, As She Goes"
+  },
+  {
+    "artista": "The Rasmus",
+    "titulo": "First day of my life"
+  },
+  {
+    "artista": "The Rasmus",
+    "titulo": "Guilty"
+  },
+  {
     "artista": "The Rasmus",
     "titulo": "In the Shadows"
+  },
+  {
+    "artista": "The Rasmus",
+    "titulo": "No fear"
   },
   {
     "artista": "The Refrescos",
@@ -12812,16 +16972,40 @@
     "titulo": "Sympathy For The Devil"
   },
   {
+    "artista": "The Saints",
+    "titulo": "(I'm) Stranded"
+  },
+  {
     "artista": "The Scorpions",
     "titulo": "Wind of Change"
+  },
+  {
+    "artista": "The Screaming Jets",
+    "titulo": "Better"
   },
   {
     "artista": "The Script",
     "titulo": "The Man Who Can't Be Moved"
   },
   {
+    "artista": "The Smashing Pumpkins",
+    "titulo": "1979"
+  },
+  {
+    "artista": "The Smashing Pumpkins",
+    "titulo": "Disarm"
+  },
+  {
+    "artista": "The Smashing Pumpkins",
+    "titulo": "Tonight,Tonight"
+  },
+  {
     "artista": "The Smiths",
     "titulo": "Bigmouth strikes again"
+  },
+  {
+    "artista": "The Smiths",
+    "titulo": "Girlfriend in a coma"
   },
   {
     "artista": "The Smiths",
@@ -12836,6 +17020,18 @@
     "titulo": "Rock & Roll Queen"
   },
   {
+    "artista": "The Swingers",
+    "titulo": "Counting the Beat"
+  },
+  {
+    "artista": "The Ting Tings",
+    "titulo": "We walk"
+  },
+  {
+    "artista": "The Veronicas",
+    "titulo": "4ever"
+  },
+  {
     "artista": "The Verve",
     "titulo": "Bitter Sweet Symphony"
   },
@@ -12844,16 +17040,52 @@
     "titulo": "Blinding Lights"
   },
   {
+    "artista": "The Weeknd",
+    "titulo": "Can't Feel My Face"
+  },
+  {
+    "artista": "The Weeknd ft. Daft Punk",
+    "titulo": "I feel it coming"
+  },
+  {
     "artista": "The Weeknd ft. Daft Punk",
     "titulo": "Starboy"
+  },
+  {
+    "artista": "The White Stripes",
+    "titulo": "Blue Orchid"
+  },
+  {
+    "artista": "The White Stripes",
+    "titulo": "Fell In Love With A Girl"
   },
   {
     "artista": "The White Stripes",
     "titulo": "Seven Nation Army"
   },
   {
+    "artista": "Tierra Santa",
+    "titulo": "Apocalipsis"
+  },
+  {
+    "artista": "Tierra Santa",
+    "titulo": "Juana de Arco"
+  },
+  {
+    "artista": "Tiësto y Karol G",
+    "titulo": "Don't be shy"
+  },
+  {
+    "artista": "Tiffany",
+    "titulo": "I Think We're Alone Now"
+  },
+  {
     "artista": "Timbaland feat. One Republic",
     "titulo": "Apologize"
+  },
+  {
+    "artista": "Tina Arena",
+    "titulo": "Chains"
   },
   {
     "artista": "Tina Turner",
@@ -12864,12 +17096,24 @@
     "titulo": "What's Love Got To Do With It"
   },
   {
+    "artista": "TINI",
+    "titulo": "Cupido"
+  },
+  {
+    "artista": "TINI",
+    "titulo": "Siempre brillarás"
+  },
+  {
     "artista": "Tino Casal",
     "titulo": "Eloise"
   },
   {
     "artista": "Tino Casal",
     "titulo": "Embrujada"
+  },
+  {
+    "artista": "Titiyo",
+    "titulo": "Come Along"
   },
   {
     "artista": "Tito el Bambino",
@@ -12880,6 +17124,10 @@
     "titulo": "Llueve el amor"
   },
   {
+    "artista": "Tiziano Ferro",
+    "titulo": "Sere nere"
+  },
+  {
     "artista": "Tiziano Ferro con Anahí y Dulce",
     "titulo": "El regalo más grande"
   },
@@ -12888,8 +17136,24 @@
     "titulo": "El regalo más grande"
   },
   {
+    "artista": "TK from Ling Tosite Sigure",
+    "titulo": "Unravel (TV)"
+  },
+  {
+    "artista": "Tobias Regner",
+    "titulo": "I Still Burn"
+  },
+  {
     "artista": "Todos",
     "titulo": "Mi Música Es Tu Voz"
+  },
+  {
+    "artista": "Tokio Hotel",
+    "titulo": "An deiner Seite (Ich bin da)"
+  },
+  {
+    "artista": "Tokio Hotel",
+    "titulo": "Durch Den Monsun"
   },
   {
     "artista": "Tokio Hotel",
@@ -12904,8 +17168,32 @@
     "titulo": "Sex Bomb"
   },
   {
+    "artista": "Tom Jones",
+    "titulo": "What's New Pussycat"
+  },
+  {
+    "artista": "Tommy heavenly6",
+    "titulo": "PAPERMOON (TV)"
+  },
+  {
+    "artista": "Tommy Nilsson",
+    "titulo": "En Dag"
+  },
+  {
+    "artista": "Tones And I",
+    "titulo": "Dance Monkey"
+  },
+  {
+    "artista": "Tonic",
+    "titulo": "If You Could Only See"
+  },
+  {
     "artista": "Tony Dize",
     "titulo": "El doctorado"
+  },
+  {
+    "artista": "Tony Marshall",
+    "titulo": "Schöne Maid"
   },
   {
     "artista": "Toreros Muertos",
@@ -12913,11 +17201,47 @@
   },
   {
     "artista": "Toto",
+    "titulo": "99"
+  },
+  {
+    "artista": "Toto",
     "titulo": "Africa"
   },
   {
     "artista": "Toto",
+    "titulo": "Don't chain my heart"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "Georgy Porgy"
+  },
+  {
+    "artista": "Toto",
     "titulo": "Hold The Line"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "Holyanna"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "I'll be over you"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "Pamela"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "Rosanna"
+  },
+  {
+    "artista": "Toto",
+    "titulo": "Stop loving you"
+  },
+  {
+    "artista": "Toto Cutugno",
+    "titulo": "L'italiano"
   },
   {
     "artista": "Tove Lo",
@@ -12933,11 +17257,31 @@
   },
   {
     "artista": "Toy Story",
+    "titulo": "Du Hast 'N Freund In Mir"
+  },
+  {
+    "artista": "Toy Story",
     "titulo": "Hay un amigo en mí"
   },
   {
     "artista": "Toy Story",
+    "titulo": "Je suis ton ami"
+  },
+  {
+    "artista": "Toy Story",
+    "titulo": "Sou teu amigo, sim"
+  },
+  {
+    "artista": "Toy Story",
     "titulo": "Yo soy tu amigo fiel"
+  },
+  {
+    "artista": "T'Pau",
+    "titulo": "China In Your Hand"
+  },
+  {
+    "artista": "Tragédie",
+    "titulo": "Hey Oh"
   },
   {
     "artista": "Train",
@@ -12958,6 +17302,18 @@
   {
     "artista": "Trazzto",
     "titulo": "La he cagao"
+  },
+  {
+    "artista": "T-Rex",
+    "titulo": "20th Century Boy"
+  },
+  {
+    "artista": "Trio Rio",
+    "titulo": "New York - Rio - Tokyo"
+  },
+  {
+    "artista": "Tsukuyomi",
+    "titulo": "Kyuuseishu (TV)"
   },
   {
     "artista": "Turf",
@@ -13005,6 +17361,10 @@
   },
   {
     "artista": "U2",
+    "titulo": "Where the streets have no name"
+  },
+  {
+    "artista": "U2",
     "titulo": "With or without you"
   },
   {
@@ -13016,6 +17376,14 @@
     "titulo": "Gloria"
   },
   {
+    "artista": "Uniklubi",
+    "titulo": "Huomenna"
+  },
+  {
+    "artista": "US5",
+    "titulo": "Mama"
+  },
+  {
     "artista": "USA for Africa",
     "titulo": "We Are the World"
   },
@@ -13024,12 +17392,44 @@
     "titulo": "DJ Got Us Falling In Love Again"
   },
   {
+    "artista": "Usopp",
+    "titulo": "Sogeking (TV)"
+  },
+  {
+    "artista": "UVERworld",
+    "titulo": "D-tecnoLife"
+  },
+  {
+    "artista": "UVERworld",
+    "titulo": "D-tecnoLife (TV)"
+  },
+  {
+    "artista": "Uyanga Bold",
+    "titulo": "Lullabye"
+  },
+  {
     "artista": "Vaiana",
     "titulo": "Qué hay más allá"
   },
   {
     "artista": "Vainica Doble y Joaquín Sabina",
     "titulo": "Con las manos en la masa"
+  },
+  {
+    "artista": "Valeria Rossi",
+    "titulo": "Tre parole"
+  },
+  {
+    "artista": "Van Halen",
+    "titulo": "Jump"
+  },
+  {
+    "artista": "Vanessa Amorosi",
+    "titulo": "Perfect"
+  },
+  {
+    "artista": "Vanessa Carlton",
+    "titulo": "A thousand miles"
   },
   {
     "artista": "Vanilla Ice",
@@ -13092,12 +17492,20 @@
     "titulo": "No te apartes de mí"
   },
   {
+    "artista": "Vickie el vikingo",
+    "titulo": "Hey, hey, Vickie"
+  },
+  {
     "artista": "Víctor Manuel",
     "titulo": "Solo pienso en ti"
   },
   {
     "artista": "Victor y Leo",
     "titulo": "Nada es normal"
+  },
+  {
+    "artista": "Video",
+    "titulo": "Bella"
   },
   {
     "artista": "Vikki Carr y Ana Gabriel",
@@ -13184,6 +17592,46 @@
     "titulo": "Hoy somos más"
   },
   {
+    "artista": "Virgin",
+    "titulo": "Szansa"
+  },
+  {
+    "artista": "Vizinhos",
+    "titulo": "Pôr do Sol"
+  },
+  {
+    "artista": "Von Hertzen Brothers",
+    "titulo": "Let Thy Will Be Done"
+  },
+  {
+    "artista": "WarCry",
+    "titulo": "Espíritu de amor"
+  },
+  {
+    "artista": "WarCry",
+    "titulo": "La última esperanza"
+  },
+  {
+    "artista": "WarCry",
+    "titulo": "Tú mismo"
+  },
+  {
+    "artista": "Warrant",
+    "titulo": "Cherry Pie"
+  },
+  {
+    "artista": "Wencke Myrhe",
+    "titulo": "Er hat ein knallrotes Gummiboot"
+  },
+  {
+    "artista": "Westlife",
+    "titulo": "Flying Without Wings"
+  },
+  {
+    "artista": "Westlife",
+    "titulo": "Swear It Again"
+  },
+  {
     "artista": "Wet Wet Wet",
     "titulo": "Love Is All Around"
   },
@@ -13212,12 +17660,52 @@
     "titulo": "I Will Always Love You"
   },
   {
+    "artista": "Whitney Houston",
+    "titulo": "I'm Your Baby Tonight"
+  },
+  {
+    "artista": "Whitney Houston",
+    "titulo": "My Love Is Your Love"
+  },
+  {
+    "artista": "Will Young",
+    "titulo": "Switch It On"
+  },
+  {
+    "artista": "Will.I.Am",
+    "titulo": "I Got It From My Mama"
+  },
+  {
     "artista": "will.i.am & Britney Spears",
     "titulo": "Scream and Shout"
   },
   {
+    "artista": "Wilson Phillips",
+    "titulo": "Hold On"
+  },
+  {
+    "artista": "Winnie L'Ourson",
+    "titulo": "L'Univers De Jean-Christophe"
+  },
+  {
+    "artista": "Winnie Puuh",
+    "titulo": "Mitten Im Hundert-Morgen-Wald"
+  },
+  {
     "artista": "Winnie The Pooh",
     "titulo": "Winnie The Pooh"
+  },
+  {
+    "artista": "Wir sind Helden",
+    "titulo": "Aurélie"
+  },
+  {
+    "artista": "Wir Sind Helden",
+    "titulo": "Nur Ein Wort"
+  },
+  {
+    "artista": "Wir Sind Helden",
+    "titulo": "Von Hier An Blind"
   },
   {
     "artista": "Wisin & Yandel",
@@ -13248,16 +17736,68 @@
     "titulo": "Nota de amor"
   },
   {
+    "artista": "Wisin y Ozuna",
+    "titulo": "Escápate Conmigo"
+  },
+  {
     "artista": "Within Temptation",
     "titulo": "Ice Queen"
+  },
+  {
+    "artista": "Within Temptation",
+    "titulo": "Stand my ground"
   },
   {
     "artista": "Wiz Khalifa ft. Charlie Puth",
     "titulo": "See you again"
   },
   {
+    "artista": "Wolfgang Petry",
+    "titulo": "Verlieben, verloren, vergessen, verzeih'n"
+  },
+  {
+    "artista": "Wolfgang Petry",
+    "titulo": "Wahnsinn"
+  },
+  {
+    "artista": "Wolfmother",
+    "titulo": "Woman"
+  },
+  {
+    "artista": "Womack And Womack",
+    "titulo": "Teardrops"
+  },
+  {
+    "artista": "X Japan",
+    "titulo": "I.V"
+  },
+  {
+    "artista": "Xavier Naidoo",
+    "titulo": "Dieser Weg"
+  },
+  {
+    "artista": "Xavier Naidoo",
+    "titulo": "Wo willst du hin"
+  },
+  {
+    "artista": "Xavier Naidoo",
+    "titulo": "Zeilen Aus Gold"
+  },
+  {
+    "artista": "YeLLOW Generation",
+    "titulo": "Tobira no mukou e"
+  },
+  {
+    "artista": "YeLLOW Generation",
+    "titulo": "Tobira no mukou e (TV)"
+  },
+  {
     "artista": "Ylvis",
     "titulo": "The Fox"
+  },
+  {
+    "artista": "Yö",
+    "titulo": "Joutsenlaulu"
   },
   {
     "artista": "Yoko Takahashi",
@@ -13272,6 +17812,10 @@
     "titulo": "We No Speak Americano"
   },
   {
+    "artista": "Yoomiii",
+    "titulo": "A Kiss Is All I Miss"
+  },
+  {
     "artista": "YUI",
     "titulo": "Again"
   },
@@ -13280,16 +17824,48 @@
     "titulo": "Again (TV)"
   },
   {
+    "artista": "YUI",
+    "titulo": "Life (TV)"
+  },
+  {
+    "artista": "YU-KA",
+    "titulo": "Rouge (TV)"
+  },
+  {
+    "artista": "Yuko Matsutani",
+    "titulo": "Ai Wa Boomerang"
+  },
+  {
     "artista": "Yuri",
     "titulo": "La maldita primavera"
+  },
+  {
+    "artista": "Yvonne Catterfeld",
+    "titulo": "Sag Mir - Was Me inst Du"
   },
   {
     "artista": "Zalo Reyes",
     "titulo": "Prisionera"
   },
   {
+    "artista": "Zapato 3",
+    "titulo": "Pantaletas Negras"
+  },
+  {
     "artista": "Zapato Veloz",
     "titulo": "Tractor amarillo"
+  },
+  {
+    "artista": "Zascha",
+    "titulo": "Seit mehr als 1000 Jahren"
+  },
+  {
+    "artista": "Zaz",
+    "titulo": "Imagine"
+  },
+  {
+    "artista": "Zion Ft. Jory y Ken-y",
+    "titulo": "More"
   },
   {
     "artista": "Zombies",
