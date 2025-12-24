@@ -6,57 +6,127 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <h1>🎵 Buscador de canciones</h1>
-    <input type="text" id="buscador" placeholder="Busca por artista o título...">
-  </header>
 
-  <main>
-    <ul id="lista"></ul>
-  </main>
+<header>
+  <h1>🎵 Buscador de canciones</h1>
 
-  <footer>
-    <p>¿Listos para cantar?</p>
-  </footer>
+  <input
+    type="text"
+    id="buscador"
+    placeholder="Busca por artista o título..."
+  >
 
-  <script>
-    const lista = document.getElementById("lista");
-    const buscador = document.getElementById("buscador");
-    let canciones = [];
+  <div class="botones">
+    <button id="randomBtn">🎲 Sugerir canción</button>
+    <button id="indecisoBtn">🤔 Modo indeciso</button>
+  </div>
 
-    function normalizar(texto) {
-      return texto
-        .normalize("NFD")              // separa acentos
-        .replace(/[\u0300-\u036f]/g, "") // elimina diacríticos
-        .toLowerCase();
-    }
+  <p id="contador"></p>
+</header>
 
-    async function cargarCanciones() {
-      const res = await fetch("canciones.json");
-      canciones = await res.json();
-      mostrar();
-    }
+<main>
+  <ul id="lista"></ul>
+</main>
 
-    function mostrar(filtro = "") {
-      lista.innerHTML = "";
-      canciones
-        .filter(c =>
-          normalizar(c.artista + " " + c.titulo)
-            .includes(normalizar(filtro))
-        )
-        .forEach(c => {
-          const li = document.createElement("li");
-          li.innerHTML = `
-            <span class="artista">${c.artista}</span>
-            <span class="separador"> - </span>
-            <span class="titulo">${c.titulo}</span>
-          `;
-          lista.appendChild(li);
-        });
-    }
+<footer>
+  <p>¿Listos para cantar?</p>
+</footer>
 
-    buscador.addEventListener("input", e => mostrar(e.target.value));
-    cargarCanciones();
-  </script>
+<script>
+const lista = document.getElementById("lista");
+const buscador = document.getElementById("buscador");
+const contador = document.getElementById("contador");
+const randomBtn = document.getElementById("randomBtn");
+const indecisoBtn = document.getElementById("indecisoBtn");
+
+let canciones = [];
+
+/* ---------- utilidades ---------- */
+function normalizar(texto) {
+  return texto
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+}
+
+/* ---------- cargar canciones ---------- */
+async function cargarCanciones() {
+  const res = await fetch("canciones.json");
+  canciones = await res.json();
+  mostrar();
+}
+
+/* ---------- mostrar lista ---------- */
+function mostrar(filtro = "") {
+  lista.innerHTML = "";
+
+  const filtradas = canciones.filter(c =>
+    normalizar(c.artista + " " + c.titulo)
+      .includes(normalizar(filtro))
+  );
+
+  contador.textContent = `🎶 ${filtradas.length} canciones`;
+
+  filtradas.forEach(c => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <span class="artista">${c.artista}</span>
+      <span class="separador"> - </span>
+      <span class="titulo">${c.titulo}</span>
+    `;
+    lista.appendChild(li);
+  });
+}
+
+/* ---------- sugerir una aleatoria ---------- */
+function sugerirAleatoria() {
+  if (!canciones.length) return;
+
+  const random = canciones[Math.floor(Math.random() * canciones.length)];
+  localStorage.setItem("ultimaCancion", JSON.stringify(random));
+
+  lista.innerHTML = "";
+  contador.textContent = "🎯 Sugerencia aleatoria";
+
+  const li = document.createElement("li");
+  li.innerHTML = `
+    <span class="artista">${random.artista}</span>
+    <span class="separador"> - </span>
+    <span class="titulo">${random.titulo}</span>
+  `;
+  lista.appendChild(li);
+}
+
+/* ---------- modo indeciso (5 canciones) ---------- */
+function sugerirVarias(n = 5) {
+  if (!canciones.length) return;
+
+  lista.innerHTML = "";
+  contador.textContent = `🤔 Elige una de estas ${n}`;
+
+  const copia = [...canciones]
+    .sort(() => 0.5 - Math.random())
+    .slice(0, n);
+
+  copia.forEach(c => {
+    const li = document.createElement("li");
+    li.innerHTML = `
+      <span class="artista">${c.artista}</span>
+      <span class="separador"> - </span>
+      <span class="titulo">${c.titulo}</span>
+    `;
+    lista.appendChild(li);
+  });
+}
+
+/* ---------- eventos ---------- */
+buscador.addEventListener("input", e => mostrar(e.target.value));
+randomBtn.addEventListener("click", sugerirAleatoria);
+indecisoBtn.addEventListener("click", () => sugerirVarias(5));
+
+/* ---------- init ---------- */
+cargarCanciones();
+</script>
+
 </body>
 </html>
