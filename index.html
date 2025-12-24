@@ -16,10 +16,9 @@
     placeholder="Busca por artista o título..."
   >
 
-  <div class="botones">
-    <button id="randomBtn">🎲 Sugerir canción</button>
-    <button id="indecisoBtn">🤔 Modo indeciso</button>
-  </div>
+  <button id="randomBtn" class="btn-principal">
+    🎲 No sé qué cantar
+  </button>
 
   <p id="contador"></p>
 </header>
@@ -37,7 +36,6 @@ const lista = document.getElementById("lista");
 const buscador = document.getElementById("buscador");
 const contador = document.getElementById("contador");
 const randomBtn = document.getElementById("randomBtn");
-const indecisoBtn = document.getElementById("indecisoBtn");
 
 let canciones = [];
 
@@ -78,37 +76,18 @@ function mostrar(filtro = "") {
   });
 }
 
-/* ---------- sugerir una aleatoria ---------- */
-function sugerirAleatoria() {
-  if (!canciones.length) return;
-
-  const random = canciones[Math.floor(Math.random() * canciones.length)];
-  localStorage.setItem("ultimaCancion", JSON.stringify(random));
-
-  lista.innerHTML = "";
-  contador.textContent = "🎯 Sugerencia aleatoria";
-
-  const li = document.createElement("li");
-  li.innerHTML = `
-    <span class="artista">${random.artista}</span>
-    <span class="separador"> - </span>
-    <span class="titulo">${random.titulo}</span>
-  `;
-  lista.appendChild(li);
-}
-
-/* ---------- modo indeciso (5 canciones) ---------- */
-function sugerirVarias(n = 5) {
+/* ---------- sugerir 5 aleatorias ---------- */
+function sugerirAleatorias(n = 5) {
   if (!canciones.length) return;
 
   lista.innerHTML = "";
-  contador.textContent = `🤔 Elige una de estas ${n}`;
+  contador.textContent = "🎲 Elige una de estas";
 
-  const copia = [...canciones]
+  const seleccion = [...canciones]
     .sort(() => 0.5 - Math.random())
     .slice(0, n);
 
-  copia.forEach(c => {
+  seleccion.forEach(c => {
     const li = document.createElement("li");
     li.innerHTML = `
       <span class="artista">${c.artista}</span>
@@ -121,8 +100,7 @@ function sugerirVarias(n = 5) {
 
 /* ---------- eventos ---------- */
 buscador.addEventListener("input", e => mostrar(e.target.value));
-randomBtn.addEventListener("click", sugerirAleatoria);
-indecisoBtn.addEventListener("click", () => sugerirVarias(5));
+randomBtn.addEventListener("click", () => sugerirAleatorias(5));
 
 /* ---------- init ---------- */
 cargarCanciones();
