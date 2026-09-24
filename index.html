@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Buscador de canciones</title>
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
 <header>
+
   <h1>🎵 Buscador de canciones</h1>
 
   <input
@@ -20,90 +26,1214 @@
     🎲 No sé qué cantar
   </button>
 
+  <button id="lastfmBtn" class="btn-lastfm">
+    🎧 Comparar con Last.fm
+  </button>
+
+  <div id="lastfmPanel" style="display: none;">
+
+    <input
+      type="text"
+      id="lastfmUsuario"
+      placeholder="Tu usuario de Last.fm..."
+    >
+
+    <select id="lastfmPeriodo">
+
+      <option value="overall">
+        Todo el tiempo
+      </option>
+
+      <option value="12month">
+        Últimos 12 meses
+      </option>
+
+      <option value="6month">
+        Últimos 6 meses
+      </option>
+
+      <option value="3month">
+        Últimos 3 meses
+      </option>
+
+      <option value="1month">
+        Último mes
+      </option>
+
+      <option value="7day">
+        Últimos 7 días
+      </option>
+
+    </select>
+
+    <button id="compararBtn" class="btn-principal">
+      🔍 Comparar
+    </button>
+
+  </div>
+
+  <button
+    id="volverBtn"
+    class="btn-secundario"
+    style="display: none;"
+  >
+    ← Volver a todas las canciones
+  </button>
+
+  <p id="lastfmEstado"></p>
+
   <p id="contador"></p>
+
 </header>
 
 <main>
+
   <ul id="lista"></ul>
+
 </main>
 
 <footer>
-  <p>¿Listos para cantar?</p>
+
+  <p>
+    ¿Listos para cantar?
+  </p>
+
+  <p id="lastfmCredito" style="display: none;">
+
+    Datos musicales proporcionados por
+
+    <a
+      href="https://www.last.fm/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Last.fm
+    </a>
+
+  </p>
+
 </footer>
 
+
 <script>
-const lista = document.getElementById("lista");
-const buscador = document.getElementById("buscador");
-const contador = document.getElementById("contador");
-const randomBtn = document.getElementById("randomBtn");
+
+
+/* =========================================================
+   CONFIGURACIÓN DE LAST.FM
+   ========================================================= */
+
+/*
+ * Pon aquí tu API Key de Last.fm.
+ *
+ * IMPORTANTE:
+ *
+ * API Key:
+ *     SÍ
+ *
+ * Shared Secret:
+ *     NO
+ *
+ * No necesitamos autenticación OAuth para consultar
+ * las canciones públicas de un usuario.
+ */
+
+const LASTFM_API_KEY = "4621e74c8c3d9d370e16910ea2668268";
+
+
+const LASTFM_API_URL =
+  "https://ws.audioscrobbler.com/2.0/";
+
+
+/*
+ * Número de canciones que pediremos a Last.fm.
+ *
+ * user.getTopTracks utiliza paginación.
+ */
+const LASTFM_CANCIONES = 100;
+
+
+/*
+ * Puntuación mínima necesaria para considerar que
+ * dos canciones son la misma.
+ *
+ * 1.00 = coincidencia exacta
+ * 0.90 = coincidencia muy probable
+ * 0.88 = nuestro umbral actual
+ */
+
+const UMBRAL_COINCIDENCIA = 0.88;
+
+
+/* =========================================================
+   ELEMENTOS DE LA PÁGINA
+   ========================================================= */
+
+const lista =
+  document.getElementById("lista");
+
+const buscador =
+  document.getElementById("buscador");
+
+const contador =
+  document.getElementById("contador");
+
+const randomBtn =
+  document.getElementById("randomBtn");
+
+const lastfmBtn =
+  document.getElementById("lastfmBtn");
+
+const lastfmPanel =
+  document.getElementById("lastfmPanel");
+
+const lastfmUsuario =
+  document.getElementById("lastfmUsuario");
+
+const lastfmPeriodo =
+  document.getElementById("lastfmPeriodo");
+
+const compararBtn =
+  document.getElementById("compararBtn");
+
+const volverBtn =
+  document.getElementById("volverBtn");
+
+const lastfmEstado =
+  document.getElementById("lastfmEstado");
+
+const lastfmCredito =
+  document.getElementById("lastfmCredito");
+
 
 let canciones = [];
 
-/* ---------- utilidades ---------- */
+
+/* =========================================================
+   NORMALIZACIÓN
+   ========================================================= */
+
+/*
+ * Convierte textos diferentes a una representación
+ * comparable.
+ *
+ * Ejemplos:
+ *
+ * "Quédate conmigo"
+ * "Quedate Conmigo"
+ *
+ * "AC/DC"
+ * "AC DC"
+ *
+ * "Hombres G"
+ * "HOMBRES G"
+ *
+ * terminarán siendo comparables.
+ */
+
 function normalizar(texto) {
-  return texto
+
+  return String(texto || "")
+
     .normalize("NFD")
+
     .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
+
+    .toLowerCase()
+
+    /*
+     * Normalizamos ampersands.
+     *
+     * "Simon & Garfunkel"
+     * "Simon and Garfunkel"
+     */
+    .replace(/\s*&\s*/g, " and ")
+
+    /*
+     * Eliminamos algunas formas habituales de
+     * colaboración.
+     *
+     * Esto evita que:
+     *
+     * "Artist feat. Other"
+     *
+     * y
+     *
+     * "Artist"
+     *
+     * se consideren canciones completamente diferentes.
+     */
+    .replace(/\b(feat|ft|featuring)\b\.?/g, " ")
+
+    .replace(/[’']/g, "")
+
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+
+    .replace(/\s+/g, " ")
+
+    .trim();
+
 }
 
-/* ---------- cargar canciones ---------- */
-async function cargarCanciones() {
-  const res = await fetch("canciones.json");
-  canciones = await res.json();
-  mostrar();
+
+/* =========================================================
+   NORMALIZACIÓN DE TÍTULOS
+   ========================================================= */
+
+function normalizarTitulo(titulo) {
+
+  let resultado =
+    normalizar(titulo);
+
+
+  /*
+   * Eliminamos información que normalmente identifica
+   * una versión alternativa de la misma canción.
+   *
+   * Ejemplos:
+   *
+   * "Song - Remastered 2011"
+   * "Song (Live)"
+   * "Song Radio Edit"
+   * "Song Acoustic"
+   * "Song Demo"
+   */
+
+  resultado =
+    resultado.replace(
+      /\b(remaster(?:ed)?|version|edit|live|radio edit|acoustic|demo)\b.*$/i,
+      ""
+    );
+
+
+  return resultado.trim();
+
 }
 
-/* ---------- mostrar lista ---------- */
-function mostrar(filtro = "") {
-  lista.innerHTML = "";
 
-  const filtradas = canciones.filter(c =>
-    normalizar(c.artista + " " + c.titulo)
-      .includes(normalizar(filtro))
+/* =========================================================
+   DISTANCIA LEVENSHTEIN
+   ========================================================= */
+
+function distanciaLevenshtein(a, b) {
+
+  if (a === b) {
+    return 0;
+  }
+
+
+  if (!a.length) {
+    return b.length;
+  }
+
+
+  if (!b.length) {
+    return a.length;
+  }
+
+
+  let anterior =
+    Array.from(
+      { length: b.length + 1 },
+      (_, i) => i
+    );
+
+
+  for (
+    let i = 1;
+    i <= a.length;
+    i++
+  ) {
+
+    const actual = [i];
+
+
+    for (
+      let j = 1;
+      j <= b.length;
+      j++
+    ) {
+
+      const coste =
+        a[i - 1] === b[j - 1]
+          ? 0
+          : 1;
+
+
+      actual[j] =
+        Math.min(
+
+          actual[j - 1] + 1,
+
+          anterior[j] + 1,
+
+          anterior[j - 1] + coste
+
+        );
+
+    }
+
+
+    anterior = actual;
+
+  }
+
+
+  return anterior[b.length];
+
+}
+
+
+/* =========================================================
+   SIMILITUD ENTRE TEXTOS
+   ========================================================= */
+
+function similitudTexto(a, b) {
+
+  if (a === b) {
+    return 1;
+  }
+
+
+  if (!a || !b) {
+    return 0;
+  }
+
+
+  const distancia =
+    distanciaLevenshtein(a, b);
+
+
+  const longitud =
+    Math.max(
+      a.length,
+      b.length
+    );
+
+
+  return 1 -
+    distancia / longitud;
+
+}
+
+
+/* =========================================================
+   SIMILITUD ENTRE CANCIONES
+   ========================================================= */
+
+function puntuacionCancion(
+  cancionLocal,
+  cancionLastfm
+) {
+
+  const artistaLocal =
+    normalizar(
+      cancionLocal.artista
+    );
+
+
+  const artistaLastfm =
+    normalizar(
+      cancionLastfm.artista
+    );
+
+
+  const tituloLocal =
+    normalizarTitulo(
+      cancionLocal.titulo
+    );
+
+
+  const tituloLastfm =
+    normalizarTitulo(
+      cancionLastfm.titulo
+    );
+
+
+  const puntuacionArtista =
+    similitudTexto(
+      artistaLocal,
+      artistaLastfm
+    );
+
+
+  const puntuacionTitulo =
+    similitudTexto(
+      tituloLocal,
+      tituloLastfm
+    );
+
+
+  /*
+   * El artista pesa ligeramente más que el título.
+   *
+   * Esto reduce falsos positivos con canciones
+   * que tienen el mismo nombre.
+   */
+
+  return (
+    puntuacionArtista * 0.55 +
+    puntuacionTitulo * 0.45
   );
 
-  contador.textContent = `🎶 ${filtradas.length} canciones`;
-
-  filtradas.forEach(c => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <span class="artista">${c.artista}</span>
-      <span class="separador"> - </span>
-      <span class="titulo">${c.titulo}</span>
-    `;
-    lista.appendChild(li);
-  });
 }
 
-/* ---------- sugerir 5 aleatorias ---------- */
-function sugerirAleatorias(n = 5) {
-  if (!canciones.length) return;
+
+/* =========================================================
+   CARGAR CANCIONES
+   ========================================================= */
+
+async function cargarCanciones() {
+
+  try {
+
+    const res =
+      await fetch(
+        "canciones.json"
+      );
+
+
+    if (!res.ok) {
+
+      throw new Error(
+        "No se pudo cargar canciones.json"
+      );
+
+    }
+
+
+    canciones =
+      await res.json();
+
+
+    mostrar();
+
+
+  } catch (error) {
+
+    console.error("Error cargando canciones.json:", error);
+
+    contador.textContent =
+      `❌ No se pudieron cargar las canciones: ${error.message}`;
+
+  }
+
+}
+
+
+/* =========================================================
+   MOSTRAR LISTA
+   ========================================================= */
+
+function mostrar(filtro = "") {
 
   lista.innerHTML = "";
-  contador.textContent = "🎲 Elige una de estas";
 
-  const seleccion = [...canciones]
-    .sort(() => 0.5 - Math.random())
-    .slice(0, n);
 
-  seleccion.forEach(c => {
-    const li = document.createElement("li");
-    li.innerHTML = `
-      <span class="artista">${c.artista}</span>
-      <span class="separador"> - </span>
-      <span class="titulo">${c.titulo}</span>
-    `;
-    lista.appendChild(li);
-  });
+  const textoFiltro =
+    normalizar(filtro);
+
+
+  const filtradas =
+    canciones.filter(c =>
+
+      normalizar(
+        c.artista + " " + c.titulo
+      ).includes(
+        textoFiltro
+      )
+
+    );
+
+
+  contador.textContent =
+    `🎶 ${filtradas.length} canciones`;
+
+
+  filtradas.forEach(
+    mostrarCancion
+  );
+
 }
 
-/* ---------- eventos ---------- */
-buscador.addEventListener("input", e => mostrar(e.target.value));
-randomBtn.addEventListener("click", () => sugerirAleatorias(5));
 
-/* ---------- init ---------- */
+/* =========================================================
+   MOSTRAR UNA CANCIÓN
+   ========================================================= */
+
+function mostrarCancion(cancion) {
+
+  const li =
+    document.createElement("li");
+
+
+  li.innerHTML = `
+
+    <span class="artista">
+      ${escapeHTML(cancion.artista)}
+    </span>
+
+    <span class="separador">
+      -
+    </span>
+
+    <span class="titulo">
+      ${escapeHTML(cancion.titulo)}
+    </span>
+
+  `;
+
+
+  lista.appendChild(li);
+
+}
+
+
+/* =========================================================
+   ESCAPAR HTML
+   ========================================================= */
+
+function escapeHTML(texto) {
+
+  const div =
+    document.createElement("div");
+
+
+  div.textContent =
+    texto;
+
+
+  return div.innerHTML;
+
+}
+
+
+/* =========================================================
+   ALEATORIO
+   ========================================================= */
+
+function sugerirAleatorias(n = 5) {
+
+  if (!canciones.length) {
+    return;
+  }
+
+
+  lista.innerHTML = "";
+
+
+  contador.textContent =
+    "🎲 Elige una de estas";
+
+
+  const seleccion =
+    [...canciones]
+
+      .sort(
+        () => 0.5 - Math.random()
+      )
+
+      .slice(0, n);
+
+
+  seleccion.forEach(
+    mostrarCancion
+  );
+
+}
+
+
+/* =========================================================
+   OBTENER TOP TRACKS DE LAST.FM
+   ========================================================= */
+
+async function obtenerTopTracksLastFM(
+  usuario,
+  periodo
+) {
+
+  const params =
+    new URLSearchParams({
+
+      method:
+        "user.getTopTracks",
+
+      user:
+        usuario,
+
+      api_key:
+        LASTFM_API_KEY,
+
+      period:
+        periodo,
+
+      limit:
+        LASTFM_CANCIONES,
+
+      page:
+        "1",
+
+      format:
+        "json"
+
+    });
+
+
+  const response =
+    await fetch(
+      `${LASTFM_API_URL}?${params}`
+    );
+
+
+  if (!response.ok) {
+
+    throw new Error(
+      "Last.fm no respondió correctamente."
+    );
+
+  }
+
+
+  const data =
+    await response.json();
+
+
+  /*
+   * Last.fm puede devolver el error dentro del JSON
+   * aunque HTTP sea 200.
+   */
+
+  if (data.error) {
+
+    throw new Error(
+      data.message ||
+      "Last.fm ha devuelto un error."
+    );
+
+  }
+
+
+  if (
+    !data.toptracks ||
+    !Array.isArray(
+      data.toptracks.track
+    )
+  ) {
+
+    throw new Error(
+      "No se encontraron canciones para este usuario."
+    );
+
+  }
+
+
+  return data.toptracks.track;
+
+}
+
+
+/* =========================================================
+   CONVERTIR DATOS DE LAST.FM
+   ========================================================= */
+
+function convertirTracksLastFM(tracks) {
+
+  return tracks.map(track => {
+
+    return {
+
+      artista:
+        typeof track.artist === "object"
+          ? track.artist.name
+          : track.artist,
+
+      titulo:
+        track.name,
+
+      playcount:
+        Number(
+          track.playcount || 0
+        ),
+
+      url:
+        track.url || null
+
+    };
+
+  });
+
+}
+
+
+/* =========================================================
+   BUSCAR COINCIDENCIAS
+   ========================================================= */
+
+function encontrarCoincidencias(
+  cancionesLocales,
+  cancionesLastFM
+) {
+
+  const coincidencias = [];
+
+
+  cancionesLocales.forEach(
+    cancionLocal => {
+
+      let mejorCoincidencia =
+        null;
+
+      let mejorPuntuacion =
+        0;
+
+
+      cancionesLastFM.forEach(
+        cancionLastFM => {
+
+          const puntuacion =
+            puntuacionCancion(
+              cancionLocal,
+              cancionLastFM
+            );
+
+
+          if (
+            puntuacion >
+            mejorPuntuacion
+          ) {
+
+            mejorPuntuacion =
+              puntuacion;
+
+            mejorCoincidencia =
+              cancionLastFM;
+
+          }
+
+        }
+      );
+
+
+      if (
+        mejorCoincidencia &&
+        mejorPuntuacion >=
+          UMBRAL_COINCIDENCIA
+      ) {
+
+        coincidencias.push({
+
+          local:
+            cancionLocal,
+
+          lastfm:
+            mejorCoincidencia,
+
+          puntuacion:
+            mejorPuntuacion
+
+        });
+
+      }
+
+    }
+  );
+
+
+  /*
+   * Las coincidencias más seguras aparecen primero.
+   */
+
+  coincidencias.sort(
+    (a, b) =>
+      b.puntuacion -
+      a.puntuacion
+  );
+
+
+  return coincidencias;
+
+}
+
+
+/* =========================================================
+   MOSTRAR COINCIDENCIAS
+   ========================================================= */
+
+function mostrarCoincidencias(
+  coincidencias,
+  usuario
+) {
+
+  lista.innerHTML = "";
+
+
+  contador.textContent =
+    `🎧 ${coincidencias.length} coincidencias`;
+
+
+  if (!coincidencias.length) {
+
+    const li =
+      document.createElement("li");
+
+
+    li.innerHTML = `
+
+      No hemos encontrado canciones de
+
+      <strong>
+        ${escapeHTML(usuario)}
+      </strong>
+
+      que coincidan con nuestro repertorio.
+
+    `;
+
+
+    lista.appendChild(li);
+
+    return;
+
+  }
+
+
+  coincidencias.forEach(
+    coincidencia => {
+
+      const li =
+        document.createElement("li");
+
+
+      const porcentaje =
+        Math.round(
+          coincidencia.puntuacion * 100
+        );
+
+
+      li.innerHTML = `
+
+        <span class="artista">
+          ${escapeHTML(
+            coincidencia.local.artista
+          )}
+        </span>
+
+        <span class="separador">
+          -
+        </span>
+
+        <span class="titulo">
+          ${escapeHTML(
+            coincidencia.local.titulo
+          )}
+        </span>
+
+        <span
+          class="coincidencia"
+          title="Nivel de similitud con Last.fm"
+        >
+          ${porcentaje}%
+        </span>
+
+      `;
+
+
+      lista.appendChild(li);
+
+    }
+  );
+
+}
+
+
+/* =========================================================
+   COMPARAR CON LAST.FM
+   ========================================================= */
+
+async function compararConLastFM() {
+
+  const usuario =
+    lastfmUsuario.value.trim();
+
+
+  const periodo =
+    lastfmPeriodo.value;
+
+
+  if (!usuario) {
+
+    alert(
+      "Introduce tu nombre de usuario de Last.fm."
+    );
+
+    lastfmUsuario.focus();
+
+    return;
+
+  }
+
+
+  if (
+    !LASTFM_API_KEY ||
+    LASTFM_API_KEY ===
+      "TU_API_KEY_AQUI"
+  ) {
+
+    alert(
+      "Primero tienes que introducir tu API Key de Last.fm en el código."
+    );
+
+    return;
+
+  }
+
+
+  try {
+
+    compararBtn.disabled =
+      true;
+
+
+    lastfmEstado.textContent =
+      "🎧 Buscando tus canciones en Last.fm...";
+
+
+    lista.innerHTML = "";
+
+
+    const tracks =
+      await obtenerTopTracksLastFM(
+        usuario,
+        periodo
+      );
+
+
+    const cancionesLastFM =
+      convertirTracksLastFM(
+        tracks
+      );
+
+
+    lastfmEstado.textContent =
+      `🎧 Hemos encontrado ${cancionesLastFM.length} canciones de ${usuario}. Comparando...`;
+
+
+    /*
+     * Dejamos respirar un instante al navegador antes
+     * de realizar la comparación.
+     */
+
+    await new Promise(
+      resolve =>
+        setTimeout(
+          resolve,
+          50
+        )
+    );
+
+
+    const coincidencias =
+      encontrarCoincidencias(
+        canciones,
+        cancionesLastFM
+      );
+
+
+    mostrarCoincidencias(
+      coincidencias,
+      usuario
+    );
+
+
+    lastfmEstado.innerHTML = `
+
+      🎧 Comparando con
+
+      <a
+        href="https://www.last.fm/user/${encodeURIComponent(usuario)}"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        ${escapeHTML(usuario)}
+      </a>
+
+    `;
+
+
+    lastfmCredito.style.display =
+      "block";
+
+
+    lastfmPanel.style.display =
+      "none";
+
+
+    lastfmBtn.style.display =
+      "none";
+
+
+    volverBtn.style.display =
+      "inline-block";
+
+
+  } catch (error) {
+
+    console.error(error);
+
+
+    lastfmEstado.textContent =
+      "❌ No se pudo consultar Last.fm.";
+
+
+    lista.innerHTML = "";
+
+
+    const li =
+      document.createElement("li");
+
+
+    li.innerHTML = `
+
+      <strong>
+        No hemos podido consultar este usuario.
+      </strong>
+
+      <br><br>
+
+      Comprueba que:
+
+      <ul>
+
+        <li>
+          El nombre de usuario de Last.fm sea correcto.
+        </li>
+
+        <li>
+          La cuenta tenga canciones registradas en Last.fm.
+        </li>
+
+        <li>
+          La API Key sea correcta.
+        </li>
+
+      </ul>
+
+      <small>
+        ${escapeHTML(error.message)}
+      </small>
+
+    `;
+
+
+    lista.appendChild(li);
+
+  } finally {
+
+    compararBtn.disabled =
+      false;
+
+  }
+
+}
+
+
+/* =========================================================
+   EVENTOS
+   ========================================================= */
+
+buscador.addEventListener(
+  "input",
+  e =>
+    mostrar(
+      e.target.value
+    )
+);
+
+
+randomBtn.addEventListener(
+  "click",
+  () =>
+    sugerirAleatorias(5)
+);
+
+
+lastfmBtn.addEventListener(
+  "click",
+  () => {
+
+    lastfmPanel.style.display =
+      lastfmPanel.style.display ===
+      "none"
+
+        ? "block"
+
+        : "none";
+
+  }
+);
+
+
+compararBtn.addEventListener(
+  "click",
+  compararConLastFM
+);
+
+
+/*
+ * ENTER en el campo de usuario.
+ */
+
+lastfmUsuario.addEventListener(
+  "keydown",
+  event => {
+
+    if (
+      event.key === "Enter"
+    ) {
+
+      compararConLastFM();
+
+    }
+
+  }
+);
+
+
+/*
+ * Volver a la lista original.
+ */
+
+volverBtn.addEventListener(
+  "click",
+  () => {
+
+    mostrar();
+
+
+    lastfmEstado.textContent =
+      "";
+
+
+    lastfmCredito.style.display =
+      "none";
+
+
+    lastfmBtn.style.display =
+      "inline-block";
+
+
+    volverBtn.style.display =
+      "none";
+
+  }
+);
+
+
+/* =========================================================
+   INICIO
+   ========================================================= */
+
 cargarCanciones();
+
 </script>
 
 </body>
