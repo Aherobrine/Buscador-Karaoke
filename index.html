@@ -1,2224 +1,1887 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Karaoke — Canciones</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karaoke M13</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-  <div class="background-glow glow-1"></div>
-  <div class="background-glow glow-2"></div>
-
-  <header class="hero">
-
-    <div class="hero-badge">
-      <span class="badge-dot"></span>
-      KARAOKE
-    </div>
-
-    <h1>
-      Encuentra tu próxima
-      <span>canción</span>
-    </h1>
-
-    <p class="hero-subtitle">
-      Busca entre todas las canciones disponibles o deja que la suerte elija por ti.
-    </p>
-
-  </header>
-
-
-  <main class="app-container">
-
     <!-- =========================
-         BUSCADOR
+         HEADER
     ========================== -->
-
-    <section class="search-section">
-
-      <div class="search-box">
-
-        <span class="search-icon">⌕</span>
-
-        <input
-          type="text"
-          id="buscador"
-          placeholder="Busca por canción o artista..."
-          autocomplete="off"
-        >
-
-        <span id="contador" class="search-counter">
-          Cargando...
-        </span>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         CARRUSEL / RUEDA
-    ========================== -->
-
-    <section class="discover-section">
-
-      <div class="section-heading">
-
-        <div>
-          <span class="section-kicker">DESCUBRE</span>
-          <h2>¿Qué vas a cantar?</h2>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Karaoke M13</h1>
+            <p>Encuentra tu próxima canción y demuestra lo que llevas dentro.</p>
         </div>
-
-        <div class="discover-actions">
-
-          <button id="randomBtn" class="primary-button">
-            <span>✦</span>
-            Sorpréndeme
-          </button>
-
-          <button
-            id="randomModeBtn"
-            class="primary-button"
-            hidden
-          >
-            <span>♪</span>
-            Mis gustos
-          </button>
-
-        </div>
-
-      </div>
+    </header>
 
 
-      <div class="carousel-wrapper">
+    <main>
 
-        <button
-          id="carouselPrev"
-          class="carousel-arrow"
-          aria-label="Canción anterior"
-        >
-          ‹
-        </button>
-
-        <div id="songCarousel" class="song-carousel">
-          <!-- Se genera mediante JavaScript -->
-        </div>
-
-        <button
-          id="carouselNext"
-          class="carousel-arrow"
-          aria-label="Canción siguiente"
-        >
-          ›
-        </button>
-
-      </div>
-
-      <div id="selectedSong" class="selected-song">
-        <span class="selected-label">CANCIÓN SELECCIONADA</span>
-        <strong id="selectedTitle">Pulsa "Sorpréndeme"</strong>
-        <span id="selectedArtist">para descubrir una canción</span>
-      </div>
-
-    </section>
+        <!-- =========================
+             BUSCADOR
+        ========================== -->
+        <section class="search-section">
+            <div class="search-container">
+                <input
+                    type="text"
+                    id="buscador"
+                    placeholder="Busca por canción o artista..."
+                    autocomplete="off"
+                >
+            </div>
+        </section>
 
 
-    <!-- =========================
-         RESULTADOS DE BÚSQUEDA
-    ========================== -->
+        <!-- =========================
+             DESCUBRIR
+        ========================== -->
+        <section class="discover-section">
 
-    <section id="resultsSection" class="results-section">
-
-      <div class="section-heading compact">
-
-        <div>
-          <span class="section-kicker">CATÁLOGO</span>
-          <h2>Canciones</h2>
-        </div>
-
-      </div>
-
-      <div id="listaCanciones" class="songs-grid"></div>
-
-      <div class="load-more-container">
-
-        <button
-          id="loadMoreBtn"
-          class="primary-button load-more-button"
-          hidden
-        >
-          Cargar más
-        </button>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         LAST.FM
-    ========================== -->
-
-    <section class="lastfm-section">
-
-      <div class="lastfm-header">
-
-        <div class="lastfm-icon">
-          ♪
-        </div>
-
-        <div>
-          <span class="section-kicker">PERSONALIZA TU EXPERIENCIA</span>
-          <h2>Encuentra canciones que encajan contigo</h2>
-          <p>
-            Compara el catálogo del karaoke con la música que escuchas habitualmente.
-          </p>
-        </div>
-
-      </div>
-
-
-      <!-- Cómo funciona -->
-
-      <div class="how-it-works">
-
-        <div class="how-title">
-          ¿Cómo funciona?
-        </div>
-
-        <div class="music-flow">
-
-          <div class="flow-item">
-            <div class="flow-icon spotify-icon">♫</div>
-            <strong>Spotify</strong>
-            <span>Tu música</span>
-          </div>
-
-          <div class="flow-line"></div>
-
-          <div class="flow-item">
-            <div class="flow-icon lastfm-icon-small">L</div>
-            <strong>Last.fm</strong>
-            <span>Registra tus escuchas</span>
-          </div>
-
-          <div class="flow-line"></div>
-
-          <div class="flow-item">
-            <div class="flow-icon karaoke-icon">🎤</div>
-            <strong>Karaoke</strong>
-            <span>Encuentra coincidencias</span>
-          </div>
-
-        </div>
-
-      </div>
-
-
-      <!-- Panel de comparación -->
-
-      <div class="lastfm-card">
-
-        <div class="lastfm-card-heading">
-
-          <div>
-            <h3>Compara tu música</h3>
-            <p>
-              Introduce tu nombre de usuario de Last.fm.
-            </p>
-          </div>
-
-          <div class="lastfm-pill">
-            LAST.FM
-          </div>
-
-        </div>
-
-
-        <div class="lastfm-form">
-
-          <div class="form-field">
-
-            <label for="lastfmUsuario">
-              Usuario de Last.fm
-            </label>
-
-            <div class="input-with-icon">
-              <span>@</span>
-
-              <input
-                type="text"
-                id="lastfmUsuario"
-                placeholder="tu_usuario"
-                autocomplete="off"
-              >
+            <div class="section-heading">
+                <span class="section-kicker">DESCUBRE</span>
+                <h2>¿No sabes qué cantar?</h2>
+                <p>Déjate sorprender.</p>
             </div>
 
-          </div>
-
-
-          <div class="form-field">
-
-            <label for="lastfmPeriodo">
-              Periodo
-            </label>
-
-            <select id="lastfmPeriodo">
-
-              <option value="overall">
-                Todo el tiempo
-              </option>
-
-              <option value="12month" selected>
-                Últimos 12 meses
-              </option>
-
-              <option value="6month">
-                Últimos 6 meses
-              </option>
-
-              <option value="3month">
-                Últimos 3 meses
-              </option>
-
-              <option value="1month">
-                Último mes
-              </option>
-
-              <option value="7day">
-                Últimos 7 días
-              </option>
-
-            </select>
-
-          </div>
-
-          <button id="compararBtn" class="lastfm-button">
-            <span>♪</span>
-            Comparar mi música
-          </button>
-
-        </div>
-
-
-        <div id="lastfmEstado" class="lastfm-status"></div>
-
-      </div>
-
-
-      <!-- Ayuda para nuevos usuarios -->
-
-      <div class="lastfm-help">
-
-        <div class="help-icon">
-          ?
-        </div>
-
-        <div class="help-content">
-
-          <strong>
-            ¿No tienes Last.fm?
-          </strong>
-
-          <p>
-            Puedes crear una cuenta gratuita y conectar Spotify con Last.fm.
-            Así Last.fm registrará automáticamente la música que escuchas y
-            podremos utilizar esos datos para encontrar canciones del karaoke
-            que encajen con tus gustos.
-          </p>
-
-          <p class="privacy-note">
-            🔒 No necesitas introducir tu contraseña de Spotify aquí.
-          </p>
-
-          <a
-            href="https://www.last.fm/join"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="lastfm-link"
-          >
-            Crear cuenta en Last.fm
-            <span>↗</span>
-          </a>
-
-        </div>
-
-      </div>
-
-
-      <!-- Resultados Last.fm -->
-
-      <div
-        id="lastfmResultados"
-        class="lastfm-results"
-        hidden
-      >
-
-        <div class="lastfm-results-heading">
-
-          <div>
-            <span class="section-kicker">TU MÚSICA</span>
-            <h3>Coincidencias encontradas</h3>
-          </div>
-
-          <div
-            id="lastfmMatchCount"
-            class="match-count"
-          ></div>
-
-        </div>
-
-        <div
-          id="lastfmLista"
-          class="lastfm-grid"
-        ></div>
-
-      </div>
-
-    </section>
-
-
-    <!-- =========================
-         BOTÓN VOLVER
-    ========================== -->
-
-    <button
-      id="volverBtn"
-      class="back-button"
-      hidden
-    >
-      ← Volver al catálogo
-    </button>
-
-  </main>
-
-
-  <footer>
-
-    <div class="footer-brand">
-      <span class="footer-mic">🎤</span>
-      <strong>Karaoke</strong>
-    </div>
-
-    <span class="footer-separator">•</span>
-
-    <span>
-      Datos musicales personalizados mediante
-      <a
-        href="https://www.last.fm/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Last.fm
-      </a>
-    </span>
-
-  </footer>
-
-
-  <script>
-
-    /* =========================================================
-       CONFIGURACIÓN
-    ========================================================== */
-
-    // Introduce aquí tu nueva API Key de Last.fm.
-    // NO pongas aquí el Shared Secret.
-    const LASTFM_API_KEY = "4621e74c8c3d9d370e16910ea2668268";
-
-    const LASTFM_API_URL =
-      "https://ws.audioscrobbler.com/2.0/";
-
-    const LASTFM_CANCIONES = 100;
-
-    const UMBRAL_COINCIDENCIA = 0.88;
-
-    // Número de canciones que se muestran inicialmente
-    // y que se añaden cada vez que se pulsa "Cargar más".
-    const CANCIONES_POR_CARGA = 20;
-
-
-    /* =========================================================
-       ESTADO
-    ========================================================== */
-
-    let canciones = [];
-
-    let cancionesFiltradas = [];
-
-    let cancionesMostradas =
-      CANCIONES_POR_CARGA;
-
-
-    /*
-     * Fuente que está utilizando actualmente
-     * el carrusel.
-     *
-     * Normalmente será:
-     *
-     *     canciones
-     *
-     * o, cuando el usuario active sus gustos:
-     *
-     *     cancionesFavoritasLastFM
-     */
-    let fuenteCarrusel = [];
-
-    /*
-     * Canciones del catálogo que han coincidido
-     * con las canciones más escuchadas del usuario.
-     */
-    let cancionesFavoritasLastFM = [];
-
-    /*
-     * false = todo el catálogo
-     * true  = gustos de Last.fm
-     */
-    let modoLastFM = false;
-
-    let indiceCarrusel = 0;
-
-    let girando = false;
-
-
-    /* =========================================================
-       ELEMENTOS
-    ========================================================== */
-
-    const buscador =
-      document.getElementById("buscador");
-
-    const contador =
-      document.getElementById("contador");
-
-    const listaCanciones =
-      document.getElementById("listaCanciones");
-
-    const loadMoreBtn =
-      document.getElementById("loadMoreBtn");
-
-    const randomBtn =
-      document.getElementById("randomBtn");
-
-    const randomModeBtn =
-      document.getElementById("randomModeBtn");
-
-    const songCarousel =
-      document.getElementById("songCarousel");
-
-    const carouselPrev =
-      document.getElementById("carouselPrev");
-
-    const carouselNext =
-      document.getElementById("carouselNext");
-
-    const selectedTitle =
-      document.getElementById("selectedTitle");
-
-    const selectedArtist =
-      document.getElementById("selectedArtist");
-
-    const selectedSong =
-      document.getElementById("selectedSong");
-
-    const lastfmUsuario =
-      document.getElementById("lastfmUsuario");
-
-    const lastfmPeriodo =
-      document.getElementById("lastfmPeriodo");
-
-    const compararBtn =
-      document.getElementById("compararBtn");
-
-    const lastfmEstado =
-      document.getElementById("lastfmEstado");
-
-    const lastfmResultados =
-      document.getElementById("lastfmResultados");
-
-    const lastfmLista =
-      document.getElementById("lastfmLista");
-
-    const lastfmMatchCount =
-      document.getElementById("lastfmMatchCount");
-
-    const volverBtn =
-      document.getElementById("volverBtn");
-
-
-    /* =========================================================
-       NORMALIZACIÓN
-    ========================================================== */
-
-    function normalizar(texto) {
-
-      return texto
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .toLowerCase()
-        .replace(/&/g, " and ")
-        .replace(/\b(feat|ft|featuring)\b/g, " ")
-        .replace(/['’]/g, "")
-        .replace(/[^a-z0-9]+/g, " ")
-        .replace(/\band\b/g, " ")
-        .replace(/\s+/g, " ")
-        .trim();
-
-    }
-
-
-    function normalizarTitulo(texto) {
-
-      return normalizar(texto)
-        .replace(
-          /\b(remaster|remastered|version|edit|live|radio edit|acoustic|demo)\b/g,
-          " "
-        )
-        .replace(/\s+/g, " ")
-        .trim();
-
-    }
-
-
-    /* =========================================================
-       LEVENSHTEIN
-    ========================================================== */
-
-    function levenshtein(a, b) {
-
-      const matrix = [];
-
-      for (let i = 0; i <= b.length; i++) {
-        matrix[i] = [i];
-      }
-
-      for (let j = 0; j <= a.length; j++) {
-        matrix[0][j] = j;
-      }
-
-      for (let i = 1; i <= b.length; i++) {
-
-        for (let j = 1; j <= a.length; j++) {
-
-          if (b.charAt(i - 1) === a.charAt(j - 1)) {
-
-            matrix[i][j] =
-              matrix[i - 1][j - 1];
-
-          } else {
-
-            matrix[i][j] = Math.min(
-              matrix[i - 1][j - 1] + 1,
-              matrix[i][j - 1] + 1,
-              matrix[i - 1][j] + 1
-            );
-
-          }
-
-        }
-
-      }
-
-      return matrix[b.length][a.length];
-
-    }
-
-
-    function similitudTexto(a, b) {
-
-      const aa = normalizar(a);
-      const bb = normalizar(b);
-
-      if (!aa || !bb) {
-        return 0;
-      }
-
-      if (aa === bb) {
-        return 1;
-      }
-
-      const distancia =
-        levenshtein(aa, bb);
-
-      return 1 -
-        distancia /
-        Math.max(aa.length, bb.length);
-
-    }
-
-
-    function puntuacionCancion(cancionA, cancionB) {
-
-      const artista =
-        similitudTexto(
-          cancionA.artista,
-          cancionB.artista
-        );
-
-      const titulo =
-        similitudTexto(
-          cancionA.titulo,
-          cancionB.titulo
-        );
-
-      return artista * 0.55 + titulo * 0.45;
-
-    }
-
-
-    /* =========================================================
-       UTILIDADES
-    ========================================================== */
-
-    function escapeHTML(texto) {
-
-      const div =
-        document.createElement("div");
-
-      div.textContent = texto;
-
-      return div.innerHTML;
-
-    }
-
-
-    function obtenerIniciales(artista) {
-
-      const palabras =
-        artista
-          .trim()
-          .split(/\s+/)
-          .filter(Boolean);
-
-      if (palabras.length === 0) {
-        return "♪";
-      }
-
-      if (palabras.length === 1) {
-        return palabras[0]
-          .substring(0, 2)
-          .toUpperCase();
-      }
-
-      return (
-        palabras[0][0] +
-        palabras[1][0]
-      ).toUpperCase();
-
-    }
-
-
-    function colorParaArtista(artista) {
-
-      let hash = 0;
-
-      for (let i = 0; i < artista.length; i++) {
-
-        hash =
-          artista.charCodeAt(i) +
-          ((hash << 5) - hash);
-
-      }
-
-      const hue =
-        Math.abs(hash) % 360;
-
-      return `hsl(${hue}, 55%, 38%)`;
-
-    }
-
-
-    /* =========================================================
-       CARÁTULAS
-    ========================================================== */
-
-    const coverCache = new Map();
-
-
-    async function obtenerCaratula(artista, titulo) {
-
-      const key =
-        `${normalizar(artista)}|${normalizarTitulo(titulo)}`;
-
-      if (coverCache.has(key)) {
-        return coverCache.get(key);
-      }
-
-      try {
-
-        const query =
-          encodeURIComponent(
-            `${artista} ${titulo}`
-          );
-
-        const respuesta =
-          await fetch(
-            `https://itunes.apple.com/search?term=${query}&entity=song&limit=1`
-          );
-
-        if (!respuesta.ok) {
-          throw new Error("Error buscando carátula");
-        }
-
-        const datos =
-          await respuesta.json();
-
-        if (
-          datos.results &&
-          datos.results.length > 0 &&
-          datos.results[0].artworkUrl100
-        ) {
-
-          const url =
-            datos.results[0]
-              .artworkUrl100
-              .replace(
-                "100x100",
-                "600x600"
-              );
-
-          coverCache.set(key, url);
-
-          return url;
-
-        }
-
-      } catch (error) {
-
-        console.warn(
-          "No se pudo obtener la carátula:",
-          artista,
-          titulo
-        );
-
-      }
-
-      coverCache.set(key, null);
-
-      return null;
-
-    }
-
-
-    function crearCoverFallback(cancion) {
-
-      const color =
-        colorParaArtista(cancion.artista);
-
-      const iniciales =
-        obtenerIniciales(cancion.artista);
-
-      return `
-        <div
-          class="cover-fallback"
-          style="--cover-color:${color}"
-        >
-          <div class="fallback-glow"></div>
-          <span class="fallback-note">♪</span>
-          <strong>${escapeHTML(iniciales)}</strong>
-          <small>${escapeHTML(cancion.artista)}</small>
-        </div>
-      `;
-
-    }
-
-
-    async function cargarCaratulaEnElemento(
-      elemento,
-      cancion
-    ) {
-
-      const url =
-        await obtenerCaratula(
-          cancion.artista,
-          cancion.titulo
-        );
-
-      if (url) {
-
-        elemento.innerHTML = `
-          <img
-            src="${url}"
-            alt="Carátula de ${escapeHTML(cancion.titulo)}"
-            loading="lazy"
-          >
-        `;
-
-      } else {
-
-        elemento.innerHTML =
-          crearCoverFallback(cancion);
-
-      }
-
-    }
-
-
-    /* =========================================================
-       CARGAR CANCIONES
-    ========================================================== */
-
-    async function cargarCanciones() {
-
-      try {
-
-        const respuesta =
-          await fetch(
-            "canciones.json",
-            {
-              cache: "no-store"
-            }
-          );
-
-        if (!respuesta.ok) {
-
-          throw new Error(
-            `HTTP ${respuesta.status} ${respuesta.statusText}`
-          );
-
-        }
-
-        canciones =
-          await respuesta.json();
-
-        if (!Array.isArray(canciones)) {
-
-          throw new Error(
-            "canciones.json no contiene un array."
-          );
-
-        }
-
-        cancionesFiltradas =
-          [...canciones];
-
-        cancionesMostradas =
-          CANCIONES_POR_CARGA;
-
-        contador.textContent =
-          `${canciones.length} canciones`;
-
-        mostrarCanciones();
-
-        prepararCarrusel();
-
-      } catch (error) {
-
-        console.error(
-          "Error cargando canciones.json:",
-          error
-        );
-
-        contador.textContent =
-          `❌ ${error.message}`;
-
-      }
-
-    }
-
-
-    /* =========================================================
-       LISTA / BÚSQUEDA
-    ========================================================== */
-
-    function mostrarCanciones() {
-
-      listaCanciones.innerHTML = "";
-
-      if (cancionesFiltradas.length === 0) {
-
-        listaCanciones.innerHTML = `
-          <div class="empty-state">
-            <div class="empty-icon">⌕</div>
-            <h3>No encontramos nada</h3>
-            <p>
-              Prueba con otro artista o título.
-            </p>
-          </div>
-        `;
-
-        loadMoreBtn.hidden = true;
-
-        return;
-
-      }
-
-
-      const cancionesAMostrar =
-        cancionesFiltradas.slice(
-          0,
-          cancionesMostradas
-        );
-
-
-      cancionesAMostrar.forEach(
-        (cancion, index) => {
-
-          const tarjeta =
-            document.createElement("article");
-
-          tarjeta.className =
-            "song-card";
-
-          tarjeta.innerHTML = `
-
-            <div class="song-cover">
-              <div class="cover-loading">
-                <span>♪</span>
-              </div>
+            <div class="discover-actions">
+                <button id="randomBtn" class="primary-button">
+                    ✨ Sorpréndeme
+                </button>
+
+                <button
+                    id="randomModeBtn"
+                    class="secondary-button"
+                    style="display: none;"
+                >
+                    🎵 Mis gustos
+                </button>
             </div>
 
-            <div class="song-info">
 
-              <span class="song-number">
-                ${String(index + 1).padStart(2, "0")}
-              </span>
+            <!-- =========================
+                 CARRUSEL
+            ========================== -->
+            <div class="carousel-wrapper">
 
-              <div>
-                <h3>
-                  ${escapeHTML(cancion.titulo)}
-                </h3>
+                <button
+                    id="carouselPrev"
+                    class="carousel-arrow carousel-arrow-left"
+                    aria-label="Canción anterior"
+                >
+                    ‹
+                </button>
 
-                <p>
-                  ${escapeHTML(cancion.artista)}
-                </p>
-              </div>
+                <div
+                    id="songCarousel"
+                    class="song-carousel"
+                ></div>
+
+                <button
+                    id="carouselNext"
+                    class="carousel-arrow carousel-arrow-right"
+                    aria-label="Canción siguiente"
+                >
+                    ›
+                </button>
 
             </div>
+
+
+            <!-- =========================
+                 CANCIÓN SELECCIONADA
+            ========================== -->
+            <div
+                id="selectedSong"
+                class="selected-song"
+            >
+                <div class="selected-song-label">
+                    TU CANCIÓN
+                </div>
+
+                <div
+                    id="selectedTitle"
+                    class="selected-song-title"
+                >
+                    Elige una canción
+                </div>
+
+                <div
+                    id="selectedArtist"
+                    class="selected-song-artist"
+                >
+                    ...
+                </div>
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LISTA DE CANCIONES
+        ========================== -->
+        <section class="songs-section">
+
+            <div class="section-heading">
+                <span class="section-kicker">CATÁLOGO</span>
+                <h2>Todas las canciones</h2>
+                <p>Encuentra la canción perfecta para ti.</p>
+            </div>
+
+            <div
+                id="listaCanciones"
+                class="songs-grid"
+            ></div>
 
             <button
-              class="song-select"
-              aria-label="Seleccionar canción"
-              title="Seleccionar canción"
+                id="loadMoreBtn"
+                class="secondary-button"
+                style="display: none;"
             >
-              +
+                Cargar más
             </button>
 
-          `;
-
-
-          tarjeta
-            .querySelector(".song-select")
-            .addEventListener(
-              "click",
-              () => seleccionarCancion(cancion)
-            );
-
-
-          tarjeta.addEventListener(
-            "click",
-            event => {
-
-              if (
-                !event.target.closest(
-                  ".song-select"
-                )
-              ) {
-
-                seleccionarCancion(cancion);
-
-              }
-
-            }
-          );
-
-
-          listaCanciones.appendChild(
-            tarjeta
-          );
-
-
-          cargarCaratulaEnElemento(
-            tarjeta.querySelector(
-              ".song-cover"
-            ),
-            cancion
-          );
-
-        }
-      );
-
-
-      loadMoreBtn.hidden =
-        cancionesMostradas >=
-        cancionesFiltradas.length;
-
-    }
-
-
-    function filtrarCanciones() {
-
-      cancionesMostradas =
-        CANCIONES_POR_CARGA;
-
-      const texto =
-        normalizar(buscador.value);
-
-      if (!texto) {
-
-        cancionesFiltradas =
-          [...canciones];
-
-      } else {
-
-        cancionesFiltradas =
-          canciones.filter(cancion => {
-
-            const artista =
-              normalizar(cancion.artista);
-
-            const titulo =
-              normalizarTitulo(cancion.titulo);
-
-            return (
-              artista.includes(texto) ||
-              titulo.includes(texto)
-            );
-
-          });
-
-      }
-
-      contador.textContent =
-        `${cancionesFiltradas.length} ${
-          cancionesFiltradas.length === 1
-            ? "canción"
-            : "canciones"
-        }`;
-
-      mostrarCanciones();
-
-    }
-
-
-    buscador.addEventListener(
-      "input",
-      filtrarCanciones
-    );
-
-
-    /* =========================================================
-       CARGAR MÁS
-    ========================================================== */
-
-    loadMoreBtn.addEventListener(
-      "click",
-      () => {
-
-        cancionesMostradas +=
-          CANCIONES_POR_CARGA;
-
-        mostrarCanciones();
-
-      }
-    );
-
-
-    /* =========================================================
-       SELECCIÓN
-    ========================================================== */
-
-    function seleccionarCancion(cancion) {
-
-      selectedTitle.textContent =
-        cancion.titulo;
-
-      selectedArtist.textContent =
-        cancion.artista;
-
-      selectedSong.classList.remove(
-        "selected-song-pop"
-      );
-
-      void selectedSong.offsetWidth;
-
-      selectedSong.classList.add(
-        "selected-song-pop"
-      );
-
-      /*
-       * No hacemos scroll.
-       *
-       * El usuario permanece exactamente donde
-       * estaba y puede seguir viendo la carátula
-       * de la canción que acaba de seleccionar.
-       */
-
-    }
-
-
-    /* =========================================================
-       CARRUSEL
-    ========================================================== */
-
-    function prepararCarrusel() {
-
-      if (canciones.length === 0) {
-        return;
-      }
-
-      /*
-       * IMPORTANTE:
-       *
-       * No hacemos .slice(), .sort() ni copiamos
-       * las canciones para crear el carrusel.
-       *
-       * El carrusel utiliza directamente el array
-       * completo que ya está en memoria.
-       */
-      fuenteCarrusel =
-        canciones;
-
-      modoLastFM =
-        false;
-
-      /*
-       * Empezamos en una canción aleatoria
-       * de TODO el catálogo.
-       */
-      indiceCarrusel =
-        Math.floor(
-          Math.random() *
-          fuenteCarrusel.length
-        );
-
-      renderizarCarrusel();
-
-    }
-
-
-    function cambiarFuenteCarrusel(
-      nuevaFuente,
-      indiceAleatorio = true
-    ) {
-
-      if (
-        !nuevaFuente ||
-        nuevaFuente.length === 0
-      ) {
-        return;
-      }
-
-      fuenteCarrusel =
-        nuevaFuente;
-
-      if (indiceAleatorio) {
-
-        indiceCarrusel =
-          Math.floor(
-            Math.random() *
-            fuenteCarrusel.length
-          );
-
-      } else {
-
-        indiceCarrusel = 0;
-
-      }
-
-      renderizarCarrusel();
-
-    }
-
-
-    function renderizarCarrusel() {
-
-      songCarousel.innerHTML = "";
-
-      if (fuenteCarrusel.length === 0) {
-        return;
-      }
-
-      const total =
-        fuenteCarrusel.length;
-
-
-      /*
-       * Solo creamos 5 elementos:
-       *
-       * -2
-       * -1
-       *  0
-       * +1
-       * +2
-       *
-       * El resto de canciones permanecen
-       * únicamente en memoria.
-       */
-      for (
-        let offset = -2;
-        offset <= 2;
-        offset++
-      ) {
-
-        const indice =
-          (
-            indiceCarrusel +
-            offset +
-            total
-          ) % total;
-
-        const cancion =
-          fuenteCarrusel[indice];
-
-        const card =
-          document.createElement("div");
-
-        card.className =
-          "carousel-card";
-
-        card.dataset.position =
-          offset;
-
-
-        card.innerHTML = `
-
-          <div class="carousel-cover">
-            <div class="cover-loading">
-              <span>♪</span>
+        </section>
+
+
+        <!-- =========================
+             LAST.FM
+        ========================== -->
+        <section class="lastfm-section">
+
+            <div class="section-heading">
+                <span class="section-kicker">PERSONALIZA</span>
+                <h2>¿Quieres encontrar canciones a tu medida?</h2>
+
+                <p>
+                    Conecta tus gustos musicales de Last.fm
+                    y descubre qué canciones del karaoke
+                    encajan contigo.
+                </p>
             </div>
-          </div>
-
-          <div class="carousel-card-info">
-
-            <strong>
-              ${escapeHTML(cancion.titulo)}
-            </strong>
-
-            <span>
-              ${escapeHTML(cancion.artista)}
-            </span>
-
-          </div>
-
-        `;
 
 
-        card.addEventListener(
-          "click",
-          () => {
+            <!-- Explicación -->
+            <div class="lastfm-help">
 
-            if (offset === 0) {
+                <div class="lastfm-flow">
 
-              seleccionarCancion(
-                cancion
-              );
+                    <div class="lastfm-step">
+                        <div class="lastfm-step-number">1</div>
+
+                        <div>
+                            <strong>Spotify → Last.fm</strong>
+
+                            <p>
+                                Last.fm puede registrar automáticamente
+                                la música que escuchas en Spotify.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="lastfm-step">
+                        <div class="lastfm-step-number">2</div>
+
+                        <div>
+                            <strong>Introduce tu usuario</strong>
+
+                            <p>
+                                Solo necesitamos tu nombre de usuario
+                                público de Last.fm.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <div class="lastfm-step">
+                        <div class="lastfm-step-number">3</div>
+
+                        <div>
+                            <strong>Encuentra tus canciones</strong>
+
+                            <p>
+                                Compararemos tus canciones más escuchadas
+                                con nuestro catálogo de karaoke.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <p class="lastfm-note">
+                    No necesitas introducir tu contraseña de Spotify
+                    ni de Last.fm aquí.
+                </p>
+
+
+                <a
+                    href="https://www.last.fm/join"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="lastfm-account-link"
+                >
+                    ¿No tienes Last.fm? Crea una cuenta
+                </a>
+
+            </div>
+
+
+            <!-- =========================
+                 FORMULARIO LAST.FM
+            ========================== -->
+            <div class="lastfm-form">
+
+                <div class="lastfm-input-group">
+
+                    <label for="lastfmUsername">
+                        Usuario de Last.fm
+                    </label>
+
+                    <input
+                        type="text"
+                        id="lastfmUsername"
+                        placeholder="Ej. nombredeusuario"
+                        autocomplete="off"
+                    >
+
+                </div>
+
+
+                <div class="lastfm-input-group">
+
+                    <label for="lastfmPeriod">
+                        Periodo
+                    </label>
+
+                    <select id="lastfmPeriod">
+                        <option value="overall">
+                            Todo el tiempo
+                        </option>
+
+                        <option value="12month">
+                            Últimos 12 meses
+                        </option>
+
+                        <option value="6month">
+                            Últimos 6 meses
+                        </option>
+
+                        <option value="3month">
+                            Últimos 3 meses
+                        </option>
+
+                        <option value="1month">
+                            Último mes
+                        </option>
+
+                        <option value="7day">
+                            Últimos 7 días
+                        </option>
+                    </select>
+
+                </div>
+
+
+                <button
+                    id="lastfmBtn"
+                    class="primary-button"
+                >
+                    🎵 Comparar mi música
+                </button>
+
+            </div>
+
+
+            <!-- =========================
+                 ESTADO LAST.FM
+            ========================== -->
+            <div
+                id="lastfmStatus"
+                class="lastfm-status"
+            ></div>
+
+
+            <!-- =========================
+                 RESULTADOS LAST.FM
+            ========================== -->
+            <div
+                id="lastfmResults"
+                class="lastfm-results"
+            ></div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+    <footer>
+        <p>Karaoke M13 · Hecho para cantar 🎤</p>
+    </footer>
+
+
+    <script>
+
+        /* =========================================================
+           CONFIGURACIÓN
+        ========================================================== */
+
+        const LASTFM_API_KEY = "4621e74c8c3d9d370e16910ea2668268";
+        const LASTFM_API_URL =
+            "https://ws.audioscrobbler.com/2.0/";
+
+        const LASTFM_CANCIONES = 100;
+
+        const UMBRAL_COINCIDENCIA = 0.88;
+
+        const CANCIONES_POR_CARGA = 20;
+
+
+        /* =========================================================
+           ESTADO GLOBAL
+        ========================================================== */
+
+        let canciones = [];
+
+        let cancionesFiltradas = [];
+
+        let cancionesMostradas =
+            CANCIONES_POR_CARGA;
+
+        let indiceCarrusel = 0;
+
+        let cancionesCarrusel = [];
+
+        let girando = false;
+
+
+        /*
+         * Canciones que coinciden con los gustos
+         * del usuario de Last.fm.
+         */
+        let cancionesFavoritasLastFM = [];
+
+
+        /*
+         * Indica si el carrusel está actualmente
+         * mostrando las canciones personalizadas.
+         */
+        let modoLastFM = false;
+
+
+        /*
+         * Fuente utilizada actualmente por el carrusel.
+         *
+         * Normalmente:
+         *     canciones
+         *
+         * Después de Last.fm:
+         *     cancionesFavoritasLastFM
+         */
+        let fuenteCarrusel = canciones;
+
+
+        /* =========================================================
+           ELEMENTOS DEL DOM
+        ========================================================== */
+
+        const buscador =
+            document.getElementById("buscador");
+
+        const listaCanciones =
+            document.getElementById("listaCanciones");
+
+        const loadMoreBtn =
+            document.getElementById("loadMoreBtn");
+
+        const randomBtn =
+            document.getElementById("randomBtn");
+
+        const randomModeBtn =
+            document.getElementById("randomModeBtn");
+
+        const songCarousel =
+            document.getElementById("songCarousel");
+
+        const carouselPrev =
+            document.getElementById("carouselPrev");
+
+        const carouselNext =
+            document.getElementById("carouselNext");
+
+        const selectedSong =
+            document.getElementById("selectedSong");
+
+        const selectedTitle =
+            document.getElementById("selectedTitle");
+
+        const selectedArtist =
+            document.getElementById("selectedArtist");
+
+        const lastfmUsername =
+            document.getElementById("lastfmUsername");
+
+        const lastfmPeriod =
+            document.getElementById("lastfmPeriod");
+
+        const lastfmBtn =
+            document.getElementById("lastfmBtn");
+
+        const lastfmStatus =
+            document.getElementById("lastfmStatus");
+
+        const lastfmResults =
+            document.getElementById("lastfmResults");
+
+
+        /* =========================================================
+           CARGAR CANCIONES
+        ========================================================== */
+
+        async function cargarCanciones() {
+
+            try {
+
+                const respuesta =
+                    await fetch("canciones.json");
+
+                canciones =
+                    await respuesta.json();
+
+                cancionesFiltradas =
+                    [...canciones];
+
+                fuenteCarrusel =
+                    canciones;
+
+                cancionesMostradas =
+                    CANCIONES_POR_CARGA;
+
+                renderizarCanciones();
+
+                prepararCarrusel();
+
+            } catch (error) {
+
+                console.error(
+                    "Error cargando canciones:",
+                    error
+                );
+
+                listaCanciones.innerHTML = `
+                    <p>
+                        No se han podido cargar las canciones.
+                    </p>
+                `;
+            }
+        }
+
+
+        /* =========================================================
+           RENDERIZAR LISTA
+        ========================================================== */
+
+        function renderizarCanciones() {
+
+            listaCanciones.innerHTML = "";
+
+            const cancionesAmostrar =
+                cancionesFiltradas.slice(
+                    0,
+                    cancionesMostradas
+                );
+
+
+            cancionesAmostrar.forEach(
+                (cancion) => {
+
+                    const card =
+                        crearTarjetaCancion(
+                            cancion
+                        );
+
+                    listaCanciones.appendChild(
+                        card
+                    );
+                }
+            );
+
+
+            if (
+                cancionesMostradas <
+                cancionesFiltradas.length
+            ) {
+
+                loadMoreBtn.style.display =
+                    "block";
 
             } else {
 
-              moverCarrusel(offset);
+                loadMoreBtn.style.display =
+                    "none";
+            }
+        }
 
+
+        /* =========================================================
+           CREAR TARJETA
+        ========================================================== */
+
+        function crearTarjetaCancion(cancion) {
+
+            const card =
+                document.createElement("article");
+
+            card.className =
+                "song-card";
+
+
+            const imagen =
+                document.createElement("img");
+
+            imagen.className =
+                "song-card-image";
+
+            imagen.alt =
+                `${cancion.titulo} - ${cancion.artista}`;
+
+            imagen.loading =
+                "lazy";
+
+
+            /*
+             * Si canciones.json ya contiene una imagen,
+             * se utiliza directamente.
+             *
+             * Si no existe, intentamos obtener
+             * una portada mediante iTunes.
+             */
+            if (cancion.imagen) {
+
+                imagen.src =
+                    cancion.imagen;
+
+            } else {
+
+                imagen.src =
+                    crearUrlImagenItunes(
+                        cancion
+                    );
             }
 
-          }
-        );
 
+            const contenido =
+                document.createElement("div");
 
-        songCarousel.appendChild(card);
+            contenido.className =
+                "song-card-content";
 
 
-        cargarCaratulaEnElemento(
-          card.querySelector(
-            ".carousel-cover"
-          ),
-          cancion
-        );
+            const titulo =
+                document.createElement("h3");
 
-      }
+            titulo.textContent =
+                cancion.titulo;
 
-    }
 
+            const artista =
+                document.createElement("p");
 
-    function moverCarrusel(direccion) {
+            artista.textContent =
+                cancion.artista;
 
-      if (girando) {
-        return;
-      }
 
-      if (
-        fuenteCarrusel.length <= 1
-      ) {
-        return;
-      }
+            contenido.appendChild(
+                titulo
+            );
 
-      indiceCarrusel =
-        (
-          indiceCarrusel +
-          direccion +
-          fuenteCarrusel.length
-        ) %
-        fuenteCarrusel.length;
-
-      renderizarCarrusel();
-
-    }
-
-
-    carouselPrev.addEventListener(
-      "click",
-      () => moverCarrusel(-1)
-    );
-
-
-    carouselNext.addEventListener(
-      "click",
-      () => moverCarrusel(1)
-    );
-
-
-    /* =========================================================
-       SORPRÉNDEME
-    ========================================================== */
-
-    randomBtn.addEventListener(
-      "click",
-      () => {
-
-        if (
-          girando ||
-          fuenteCarrusel.length === 0
-        ) {
-          return;
-        }
-
-        girando = true;
-
-        randomBtn.disabled =
-          true;
-
-        randomModeBtn.disabled =
-          true;
-
-        randomBtn.classList.add(
-          "button-spinning"
-        );
-
-
-        const total =
-          fuenteCarrusel.length;
-
-
-        /*
-         * Elegimos directamente una canción
-         * aleatoria de la fuente actual.
-         *
-         * Si estamos en catálogo:
-         *     -> todas las canciones.
-         *
-         * Si estamos en "Mis gustos":
-         *     -> todas las coincidencias.
-         */
-        const indiceObjetivo =
-          Math.floor(
-            Math.random() *
-            total
-          );
-
-
-        /*
-         * Hacemos varias vueltas visuales
-         * antes de llegar al resultado.
-         */
-        const distancia =
-          (
-            indiceObjetivo -
-            indiceCarrusel +
-            total
-          ) % total;
-
-
-        const pasos =
-          10 + distancia;
-
-
-        let pasosRealizados =
-          0;
-
-
-        const intervalo =
-          setInterval(
-            () => {
-
-              indiceCarrusel =
-                (
-                  indiceCarrusel +
-                  1
-                ) % total;
-
-              renderizarCarrusel();
-
-              pasosRealizados++;
-
-
-              if (
-                pasosRealizados >= pasos
-              ) {
-
-                clearInterval(
-                  intervalo
-                );
-
-
-                /*
-                 * Nos aseguramos de terminar
-                 * exactamente en la canción elegida.
-                 */
-                indiceCarrusel =
-                  indiceObjetivo;
-
-                renderizarCarrusel();
-
-
-                girando =
-                  false;
-
-                randomBtn.disabled =
-                  false;
-
-                randomModeBtn.disabled =
-                  false;
-
-                randomBtn.classList.remove(
-                  "button-spinning"
-                );
-
-
-                const cancion =
-                  fuenteCarrusel[
-                    indiceCarrusel
-                  ];
-
-
-                seleccionarCancion(
-                  cancion
-                );
-
-              }
-
-            },
-            100
-          );
-
-      }
-    );
-
-
-    /* =========================================================
-       CAMBIAR ENTRE CATÁLOGO Y LAST.FM
-    ========================================================== */
-
-    randomModeBtn.addEventListener(
-      "click",
-      () => {
-
-        if (
-          girando ||
-          cancionesFavoritasLastFM.length === 0
-        ) {
-          return;
-        }
-
-
-        modoLastFM =
-          !modoLastFM;
-
-
-        if (modoLastFM) {
-
-          /*
-           * Ahora el carrusel trabaja únicamente
-           * con las canciones del catálogo que
-           * coincidieron con Last.fm.
-           */
-          cambiarFuenteCarrusel(
-            cancionesFavoritasLastFM,
-            true
-          );
-
-
-          randomModeBtn.innerHTML = `
-            <span>✦</span>
-            Todo el catálogo
-          `;
-
-
-          randomModeBtn.title =
-            "Volver a utilizar todo el catálogo";
-
-
-        } else {
-
-          /*
-           * Volvemos al catálogo completo.
-           */
-          cambiarFuenteCarrusel(
-            canciones,
-            true
-          );
-
-
-          randomModeBtn.innerHTML = `
-            <span>♪</span>
-            Mis gustos
-          `;
-
-
-          randomModeBtn.title =
-            "Utilizar tus gustos de Last.fm";
-
-        }
-
-      }
-    );
-
-
-    /* =========================================================
-       LAST.FM
-    ========================================================== */
-
-    async function obtenerTopTracksLastFM(
-      usuario,
-      periodo
-    ) {
-
-      const url =
-        new URL(LASTFM_API_URL);
-
-
-      url.searchParams.set(
-        "method",
-        "user.getTopTracks"
-      );
-
-
-      url.searchParams.set(
-        "user",
-        usuario
-      );
-
-
-      url.searchParams.set(
-        "period",
-        periodo
-      );
-
-
-      url.searchParams.set(
-        "limit",
-        LASTFM_CANCIONES
-      );
-
-
-      url.searchParams.set(
-        "api_key",
-        LASTFM_API_KEY
-      );
-
-
-      url.searchParams.set(
-        "format",
-        "json"
-      );
-
-
-      const respuesta =
-        await fetch(url);
-
-
-      if (!respuesta.ok) {
-
-        throw new Error(
-          `Last.fm respondió HTTP ${respuesta.status}`
-        );
-
-      }
-
-
-      const datos =
-        await respuesta.json();
-
-
-      if (datos.error) {
-
-        throw new Error(
-          datos.message ||
-          "Last.fm ha devuelto un error."
-        );
-
-      }
-
-
-      if (
-        !datos.toptracks ||
-        !datos.toptracks.track
-      ) {
-
-        throw new Error(
-          "No se han encontrado canciones para este usuario."
-        );
-
-      }
-
-
-      return datos.toptracks.track;
-
-    }
-
-
-    function convertirTracksLastFM(
-      tracks
-    ) {
-
-      return tracks.map(track => ({
-
-        artista:
-          typeof track.artist === "string"
-            ? track.artist
-            : track.artist?.name || "",
-
-        titulo:
-          track.name || "",
-
-        imagen:
-          obtenerImagenLastFM(track.image)
-
-      }));
-
-    }
-
-
-    function obtenerImagenLastFM(
-      imagenes
-    ) {
-
-      if (!Array.isArray(imagenes)) {
-        return null;
-      }
-
-
-      const grandes =
-        [...imagenes]
-          .reverse()
-          .find(
-            imagen =>
-              imagen &&
-              imagen["#text"]
-          );
-
-
-      return grandes
-        ? grandes["#text"]
-        : null;
-
-    }
-
-
-    /* =========================================================
-       COINCIDENCIAS
-    ========================================================== */
-
-    function encontrarCoincidencias(
-      cancionesUsuario
-    ) {
-
-      const coincidencias = [];
-
-
-      for (
-        const cancionLocal
-        of canciones
-      ) {
-
-        let mejorCoincidencia =
-          null;
-
-        let mejorPuntuacion =
-          0;
-
-
-        for (
-          const cancionUsuario
-          of cancionesUsuario
-        ) {
-
-          const puntuacion =
-            puntuacionCancion(
-              cancionLocal,
-              cancionUsuario
+            contenido.appendChild(
+                artista
             );
 
 
-          if (
-            puntuacion >
-            mejorPuntuacion
-          ) {
+            card.appendChild(
+                imagen
+            );
 
-            mejorPuntuacion =
-              puntuacion;
+            card.appendChild(
+                contenido
+            );
 
-            mejorCoincidencia =
-              cancionUsuario;
 
-          }
+            card.addEventListener(
+                "click",
+                () => {
 
+                    seleccionarCancion(
+                        cancion
+                    );
+                }
+            );
+
+
+            return card;
         }
 
 
-        if (
-          mejorCoincidencia &&
-          mejorPuntuacion >=
-          UMBRAL_COINCIDENCIA
-        ) {
+        /* =========================================================
+           CARGAR MÁS
+        ========================================================== */
 
-          coincidencias.push({
+        loadMoreBtn.addEventListener(
+            "click",
+            () => {
 
-            local:
-              cancionLocal,
+                cancionesMostradas +=
+                    CANCIONES_POR_CARGA;
 
-            lastfm:
-              mejorCoincidencia,
-
-            puntuacion:
-              mejorPuntuacion
-
-          });
-
-        }
-
-      }
-
-
-      return coincidencias
-        .sort(
-          (a, b) =>
-            b.puntuacion -
-            a.puntuacion
-        );
-
-    }
-
-
-    /* =========================================================
-       MOSTRAR RESULTADOS LAST.FM
-    ========================================================== */
-
-    async function mostrarCoincidencias(
-      coincidencias
-    ) {
-
-      lastfmLista.innerHTML = "";
-
-
-      lastfmMatchCount.textContent =
-        `${coincidencias.length} ${
-          coincidencias.length === 1
-            ? "coincidencia"
-            : "coincidencias"
-        }`;
-
-
-      if (
-        coincidencias.length === 0
-      ) {
-
-        lastfmLista.innerHTML = `
-
-          <div class="empty-state lastfm-empty">
-
-            <div class="empty-icon">
-              ♫
-            </div>
-
-            <h3>
-              No hemos encontrado coincidencias
-            </h3>
-
-            <p>
-              Prueba con otro periodo o comprueba
-              que tu historial de Last.fm tenga
-              suficientes escuchas.
-            </p>
-
-          </div>
-
-        `;
-
-        return;
-
-      }
-
-
-      for (
-        const coincidencia
-        of coincidencias
-      ) {
-
-        const tarjeta =
-          document.createElement("article");
-
-        tarjeta.className =
-          "match-card";
-
-
-        const porcentaje =
-          Math.round(
-            coincidencia.puntuacion * 100
-          );
-
-
-        tarjeta.innerHTML = `
-
-          <div class="match-cover">
-
-            <div class="cover-loading">
-              <span>♪</span>
-            </div>
-
-          </div>
-
-
-          <div class="match-info">
-
-            <span class="match-label">
-              EN TU MÚSICA
-            </span>
-
-            <h4>
-              ${escapeHTML(
-                coincidencia.local.titulo
-              )}
-            </h4>
-
-            <p>
-              ${escapeHTML(
-                coincidencia.local.artista
-              )}
-            </p>
-
-            <div class="match-source">
-
-              <span>
-                ♪ Last.fm
-              </span>
-
-              ${
-                coincidencia.lastfm.titulo !==
-                coincidencia.local.titulo
-                  ? `
-                    <span class="match-original">
-                      ${escapeHTML(
-                        coincidencia.lastfm.titulo
-                      )}
-                    </span>
-                  `
-                  : ""
-              }
-
-            </div>
-
-          </div>
-
-
-          <div
-            class="match-ring"
-            style="--match:${porcentaje}"
-          >
-
-            <div>
-              <strong>
-                ${porcentaje}%
-              </strong>
-
-              <span>
-                match
-              </span>
-            </div>
-
-          </div>
-
-        `;
-
-
-        lastfmLista.appendChild(
-          tarjeta
+                renderizarCanciones();
+            }
         );
 
 
-        const cover =
-          tarjeta.querySelector(
-            ".match-cover"
-          );
+        /* =========================================================
+           BUSCADOR
+        ========================================================== */
+
+        buscador.addEventListener(
+            "input",
+            () => {
+
+                const texto =
+                    buscador.value
+                        .trim()
+                        .toLowerCase();
 
 
-        if (
-          coincidencia.lastfm.imagen
-        ) {
+                if (!texto) {
 
-          cover.innerHTML = `
+                    cancionesFiltradas =
+                        [...canciones];
 
-            <img
-              src="${coincidencia.lastfm.imagen}"
-              alt=""
-              loading="lazy"
-            >
+                } else {
 
-          `;
+                    cancionesFiltradas =
+                        canciones.filter(
+                            (cancion) => {
 
-        } else {
+                                const titulo =
+                                    cancion.titulo
+                                        .toLowerCase();
 
-          await cargarCaratulaEnElemento(
-            cover,
-            coincidencia.local
-          );
+                                const artista =
+                                    cancion.artista
+                                        .toLowerCase();
 
+                                return (
+                                    titulo.includes(
+                                        texto
+                                    ) ||
+                                    artista.includes(
+                                        texto
+                                    )
+                                );
+                            }
+                        );
+                }
+
+
+                cancionesMostradas =
+                    CANCIONES_POR_CARGA;
+
+                renderizarCanciones();
+            }
+        );
+
+
+        /* =========================================================
+           SELECCIONAR CANCIÓN
+        ========================================================== */
+
+        function seleccionarCancion(cancion) {
+
+            selectedTitle.textContent =
+                cancion.titulo;
+
+            selectedArtist.textContent =
+                cancion.artista;
+
+
+            /*
+             * Reiniciamos la animación para que
+             * pueda reproducirse cada vez.
+             */
+            selectedSong.classList.remove(
+                "selected-song-pop"
+            );
+
+            void selectedSong.offsetWidth;
+
+            selectedSong.classList.add(
+                "selected-song-pop"
+            );
+
+
+            /*
+             * IMPORTANTE:
+             *
+             * No hacemos scroll automático.
+             *
+             * El usuario permanece exactamente
+             * donde estaba.
+             */
         }
 
-      }
 
-    }
+        /* =========================================================
+           PREPARAR CARRUSEL
+        ========================================================== */
 
+        function prepararCarrusel() {
 
-    /* =========================================================
-       COMPARAR
-    ========================================================== */
-
-    async function compararConLastFM() {
-
-      const usuario =
-        lastfmUsuario.value.trim();
-
-      const periodo =
-        lastfmPeriodo.value;
+            if (
+                fuenteCarrusel.length === 0
+            ) {
+                songCarousel.innerHTML = "";
+                return;
+            }
 
 
-      if (!usuario) {
-
-        lastfmEstado.className =
-          "lastfm-status error";
-
-        lastfmEstado.textContent =
-          "Introduce tu nombre de usuario de Last.fm.";
-
-        lastfmUsuario.focus();
-
-        return;
-
-      }
+            indiceCarrusel =
+                Math.floor(
+                    fuenteCarrusel.length / 2
+                );
 
 
-      if (
-        !LASTFM_API_KEY ||
-        LASTFM_API_KEY ===
-        "TU_API_KEY_AQUI"
-      ) {
-
-        lastfmEstado.className =
-          "lastfm-status error";
-
-        lastfmEstado.textContent =
-          "Falta configurar la API Key de Last.fm.";
-
-        return;
-
-      }
+            renderizarCarrusel();
+        }
 
 
-      compararBtn.disabled =
-        true;
+        /* =========================================================
+           RENDERIZAR CARRUSEL
+        ========================================================== */
 
-      compararBtn.classList.add(
-        "loading"
-      );
+        function renderizarCarrusel() {
 
-
-      lastfmEstado.className =
-        "lastfm-status loading";
+            songCarousel.innerHTML = "";
 
 
-      lastfmEstado.innerHTML = `
-        <span class="spinner"></span>
-        Consultando tu música...
-      `;
+            if (
+                fuenteCarrusel.length === 0
+            ) {
+                return;
+            }
 
 
-      lastfmResultados.hidden =
-        true;
+            const total =
+                fuenteCarrusel.length;
 
 
-      try {
+            /*
+             * Solo generamos 5 elementos visuales:
+             *
+             *       -2
+             *       -1
+             *        0
+             *       +1
+             *       +2
+             *
+             * Aunque haya 4.000 canciones,
+             * nunca metemos las 4.000 en el DOM.
+             */
+            for (
+                let offset = -2;
+                offset <= 2;
+                offset++
+            ) {
 
-        const tracks =
-          await obtenerTopTracksLastFM(
+                const indice =
+                    (
+                        indiceCarrusel +
+                        offset +
+                        total
+                    ) % total;
+
+
+                const cancion =
+                    fuenteCarrusel[indice];
+
+
+                const card =
+                    document.createElement("div");
+
+                card.className =
+                    "carousel-card";
+
+
+                if (offset === 0) {
+
+                    card.classList.add(
+                        "active"
+                    );
+                }
+
+
+                const imagen =
+                    document.createElement("img");
+
+                imagen.className =
+                    "carousel-card-image";
+
+                imagen.alt =
+                    `${cancion.titulo} - ${cancion.artista}`;
+
+                imagen.loading =
+                    "eager";
+
+
+                if (cancion.imagen) {
+
+                    imagen.src =
+                        cancion.imagen;
+
+                } else {
+
+                    imagen.src =
+                        crearUrlImagenItunes(
+                            cancion
+                        );
+                }
+
+
+                const info =
+                    document.createElement("div");
+
+                info.className =
+                    "carousel-card-info";
+
+
+                const titulo =
+                    document.createElement("div");
+
+                titulo.className =
+                    "carousel-card-title";
+
+                titulo.textContent =
+                    cancion.titulo;
+
+
+                const artista =
+                    document.createElement("div");
+
+                artista.className =
+                    "carousel-card-artist";
+
+                artista.textContent =
+                    cancion.artista;
+
+
+                info.appendChild(
+                    titulo
+                );
+
+                info.appendChild(
+                    artista
+                );
+
+
+                card.appendChild(
+                    imagen
+                );
+
+                card.appendChild(
+                    info
+                );
+
+
+                card.addEventListener(
+                    "click",
+                    () => {
+
+                        seleccionarCancion(
+                            cancion
+                        );
+                    }
+                );
+
+
+                songCarousel.appendChild(
+                    card
+                );
+            }
+        }
+
+
+        /* =========================================================
+           MOVER CARRUSEL
+        ========================================================== */
+
+        function moverCarrusel(direccion) {
+
+            if (girando) {
+                return;
+            }
+
+
+            if (
+                fuenteCarrusel.length <= 1
+            ) {
+                return;
+            }
+
+
+            indiceCarrusel =
+                (
+                    indiceCarrusel +
+                    direccion +
+                    fuenteCarrusel.length
+                ) %
+                fuenteCarrusel.length;
+
+
+            renderizarCarrusel();
+        }
+
+
+        carouselPrev.addEventListener(
+            "click",
+            () => {
+
+                moverCarrusel(-1);
+            }
+        );
+
+
+        carouselNext.addEventListener(
+            "click",
+            () => {
+
+                moverCarrusel(1);
+            }
+        );
+
+
+        /* =========================================================
+           SORPRÉNDEME
+        ========================================================== */
+
+        randomBtn.addEventListener(
+            "click",
+            () => {
+
+                if (
+                    girando ||
+                    fuenteCarrusel.length === 0
+                ) {
+                    return;
+                }
+
+
+                girando = true;
+
+
+                /*
+                 * Desactivamos los botones durante
+                 * la animación para evitar que se
+                 * lancen varias animaciones a la vez.
+                 */
+                randomBtn.disabled = true;
+
+                randomModeBtn.disabled = true;
+
+
+                randomBtn.classList.add(
+                    "button-spinning"
+                );
+
+
+                const total =
+                    fuenteCarrusel.length;
+
+
+                /*
+                 * ELEGIMOS DIRECTAMENTE EL DESTINO.
+                 *
+                 * No buscamos canción por canción.
+                 *
+                 * Si hay 4.000 canciones, esta operación
+                 * sigue siendo instantánea.
+                 */
+                const indiceObjetivo =
+                    Math.floor(
+                        Math.random() * total
+                    );
+
+
+                /*
+                 * La animación tiene siempre
+                 * el mismo número de pasos.
+                 *
+                 * Por tanto, da igual que haya
+                 * 100 canciones o 10.000.
+                 */
+                const pasosAnimacion = 14;
+
+                let pasoActual = 0;
+
+
+                const intervalo =
+                    setInterval(
+                        () => {
+
+                            pasoActual++;
+
+
+                            /*
+                             * Durante la animación
+                             * avanzamos por el carrusel.
+                             */
+                            if (
+                                pasoActual <
+                                pasosAnimacion
+                            ) {
+
+                                indiceCarrusel =
+                                    (
+                                        indiceCarrusel +
+                                        1
+                                    ) % total;
+
+
+                                renderizarCarrusel();
+
+                                return;
+                            }
+
+
+                            /*
+                             * ÚLTIMO PASO
+                             *
+                             * Saltamos directamente
+                             * a la canción seleccionada.
+                             */
+                            indiceCarrusel =
+                                indiceObjetivo;
+
+
+                            renderizarCarrusel();
+
+
+                            clearInterval(
+                                intervalo
+                            );
+
+
+                            girando = false;
+
+
+                            randomBtn.disabled =
+                                false;
+
+                            randomModeBtn.disabled =
+                                false;
+
+
+                            randomBtn.classList.remove(
+                                "button-spinning"
+                            );
+
+
+                            const cancion =
+                                fuenteCarrusel[
+                                    indiceCarrusel
+                                ];
+
+
+                            seleccionarCancion(
+                                cancion
+                            );
+
+                        },
+                        60
+                    );
+            }
+        );
+
+
+        /* =========================================================
+           MODO "MIS GUSTOS"
+        ========================================================== */
+
+        randomModeBtn.addEventListener(
+            "click",
+            () => {
+
+                if (girando) {
+                    return;
+                }
+
+
+                if (
+                    cancionesFavoritasLastFM.length === 0
+                ) {
+                    return;
+                }
+
+
+                modoLastFM =
+                    !modoLastFM;
+
+
+                if (modoLastFM) {
+
+                    /*
+                     * Activamos las canciones
+                     * compatibles con Last.fm.
+                     */
+                    fuenteCarrusel =
+                        cancionesFavoritasLastFM;
+
+
+                    randomModeBtn.textContent =
+                        "📚 Todo el catálogo";
+
+                } else {
+
+                    /*
+                     * Volvemos al catálogo completo.
+                     */
+                    fuenteCarrusel =
+                        canciones;
+
+
+                    randomModeBtn.textContent =
+                        "🎵 Mis gustos";
+                }
+
+
+                indiceCarrusel = 0;
+
+                renderizarCarrusel();
+            }
+        );
+
+
+        /* =========================================================
+           LAST.FM — OBTENER TOP TRACKS
+        ========================================================== */
+
+        async function obtenerTopTracksLastFM(
             usuario,
             periodo
-          );
-
-
-        const cancionesUsuario =
-          convertirTracksLastFM(
-            tracks
-          );
-
-
-        const coincidencias =
-          encontrarCoincidencias(
-            cancionesUsuario
-          );
-
-
-        /*
-         * Guardamos únicamente las canciones
-         * del catálogo que han coincidido.
-         *
-         * El objeto sigue siendo exactamente
-         * igual que una canción normal de
-         * canciones.json:
-         *
-         * {
-         *   artista,
-         *   titulo
-         * }
-         */
-        cancionesFavoritasLastFM =
-          coincidencias.map(
-            coincidencia =>
-              coincidencia.local
-          );
-
-
-        /*
-         * Una nueva comparación siempre vuelve
-         * primero al catálogo completo.
-         */
-        modoLastFM =
-          false;
-
-
-        cambiarFuenteCarrusel(
-          canciones,
-          true
-        );
-
-
-        /*
-         * Solo mostramos "Mis gustos" si hay
-         * al menos una coincidencia.
-         */
-        randomModeBtn.hidden =
-          cancionesFavoritasLastFM.length === 0;
-
-
-        randomModeBtn.disabled =
-          false;
-
-
-        randomModeBtn.innerHTML = `
-          <span>♪</span>
-          Mis gustos
-        `;
-
-
-        randomModeBtn.title =
-          "Utilizar tus gustos de Last.fm";
-
-
-        await mostrarCoincidencias(
-          coincidencias
-        );
-
-
-        lastfmResultados.hidden =
-          false;
-
-
-        lastfmEstado.className =
-          "lastfm-status success";
-
-
-        lastfmEstado.innerHTML = `
-          ✓ Hemos analizado tus
-          ${tracks.length} canciones más escuchadas.
-        `;
-
-
-        lastfmResultados.scrollIntoView({
-          behavior: "smooth",
-          block: "start"
-        });
-
-
-      } catch (error) {
-
-        console.error(
-          "Error con Last.fm:",
-          error
-        );
-
-
-        lastfmEstado.className =
-          "lastfm-status error";
-
-
-        lastfmEstado.textContent =
-          `No hemos podido consultar Last.fm: ${
-            error.message
-          }`;
-
-      } finally {
-
-        compararBtn.disabled =
-          false;
-
-        compararBtn.classList.remove(
-          "loading"
-        );
-
-      }
-
-    }
-
-
-    compararBtn.addEventListener(
-      "click",
-      compararConLastFM
-    );
-
-
-    lastfmUsuario.addEventListener(
-      "keydown",
-      event => {
-
-        if (
-          event.key === "Enter"
         ) {
 
-          compararConLastFM();
+            const parametros =
+                new URLSearchParams({
 
+                    method:
+                        "user.getTopTracks",
+
+                    user:
+                        usuario,
+
+                    period:
+                        periodo,
+
+                    limit:
+                        LASTFM_CANCIONES,
+
+                    api_key:
+                        LASTFM_API_KEY,
+
+                    format:
+                        "json"
+                });
+
+
+            const respuesta =
+                await fetch(
+                    `${LASTFM_API_URL}?${parametros}`
+                );
+
+
+            if (!respuesta.ok) {
+
+                throw new Error(
+                    "Error conectando con Last.fm."
+                );
+            }
+
+
+            const datos =
+                await respuesta.json();
+
+
+            if (
+                datos.error
+            ) {
+
+                throw new Error(
+                    datos.message ||
+                    "Last.fm ha devuelto un error."
+                );
+            }
+
+
+            return (
+                datos.toptracks?.track ||
+                []
+            );
         }
 
-      }
-    );
+
+        /* =========================================================
+           CONVERTIR TRACKS LAST.FM
+        ========================================================== */
+
+        function convertirTracksLastFM(
+            tracks
+        ) {
+
+            return tracks.map(
+                (track) => {
+
+                    return {
+
+                        artista:
+                            typeof track.artist === "string"
+                                ? track.artist
+                                : track.artist?.name || "",
+
+                        titulo:
+                            track.name || "",
+
+                        imagen:
+                            obtenerImagenLastFM(
+                                track.image
+                            )
+                    };
+                }
+            );
+        }
 
 
-    /* =========================================================
-       INICIALIZACIÓN
-    ========================================================== */
+        /* =========================================================
+           IMAGEN LAST.FM
+        ========================================================== */
 
-    cargarCanciones();
+        function obtenerImagenLastFM(
+            imagenes
+        ) {
 
-  </script>
+            if (
+                !Array.isArray(imagenes)
+            ) {
+                return "";
+            }
+
+
+            /*
+             * Preferimos la imagen grande.
+             */
+            const grande =
+                imagenes.find(
+                    (imagen) =>
+                        imagen.size === "extralarge"
+                );
+
+
+            if (
+                grande?.["#text"]
+            ) {
+                return grande["#text"];
+            }
+
+
+            const cualquiera =
+                imagenes.find(
+                    (imagen) =>
+                        imagen["#text"]
+                );
+
+
+            return (
+                cualquiera?.["#text"] ||
+                ""
+            );
+        }
+
+
+        /* =========================================================
+           NORMALIZACIÓN DE TEXTO
+        ========================================================== */
+
+        function normalizarTexto(texto) {
+
+            return texto
+                .toLowerCase()
+                .normalize("NFD")
+                .replace(
+                    /[\u0300-\u036f]/g,
+                    ""
+                )
+                .replace(
+                    /[^a-z0-9\s]/g,
+                    ""
+                )
+                .replace(
+                    /\s+/g,
+                    " "
+                )
+                .trim();
+        }
+
+
+        /* =========================================================
+           SIMILITUD DE TEXTO
+        ========================================================== */
+
+        function similitudTexto(
+            textoA,
+            textoB
+        ) {
+
+            const a =
+                normalizarTexto(
+                    textoA
+                );
+
+            const b =
+                normalizarTexto(
+                    textoB
+                );
+
+
+            if (
+                a === b
+            ) {
+                return 1;
+            }
+
+
+            if (
+                !a ||
+                !b
+            ) {
+                return 0;
+            }
+
+
+            if (
+                a.includes(b) ||
+                b.includes(a)
+            ) {
+                return 0.95;
+            }
+
+
+            const palabrasA =
+                new Set(
+                    a.split(" ")
+                );
+
+            const palabrasB =
+                new Set(
+                    b.split(" ")
+                );
+
+
+            const interseccion =
+                [...palabrasA].filter(
+                    palabra =>
+                        palabrasB.has(
+                            palabra
+                        )
+                );
+
+
+            const union =
+                new Set([
+                    ...palabrasA,
+                    ...palabrasB
+                ]);
+
+
+            if (
+                union.size === 0
+            ) {
+                return 0;
+            }
+
+
+            return (
+                interseccion.length /
+                union.size
+            );
+        }
+
+
+        /* =========================================================
+           PUNTUACIÓN DE CANCIÓN
+        ========================================================== */
+
+        function puntuacionCancion(
+            cancionLocal,
+            cancionLastFM
+        ) {
+
+            const puntuacionTitulo =
+                similitudTexto(
+                    cancionLocal.titulo,
+                    cancionLastFM.titulo
+                );
+
+
+            const puntuacionArtista =
+                similitudTexto(
+                    cancionLocal.artista,
+                    cancionLastFM.artista
+                );
+
+
+            /*
+             * Damos más importancia al título,
+             * pero el artista también debe coincidir.
+             */
+            return (
+                puntuacionTitulo * 0.6 +
+                puntuacionArtista * 0.4
+            );
+        }
+
+
+        /* =========================================================
+           ENCONTRAR COINCIDENCIAS
+        ========================================================== */
+
+        function encontrarCoincidencias(
+            cancionesUsuario
+        ) {
+
+            const coincidencias = [];
+
+
+            for (
+                const cancionLocal
+                of canciones
+            ) {
+
+                let mejorCoincidencia =
+                    null;
+
+                let mejorPuntuacion =
+                    0;
+
+
+                for (
+                    const cancionUsuario
+                    of cancionesUsuario
+                ) {
+
+                    const puntuacion =
+                        puntuacionCancion(
+                            cancionLocal,
+                            cancionUsuario
+                        );
+
+
+                    if (
+                        puntuacion >
+                        mejorPuntuacion
+                    ) {
+
+                        mejorPuntuacion =
+                            puntuacion;
+
+                        mejorCoincidencia =
+                            cancionUsuario;
+                    }
+                }
+
+
+                if (
+                    mejorCoincidencia &&
+                    mejorPuntuacion >=
+                        UMBRAL_COINCIDENCIA
+                ) {
+
+                    coincidencias.push({
+
+                        local:
+                            cancionLocal,
+
+                        lastfm:
+                            mejorCoincidencia,
+
+                        puntuacion:
+                            mejorPuntuacion
+                    });
+                }
+            }
+
+
+            return coincidencias.sort(
+                (a, b) =>
+                    b.puntuacion -
+                    a.puntuacion
+            );
+        }
+
+
+        /* =========================================================
+           MOSTRAR RESULTADOS LAST.FM
+        ========================================================== */
+
+        function mostrarResultadosLastFM(
+            coincidencias
+        ) {
+
+            lastfmResults.innerHTML = "";
+
+
+            if (
+                coincidencias.length === 0
+            ) {
+
+                lastfmResults.innerHTML = `
+                    <div class="lastfm-no-results">
+                        <h3>No hemos encontrado coincidencias.</h3>
+                        <p>
+                            Prueba con otro periodo de Last.fm
+                            o asegúrate de que tu historial
+                            musical tenga suficientes canciones.
+                        </p>
+                    </div>
+                `;
+
+                return;
+            }
+
+
+            const titulo =
+                document.createElement("h3");
+
+            titulo.textContent =
+                `Hemos encontrado ${coincidencias.length} canción${
+                    coincidencias.length === 1
+                        ? ""
+                        : "es"
+                } que encajan contigo`;
+
+
+            lastfmResults.appendChild(
+                titulo
+            );
+
+
+            const lista =
+                document.createElement("div");
+
+            lista.className =
+                "lastfm-matches";
+
+
+            coincidencias
+                .slice(0, 20)
+                .forEach(
+                    (coincidencia) => {
+
+                        const card =
+                            document.createElement(
+                                "div"
+                            );
+
+                        card.className =
+                            "lastfm-match";
+
+
+                        const imagen =
+                            document.createElement(
+                                "img"
+                            );
+
+                        imagen.alt =
+                            `${coincidencia.local.titulo} - ${coincidencia.local.artista}`;
+
+
+                        if (
+                            coincidencia.local.imagen
+                        ) {
+
+                            imagen.src =
+                                coincidencia.local.imagen;
+
+                        } else if (
+                            coincidencia.lastfm.imagen
+                        ) {
+
+                            imagen.src =
+                                coincidencia.lastfm.imagen;
+
+                        } else {
+
+                            imagen.src =
+                                crearUrlImagenItunes(
+                                    coincidencia.local
+                                );
+                        }
+
+
+                        const contenido =
+                            document.createElement(
+                                "div"
+                            );
+
+
+                        const cancion =
+                            document.createElement(
+                                "strong"
+                            );
+
+                        cancion.textContent =
+                            coincidencia.local.titulo;
+
+
+                        const artista =
+                            document.createElement(
+                                "span"
+                            );
+
+                        artista.textContent =
+                            coincidencia.local.artista;
+
+
+                        contenido.appendChild(
+                            cancion
+                        );
+
+                        contenido.appendChild(
+                            artista
+                        );
+
+
+                        card.appendChild(
+                            imagen
+                        );
+
+                        card.appendChild(
+                            contenido
+                        );
+
+
+                        card.addEventListener(
+                            "click",
+                            () => {
+
+                                seleccionarCancion(
+                                    coincidencia.local
+                                );
+                            }
+                        );
+
+
+                        lista.appendChild(
+                            card
+                        );
+                    }
+                );
+
+
+            lastfmResults.appendChild(
+                lista
+            );
+        }
+
+
+        /* =========================================================
+           BOTÓN LAST.FM
+        ========================================================== */
+
+        lastfmBtn.addEventListener(
+            "click",
+            async () => {
+
+                const usuario =
+                    lastfmUsername.value.trim();
+
+
+                const periodo =
+                    lastfmPeriod.value;
+
+
+                if (!usuario) {
+
+                    lastfmStatus.textContent =
+                        "Introduce tu usuario de Last.fm.";
+
+                    return;
+                }
+
+
+                lastfmBtn.disabled =
+                    true;
+
+
+                lastfmStatus.textContent =
+                    "Consultando tus gustos musicales...";
+
+
+                lastfmResults.innerHTML =
+                    "";
+
+
+                try {
+
+                    const tracks =
+                        await obtenerTopTracksLastFM(
+                            usuario,
+                            periodo
+                        );
+
+
+                    const cancionesUsuario =
+                        convertirTracksLastFM(
+                            tracks
+                        );
+
+
+                    const coincidencias =
+                        encontrarCoincidencias(
+                            cancionesUsuario
+                        );
+
+
+                    /*
+                     * Guardamos únicamente las canciones
+                     * locales que coinciden.
+                     */
+                    cancionesFavoritasLastFM =
+                        coincidencias.map(
+                            coincidencia =>
+                                coincidencia.local
+                        );
+
+
+                    mostrarResultadosLastFM(
+                        coincidencias
+                    );
+
+
+                    if (
+                        cancionesFavoritasLastFM.length >
+                        0
+                    ) {
+
+                        /*
+                         * Activamos el botón de modo
+                         * personalizado.
+                         */
+                        randomModeBtn.style.display =
+                            "inline-flex";
+
+
+                        /*
+                         * No cambiamos automáticamente
+                         * el carrusel.
+                         *
+                         * El usuario decide si quiere
+                         * utilizar "Mis gustos".
+                         */
+                        modoLastFM =
+                            false;
+
+                        fuenteCarrusel =
+                            canciones;
+
+                        randomModeBtn.textContent =
+                            "🎵 Mis gustos";
+
+                        indiceCarrusel =
+                            0;
+
+                        renderizarCarrusel();
+
+
+                        lastfmStatus.textContent =
+                            `Encontradas ${cancionesFavoritasLastFM.length} coincidencias.`;
+                    } else {
+
+                        /*
+                         * Si no hay coincidencias,
+                         * no mostramos el modo personalizado.
+                         */
+                        randomModeBtn.style.display =
+                            "none";
+
+
+                        lastfmStatus.textContent =
+                            "No hemos encontrado coincidencias en el catálogo.";
+                    }
+
+                } catch (error) {
+
+                    console.error(
+                        "Error Last.fm:",
+                        error
+                    );
+
+
+                    lastfmStatus.textContent =
+                        error.message ||
+                        "No se ha podido consultar Last.fm.";
+
+                } finally {
+
+                    lastfmBtn.disabled =
+                        false;
+                }
+            }
+        );
+
+
+        /* =========================================================
+           IMAGEN DE ITUNES
+        ========================================================== */
+
+        function crearUrlImagenItunes(
+            cancion
+        ) {
+
+            const termino =
+                encodeURIComponent(
+                    `${cancion.artista} ${cancion.titulo}`
+                );
+
+
+            /*
+             * Esta URL no devuelve directamente
+             * la portada, sino una imagen placeholder
+             * suficientemente estable para mantener
+             * la tarjeta funcionando.
+             *
+             * Si tu versión anterior tenía una función
+             * específica para obtener portadas de iTunes,
+             * puedes sustituir esta función por aquella.
+             */
+            return `https://itunes.apple.com/search?term=${termino}&entity=song&limit=1`;
+        }
+
+
+        /* =========================================================
+           INICIALIZACIÓN
+        ========================================================== */
+
+        cargarCanciones();
+
+    </script>
 
 </body>
 </html>
