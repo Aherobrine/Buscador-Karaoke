@@ -139,6 +139,18 @@
 
       <div id="listaCanciones" class="songs-grid"></div>
 
+      <div class="load-more-container">
+
+        <button
+          id="loadMoreBtn"
+          class="primary-button load-more-button"
+          hidden
+        >
+          Cargar más
+        </button>
+
+      </div>
+
     </section>
 
 
@@ -420,6 +432,10 @@
 
     const UMBRAL_COINCIDENCIA = 0.88;
 
+    // Número de canciones que se muestran inicialmente
+    // y que se añaden cada vez que se pulsa "Cargar más".
+    const CANCIONES_POR_CARGA = 20;
+
 
     /* =========================================================
        ESTADO
@@ -428,6 +444,9 @@
     let canciones = [];
 
     let cancionesFiltradas = [];
+
+    let cancionesMostradas =
+      CANCIONES_POR_CARGA;
 
     let indiceCarrusel = 0;
 
@@ -448,6 +467,9 @@
 
     const listaCanciones =
       document.getElementById("listaCanciones");
+
+    const loadMoreBtn =
+      document.getElementById("loadMoreBtn");
 
     const randomBtn =
       document.getElementById("randomBtn");
@@ -841,6 +863,9 @@
         cancionesFiltradas =
           [...canciones];
 
+        cancionesMostradas =
+          CANCIONES_POR_CARGA;
+
         contador.textContent =
           `${canciones.length} canciones`;
 
@@ -883,12 +908,21 @@
           </div>
         `;
 
+        loadMoreBtn.hidden = true;
+
         return;
 
       }
 
 
-      cancionesFiltradas.forEach(
+      const cancionesAMostrar =
+        cancionesFiltradas.slice(
+          0,
+          cancionesMostradas
+        );
+
+
+      cancionesAMostrar.forEach(
         (cancion, index) => {
 
           const tarjeta =
@@ -975,10 +1009,20 @@
         }
       );
 
+
+      // Si ya hemos mostrado todas las canciones,
+      // ocultamos el botón.
+      loadMoreBtn.hidden =
+        cancionesMostradas >=
+        cancionesFiltradas.length;
+
     }
 
 
     function filtrarCanciones() {
+
+      cancionesMostradas =
+        CANCIONES_POR_CARGA;
 
       const texto =
         normalizar(buscador.value);
@@ -1023,6 +1067,23 @@
     buscador.addEventListener(
       "input",
       filtrarCanciones
+    );
+
+
+    /* =========================================================
+       CARGAR MÁS
+    ========================================================== */
+
+    loadMoreBtn.addEventListener(
+      "click",
+      () => {
+
+        cancionesMostradas +=
+          CANCIONES_POR_CARGA;
+
+        mostrarCanciones();
+
+      }
     );
 
 
