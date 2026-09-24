@@ -81,10 +81,23 @@
           <h2>¿Qué vas a cantar?</h2>
         </div>
 
-        <button id="randomBtn" class="primary-button">
-          <span>✦</span>
-          Sorpréndeme
-        </button>
+        <div class="discover-actions">
+
+          <button id="randomBtn" class="primary-button">
+            <span>✦</span>
+            Sorpréndeme
+          </button>
+
+          <button
+            id="randomModeBtn"
+            class="primary-button"
+            hidden
+          >
+            <span>♪</span>
+            Mis gustos
+          </button>
+
+        </div>
 
       </div>
 
@@ -421,7 +434,7 @@
        CONFIGURACIÓN
     ========================================================== */
 
-    // Introduce aquí tu API Key de Last.fm.
+    // Introduce aquí tu nueva API Key de Last.fm.
     // NO pongas aquí el Shared Secret.
     const LASTFM_API_KEY = "4621e74c8c3d9d370e16910ea2668268";
 
@@ -448,9 +461,34 @@
     let cancionesMostradas =
       CANCIONES_POR_CARGA;
 
-    let indiceCarrusel = 0;
 
-    let cancionesCarrusel = [];
+    /*
+     * Fuente que está utilizando actualmente
+     * el carrusel.
+     *
+     * Normalmente será:
+     *
+     *     canciones
+     *
+     * o, cuando el usuario active sus gustos:
+     *
+     *     cancionesFavoritasLastFM
+     */
+    let fuenteCarrusel = [];
+
+    /*
+     * Canciones del catálogo que han coincidido
+     * con las canciones más escuchadas del usuario.
+     */
+    let cancionesFavoritasLastFM = [];
+
+    /*
+     * false = todo el catálogo
+     * true  = gustos de Last.fm
+     */
+    let modoLastFM = false;
+
+    let indiceCarrusel = 0;
 
     let girando = false;
 
@@ -473,6 +511,9 @@
 
     const randomBtn =
       document.getElementById("randomBtn");
+
+    const randomModeBtn =
+      document.getElementById("randomModeBtn");
 
     const songCarousel =
       document.getElementById("songCarousel");
@@ -1010,8 +1051,6 @@
       );
 
 
-      // Si ya hemos mostrado todas las canciones,
-      // ocultamos el botón.
       loadMoreBtn.hidden =
         cancionesMostradas >=
         cancionesFiltradas.length;
@@ -1109,15 +1148,13 @@
         "selected-song-pop"
       );
 
-      window.scrollTo({
-        top:
-          selectedSong
-            .getBoundingClientRect()
-            .top +
-          window.scrollY -
-          100,
-        behavior: "smooth"
-      });
+      /*
+       * No hacemos scroll.
+       *
+       * El usuario permanece exactamente donde
+       * estaba y puede seguir viendo la carátula
+       * de la canción que acaba de seleccionar.
+       */
 
     }
 
@@ -1132,15 +1169,64 @@
         return;
       }
 
-      cancionesCarrusel =
-        [...canciones]
-          .sort(() => Math.random() - 0.5)
-          .slice(
-            0,
-            Math.min(7, canciones.length)
+      /*
+       * IMPORTANTE:
+       *
+       * No hacemos .slice(), .sort() ni copiamos
+       * las canciones para crear el carrusel.
+       *
+       * El carrusel utiliza directamente el array
+       * completo que ya está en memoria.
+       */
+      fuenteCarrusel =
+        canciones;
+
+      modoLastFM =
+        false;
+
+      /*
+       * Empezamos en una canción aleatoria
+       * de TODO el catálogo.
+       */
+      indiceCarrusel =
+        Math.floor(
+          Math.random() *
+          fuenteCarrusel.length
+        );
+
+      renderizarCarrusel();
+
+    }
+
+
+    function cambiarFuenteCarrusel(
+      nuevaFuente,
+      indiceAleatorio = true
+    ) {
+
+      if (
+        !nuevaFuente ||
+        nuevaFuente.length === 0
+      ) {
+        return;
+      }
+
+      fuenteCarrusel =
+        nuevaFuente;
+
+      if (indiceAleatorio) {
+
+        indiceCarrusel =
+          Math.floor(
+            Math.random() *
+            fuenteCarrusel.length
           );
 
-      indiceCarrusel = 0;
+      } else {
+
+        indiceCarrusel = 0;
+
+      }
 
       renderizarCarrusel();
 
@@ -1151,15 +1237,31 @@
 
       songCarousel.innerHTML = "";
 
-      if (cancionesCarrusel.length === 0) {
+      if (fuenteCarrusel.length === 0) {
         return;
       }
 
       const total =
-        cancionesCarrusel.length;
+        fuenteCarrusel.length;
 
 
-      for (let offset = -2; offset <= 2; offset++) {
+      /*
+       * Solo creamos 5 elementos:
+       *
+       * -2
+       * -1
+       *  0
+       * +1
+       * +2
+       *
+       * El resto de canciones permanecen
+       * únicamente en memoria.
+       */
+      for (
+        let offset = -2;
+        offset <= 2;
+        offset++
+      ) {
 
         const indice =
           (
@@ -1169,7 +1271,7 @@
           ) % total;
 
         const cancion =
-          cancionesCarrusel[indice];
+          fuenteCarrusel[indice];
 
         const card =
           document.createElement("div");
@@ -1246,7 +1348,7 @@
       }
 
       if (
-        cancionesCarrusel.length <= 1
+        fuenteCarrusel.length <= 1
       ) {
         return;
       }
@@ -1255,9 +1357,9 @@
         (
           indiceCarrusel +
           direccion +
-          cancionesCarrusel.length
+          fuenteCarrusel.length
         ) %
-        cancionesCarrusel.length;
+        fuenteCarrusel.length;
 
       renderizarCarrusel();
 
@@ -1276,27 +1378,74 @@
     );
 
 
+    /* =========================================================
+       SORPRÉNDEME
+    ========================================================== */
+
     randomBtn.addEventListener(
       "click",
       () => {
 
         if (
           girando ||
-          cancionesCarrusel.length === 0
+          fuenteCarrusel.length === 0
         ) {
           return;
         }
 
         girando = true;
 
-        randomBtn.disabled = true;
+        randomBtn.disabled =
+          true;
+
+        randomModeBtn.disabled =
+          true;
 
         randomBtn.classList.add(
           "button-spinning"
         );
 
 
-        let vueltas = 0;
+        const total =
+          fuenteCarrusel.length;
+
+
+        /*
+         * Elegimos directamente una canción
+         * aleatoria de la fuente actual.
+         *
+         * Si estamos en catálogo:
+         *     -> todas las canciones.
+         *
+         * Si estamos en "Mis gustos":
+         *     -> todas las coincidencias.
+         */
+        const indiceObjetivo =
+          Math.floor(
+            Math.random() *
+            total
+          );
+
+
+        /*
+         * Hacemos varias vueltas visuales
+         * antes de llegar al resultado.
+         */
+        const distancia =
+          (
+            indiceObjetivo -
+            indiceCarrusel +
+            total
+          ) % total;
+
+
+        const pasos =
+          10 + distancia;
+
+
+        let pasosRealizados =
+          0;
+
 
         const intervalo =
           setInterval(
@@ -1306,22 +1455,39 @@
                 (
                   indiceCarrusel +
                   1
-                ) %
-                cancionesCarrusel.length;
+                ) % total;
 
               renderizarCarrusel();
 
-              vueltas++;
+              pasosRealizados++;
 
-              if (vueltas >= 10) {
+
+              if (
+                pasosRealizados >= pasos
+              ) {
 
                 clearInterval(
                   intervalo
                 );
 
-                girando = false;
+
+                /*
+                 * Nos aseguramos de terminar
+                 * exactamente en la canción elegida.
+                 */
+                indiceCarrusel =
+                  indiceObjetivo;
+
+                renderizarCarrusel();
+
+
+                girando =
+                  false;
 
                 randomBtn.disabled =
+                  false;
+
+                randomModeBtn.disabled =
                   false;
 
                 randomBtn.classList.remove(
@@ -1330,9 +1496,10 @@
 
 
                 const cancion =
-                  cancionesCarrusel[
+                  fuenteCarrusel[
                     indiceCarrusel
                   ];
+
 
                 seleccionarCancion(
                   cancion
@@ -1343,6 +1510,75 @@
             },
             100
           );
+
+      }
+    );
+
+
+    /* =========================================================
+       CAMBIAR ENTRE CATÁLOGO Y LAST.FM
+    ========================================================== */
+
+    randomModeBtn.addEventListener(
+      "click",
+      () => {
+
+        if (
+          girando ||
+          cancionesFavoritasLastFM.length === 0
+        ) {
+          return;
+        }
+
+
+        modoLastFM =
+          !modoLastFM;
+
+
+        if (modoLastFM) {
+
+          /*
+           * Ahora el carrusel trabaja únicamente
+           * con las canciones del catálogo que
+           * coincidieron con Last.fm.
+           */
+          cambiarFuenteCarrusel(
+            cancionesFavoritasLastFM,
+            true
+          );
+
+
+          randomModeBtn.innerHTML = `
+            <span>✦</span>
+            Todo el catálogo
+          `;
+
+
+          randomModeBtn.title =
+            "Volver a utilizar todo el catálogo";
+
+
+        } else {
+
+          /*
+           * Volvemos al catálogo completo.
+           */
+          cambiarFuenteCarrusel(
+            canciones,
+            true
+          );
+
+
+          randomModeBtn.innerHTML = `
+            <span>♪</span>
+            Mis gustos
+          `;
+
+
+          randomModeBtn.title =
+            "Utilizar tus gustos de Last.fm";
+
+        }
 
       }
     );
@@ -1360,30 +1596,36 @@
       const url =
         new URL(LASTFM_API_URL);
 
+
       url.searchParams.set(
         "method",
         "user.getTopTracks"
       );
+
 
       url.searchParams.set(
         "user",
         usuario
       );
 
+
       url.searchParams.set(
         "period",
         periodo
       );
+
 
       url.searchParams.set(
         "limit",
         LASTFM_CANCIONES
       );
 
+
       url.searchParams.set(
         "api_key",
         LASTFM_API_KEY
       );
+
 
       url.searchParams.set(
         "format",
@@ -1465,6 +1707,7 @@
         return null;
       }
 
+
       const grandes =
         [...imagenes]
           .reverse()
@@ -1473,6 +1716,7 @@
               imagen &&
               imagen["#text"]
           );
+
 
       return grandes
         ? grandes["#text"]
@@ -1500,7 +1744,8 @@
         let mejorCoincidencia =
           null;
 
-        let mejorPuntuacion = 0;
+        let mejorPuntuacion =
+          0;
 
 
         for (
@@ -1539,7 +1784,8 @@
 
           coincidencias.push({
 
-            local: cancionLocal,
+            local:
+              cancionLocal,
 
             lastfm:
               mejorCoincidencia,
@@ -1573,6 +1819,7 @@
     ) {
 
       lastfmLista.innerHTML = "";
+
 
       lastfmMatchCount.textContent =
         `${coincidencias.length} ${
@@ -1829,6 +2076,62 @@
           encontrarCoincidencias(
             cancionesUsuario
           );
+
+
+        /*
+         * Guardamos únicamente las canciones
+         * del catálogo que han coincidido.
+         *
+         * El objeto sigue siendo exactamente
+         * igual que una canción normal de
+         * canciones.json:
+         *
+         * {
+         *   artista,
+         *   titulo
+         * }
+         */
+        cancionesFavoritasLastFM =
+          coincidencias.map(
+            coincidencia =>
+              coincidencia.local
+          );
+
+
+        /*
+         * Una nueva comparación siempre vuelve
+         * primero al catálogo completo.
+         */
+        modoLastFM =
+          false;
+
+
+        cambiarFuenteCarrusel(
+          canciones,
+          true
+        );
+
+
+        /*
+         * Solo mostramos "Mis gustos" si hay
+         * al menos una coincidencia.
+         */
+        randomModeBtn.hidden =
+          cancionesFavoritasLastFM.length === 0;
+
+
+        randomModeBtn.disabled =
+          false;
+
+
+        randomModeBtn.innerHTML = `
+          <span>♪</span>
+          Mis gustos
+        `;
+
+
+        randomModeBtn.title =
+          "Utilizar tus gustos de Last.fm";
 
 
         await mostrarCoincidencias(
